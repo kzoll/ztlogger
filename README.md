@@ -74,8 +74,6 @@ To add an IP address to the whitelist, you will need to manually edit ipwldb.csv
 **Forthcoming:**<br />
 Whitelisting form to alleviate the need to manually edit ipwldb.csv.  Whitelisting will be password protected.  The Whitelist password will be stored in ztlogger.ini.
 
-Identifying TOR traffic by attempting to identify a TorExitNode.
-
 **What has Changed:**<br />
 0.1.8 (2012/07/12) - Added Detection for TorExitNode<br /><br />
 0.1.7 (2012/06/07) - Added Detection of Incapsula and nginx Reverse Proxies<br /><br />
