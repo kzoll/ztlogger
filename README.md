@@ -2,8 +2,8 @@
 
 ----------
 
-Version : 0.1.7<br />
-Date    : 2012/06/07
+Version : 0.1.8<br />
+Date    : 2012/07/12
 
 Copyright (C) 2011-2012 Kevin J. Zoll (kzoll@zolltech.com)<br />
 Copyright (C) 2011-2012 Zoll Technologies (<http://zolltech.com>)
@@ -41,7 +41,6 @@ ztlogger.ini
 **Installation:**<br />
 Unpack ztlogger.zip and copy the ztlogger folder and its entire contents to your server. Ensure that all folders are chmod 0755 and all files are chmod 0644. Run install.php from your web browser.  Click the Install button.
 
-
 The following files are created in the ZT Logger Vault directory during install:<br />
 counter.dat<br />
 directory.inc<br />
@@ -78,22 +77,11 @@ Whitelisting form to alleviate the need to manually edit ipwldb.csv.  Whitelisti
 Identifying TOR traffic by attempting to identify a TorExitNode.
 
 **What has Changed:**<br />
-0.1.7 (2012/06/07) - Added Detection of Incapsula and nginx Reverse Proxies
-
-0.1.6 (2012/03/16) - Better error handling<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Refined ReservedIP function
-
-0.1.5 (2012/03/07) - Fixed XSS vulnerability in ZT Logger <=0.1.4<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Refinement is Geo Location format & output
-
-0.1.4 (2012/02/18) - Further improvements in Client IP, Proxy IP and Real IP detection.<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Minor fix in log formatting
-
-0.1.3 (2012/02/13) - Improvements to Proxy detection
-
-0.1.2 (2011/08/08) - GeoIP GeoLocation Data: now displays City, Region, Country.<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attempts to identify ProxyIP and Real IP (may need further work).
-
-0.1.1 (2011/07/02) - Changes in variables names to eliminate conflicts with variable names in other packages.<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Changes in log format.<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now includes version of ztlogger that is running.
+0.1.8 (2012/07/12) - Added Detection of for TorExitNode<br />
+0.1.7 (2012/06/07) - Added Detection of Incapsula and nginx Reverse Proxies<br />
+0.1.6 (2012/03/16) - Better error handling<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Refined ReservedIP function
+0.1.5 (2012/03/07) - Fixed XSS vulnerability in ZT Logger <=0.1.4<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Refinement is Geo Location format & output<br />
+0.1.4 (2012/02/18) - Further improvements in Client IP, Proxy IP and Real IP detection.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Minor fix in log formatting<br />
+0.1.3 (2012/02/13) - Improvements to Proxy detection<br />
+0.1.2 (2011/08/08) - GeoIP GeoLocation Data: now displays City, Region, Country.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attempts to identify ProxyIP and Real IP (may need further work).<br />
+0.1.1 (2011/07/02) - Changes in variables names to eliminate conflicts with variable names in other packages.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Changes in log format.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now includes version of ztlogger that is running.

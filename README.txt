@@ -1,8 +1,8 @@
 --------------------
 README for ZT Logger
 --------------------
-Version : 0.1.7
-Date    : 2012/06/07
+Version : 0.1.8
+Date    : 2012/07/12
 
 Copyright (C) 2011-2012 Kevin J. Zoll (kzoll@zolltech.com)
 Copyright (C) 2011-2012 Zoll Technologies (zolltech.com)
@@ -84,6 +84,8 @@ Identifying TOR traffic by attempting to identify a TorExitNode.
 ----------------------------------------------------------------------
 
 What has Changed:
+
+0.1.8 (2012/07/12) - Added Detection of for TorExitNode
 
 0.1.7 (2012/06/07) - Added Detection of Incapsula and nginx Reverse Proxies
 

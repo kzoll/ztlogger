@@ -22,15 +22,15 @@
 |	This product includes GeoLite data created by
 |	MaxMind, available from http://maxmind.com/
 |
-|	Version : 0.1.7
-|	Date    : 2012/06/07
+|	Version : 0.1.8
+|	Date    : 2012/07/12
 +----------------------------------------------------------------------------+
 */
 
 include("vault/directory.inc"); //Directory information
 include($path_to_ztlogger."vault/geoipcity.inc"); //GeoIPCity information
 
-$version = "0.1.7";
+$version = "0.1.8";
 
 $vaultdir = $path_to_ztlogger."vault/"; // path to vault directory
 $logdir = $path_to_ztlogger."logs/"; // path to logs directory
@@ -41,7 +41,35 @@ $ctr = $vaultdir."counter.dat"; // path to ztcounter.dat
 $ipwldb = $vaultdir."ipwldb.csv"; // path to ipwldb.csv
 $logfile = $logdir."ztlogfile_".$log_date.".txt"; // path to ztlogfile
 
+$remote_ip = @$_SERVER['REMOTE_ADDR'];
+
 $gi = geoip_open($path_to_ztlogger."vault/GeoLiteCity.dat",GEOIP_STANDARD); // open GeoLiteCity Database
+
+// IsTorExitNode = True if user is on TOR
+// Originally coded by IronGeek (at) IronGeek.com
+// Used to detect if a user is on TOR
+function IsTorExitNode(){
+	if (gethostbyname(ReverseIPOctets($_SERVER['REMOTE_ADDR']).".".$_SERVER['SERVER_PORT'].".".ReverseIPOctets($_SERVER['SERVER_ADDR']).".ip-port.exitlist.torproject.org")=="127.0.0.2") {
+		return true;
+		} else {
+		return false;
+	}
+}
+
+// ReverseIPOctets = Reverse the order of IP octets
+// Originally coded by IronGeek (at) IronGeek.com
+// Used by IsTorExitNode
+function ReverseIPOctets($inputip){
+	$ipoc = explode(".",$inputip);
+	return $ipoc[3].".".$ipoc[2].".".$ipoc[1].".".$ipoc[0];
+}
+
+// TorOrNot
+if (IsTorExitNode()) {
+	$IsTorExitNode = "Remote IP    : ".$remote_ip." IsTorExitNode = True";
+	}else{
+	$IsTorExitNode = "Remote IP    : ".$remote_ip." IsTorExitNode = False";
+}
 
 function validip($ip) {
 	if (!empty($ip) && ip2long($ip)!=-1) {
@@ -308,7 +336,7 @@ if (!isset($ph)) {
 
 	// log it!!!
 	$fp = fopen($logfile, 'a');
-	fwrite($fp,"#: ".$counter." @: ".date("F j, Y, H:i:s e P")." Running: Version ".$version."\n".$poststring.$filesstring."IP Address   : ".$real_ip."\t".$city_name.$region_name.$country_name."\t".$header_ip."\nRemote Host  : ".$rh."\nClient IP    : ".$clientip."\t".$header_client."\nProxy IP     : ".$proxyip."\t".$pcity_name.$pregion_name.$pcountry_name."\t".$header_proxy."\nProxy Host   : ".$ph."\nUser Agent   : ".$ua."\nReferer      : ".$referer."\nRequested URL: http://".$thishost.$file_uri."\n--------------------********************------------------------"."\n");
+	fwrite($fp,"#: ".$counter." @: ".date("F j, Y, H:i:s e P")." Running: Version ".$version."\n".$poststring.$filesstring.$IsTorExitNode."\nIP Address   : ".$real_ip."\t".$city_name.$region_name.$country_name."\t".$header_ip."\nRemote Host  : ".$rh."\nClient IP    : ".$clientip."\t".$header_client."\nProxy IP     : ".$proxyip."\t".$pcity_name.$pregion_name.$pcountry_name."\t".$header_proxy."\nProxy Host   : ".$ph."\nUser Agent   : ".$ua."\nReferer      : ".$referer."\nRequested URL: http://".$thishost.$file_uri."\n--------------------********************------------------------"."\n");
 	fclose($fp);
 }
 
