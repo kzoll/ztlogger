@@ -85,7 +85,7 @@ Identifying TOR traffic by attempting to identify a TorExitNode.
 
 What has Changed:
 
-0.1.8 (2012/07/12) - Added Detection of for TorExitNode
+0.1.8 (2012/07/12) - Added Detection for TorExitNode
 
 0.1.7 (2012/06/07) - Added Detection of Incapsula and nginx Reverse Proxies
 
