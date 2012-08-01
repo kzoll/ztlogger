@@ -82,9 +82,9 @@ Whitelisting form to alleviate the need to manually edit ipwldb.csv.  Whitelisti
 
 What has Changed:
 
-0.1.9 (2012/07/31) - Supress PHP Notice: Undefined variable: proxyip in ztlogger.php on line 188
-					 Supress PHP Notice: Undefined index: in ztlogger.php on line 199
-					 Supress PHP Notice: Undefined index: in ztlogger.php on line 228
+0.1.9 (2012/07/31) - Suppress PHP Notice: Undefined variable: proxyip in ztlogger.php on line 188
+					 Suppress PHP Notice: Undefined index: in ztlogger.php on line 199
+					 Suppress PHP Notice: Undefined index: in ztlogger.php on line 228
 
 0.1.8 (2012/07/12) - Added Detection for TorExitNode
 
