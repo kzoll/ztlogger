@@ -1,8 +1,8 @@
 --------------------
 README for ZT Logger
 --------------------
-Version : 0.1.8
-Date    : 2012/07/12
+Version : 0.1.9
+Date    : 2012/07/31
 
 Copyright (C) 2011-2012 Kevin J. Zoll (kzoll@zolltech.com)
 Copyright (C) 2011-2012 Zoll Technologies (zolltech.com)
@@ -69,7 +69,6 @@ Make sure you delete install.php and install2.php from the ztlogger directory on
 
 Upgrade:
 Copy ztlogger/ztlogger.php > ztlogger/ztlogger.php
-Copy ztogger/vault/GeoLiteCity.dat > ztogger/vault/GeoLiteCity.dat
 
 ----------------------------------------------------------------------
 
@@ -82,6 +81,10 @@ Whitelisting form to alleviate the need to manually edit ipwldb.csv.  Whitelisti
 ----------------------------------------------------------------------
 
 What has Changed:
+
+0.1.9 (2012/07/31) - Supress PHP Notice: Undefined variable: proxyip in ztlogger.php on line 188
+					 Supress PHP Notice: Undefined index: in ztlogger.php on line 199
+					 Supress PHP Notice: Undefined index: in ztlogger.php on line 228
 
 0.1.8 (2012/07/12) - Added Detection for TorExitNode
 

@@ -2,7 +2,7 @@
 
 ----------
 
-Version : 0.1.8<br />
+Version : 0.1.9<br />
 Date    : 2012/07/12
 
 Copyright (C) 2011-2012 Kevin J. Zoll (kzoll@zolltech.com)<br />
@@ -66,7 +66,6 @@ Make sure you delete install.php and install2.php from the ztlogger directory on
 
 **Upgrade:**<br />
 Copy ztlogger/ztlogger.php > ztlogger/ztlogger.php<br />
-Copy ztogger/vault/GeoLiteCity.dat > ztogger/vault/GeoLiteCity.dat
 
 **Whitelisting IPs:**<br />
 To add an IP address to the whitelist, you will need to manually edit ipwldb.csv.  This is a comma-separated values (comma-delimited) file.  Meaning all values in the csv database are separated by a comma.  So, don't forget to add a space at the beginning and a comma at the end of each and every IP address you enter. Each and every entry must have a space before and a comma after each and every IP address.  I can't stress that enough.
@@ -75,6 +74,7 @@ To add an IP address to the whitelist, you will need to manually edit ipwldb.csv
 Whitelisting form to alleviate the need to manually edit ipwldb.csv.  Whitelisting will be password protected.  The Whitelist password will be stored in ztlogger.ini.
 
 **What has Changed:**<br />
+0.1.9 (2012/07/31) - Supress PHP Notice: Undefined variable: proxyip in ztlogger.php on line 188<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supress PHP Notice: Undefined index: in ztlogger.php on line 199<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supress PHP Notice: Undefined index: proxyip in ztlogger.php on line 228<br /><br />
 0.1.8 (2012/07/12) - Added Detection for TorExitNode<br /><br />
 0.1.7 (2012/06/07) - Added Detection of Incapsula and nginx Reverse Proxies<br /><br />
 0.1.6 (2012/03/16) - Better error handling<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Refined ReservedIP function<br /><br />
