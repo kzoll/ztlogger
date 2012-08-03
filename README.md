@@ -74,7 +74,7 @@ To add an IP address to the whitelist, you will need to manually edit ipwldb.csv
 Whitelisting form to alleviate the need to manually edit ipwldb.csv.  Whitelisting will be password protected.  The Whitelist password will be stored in ztlogger.ini.
 
 **What has Changed:**<br />
-0.1.10 (2012/08/03) - Improved error handling<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fixed Bug, introduced in last update, in determining $GEOIP_REGION_NAME<br /><br />
+0.1.10 (2012/08/03) - Improved error handling<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fixed Bug, introduced in last update, in determining $GEOIP_REGION_NAME<br /><br />
 0.1.9 (2012/07/31) - Suppress PHP Notice: Undefined variable: proxyip in ztlogger.php on line 188<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Suppress PHP Notice: Undefined index: in ztlogger.php on line 199<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Suppress PHP Notice: Undefined index: proxyip in ztlogger.php on line 228<br /><br />
 0.1.8 (2012/07/12) - Added Detection for TorExitNode<br /><br />
 0.1.7 (2012/06/07) - Added Detection of Incapsula and nginx Reverse Proxies<br /><br />
