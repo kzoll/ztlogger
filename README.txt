@@ -1,8 +1,8 @@
 --------------------
 README for ZT Logger
 --------------------
-Version : 0.1.9
-Date    : 2012/07/31
+Version : 0.1.10
+Date    : 2012/08/03
 
 Copyright (C) 2011-2012 Kevin J. Zoll (kzoll@zolltech.com)
 Copyright (C) 2011-2012 Zoll Technologies (zolltech.com)
@@ -81,6 +81,9 @@ Whitelisting form to alleviate the need to manually edit ipwldb.csv.  Whitelisti
 ----------------------------------------------------------------------
 
 What has Changed:
+
+0.1.10 (2012/08/03) - Improved error handling
+					  Fixed Bug, introduced in last update, in determining $GEOIP_REGION_NAME
 
 0.1.9 (2012/07/31) - Suppress PHP Notice: Undefined variable: proxyip in ztlogger.php on line 188
 					 Suppress PHP Notice: Undefined index: in ztlogger.php on line 199

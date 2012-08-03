@@ -22,15 +22,15 @@
 |	This product includes GeoLite data created by
 |	MaxMind, available from http://maxmind.com/
 |
-|	Version : 0.1.9
-|	Date    : 2012/07/31
+|	Version : 0.1.10
+|	Date    : 2012/08/03
 +----------------------------------------------------------------------------+
 */
 
 include("vault/directory.inc"); //Directory information
 include($path_to_ztlogger."vault/geoipcity.inc"); //GeoIPCity information
 
-$version = "0.1.9";
+$version = "0.1.10";
 
 $vaultdir = $path_to_ztlogger."vault/"; // path to vault directory
 $logdir = $path_to_ztlogger."logs/"; // path to logs directory
@@ -42,6 +42,10 @@ $ipwldb = $vaultdir."ipwldb.csv"; // path to ipwldb.csv
 $logfile = $logdir."ztlogfile_".$log_date.".txt"; // path to ztlogfile
 
 $remote_ip = @$_SERVER['REMOTE_ADDR'];
+$proxyip = "";
+
+$region_name = "";
+$pregion_name = "";
 
 $gi = geoip_open($path_to_ztlogger."vault/GeoLiteCity.dat",GEOIP_STANDARD); // open GeoLiteCity Database
 
@@ -185,7 +189,7 @@ if(!empty($_SERVER['HTTP_X_FORWARDED_FOR']) && validip($forwarded_ip)) {
 }
 
 // Check to see if $proxyip and $real_ip are the same
-if (!empty($proxyip) == $real_ip) {
+if ($proxyip == $real_ip) {
 	$real_ip = @$_SERVER['REMOTE_ADDR'];
 	$header_ip = "(REMOTE_ADDR)";
 	$proxyip = "";
@@ -196,7 +200,7 @@ if (!empty($proxyip) == $real_ip) {
 $rh = strtolower(gethostbyaddr($real_ip)); // Host Name
 $record = geoip_record_by_addr($gi, $real_ip);
 $country_name = $record->country_name;
-$region_name = !isset($GEOIP_REGION_NAME[$record->country_code][$record->region]);
+$region_name = $GEOIP_REGION_NAME[$record->country_code][$record->region];
 $city_name = $record->city;
 
 if (!empty($country_name)) {
@@ -225,7 +229,7 @@ if (!isset($proxyip)) {
 
 if (isset($precord)) {
 	$pcountry_name = $precord->country_name;
-	$pregion_name = !isset($GEOIP_REGION_NAME[$precord->country_code][$precord->region]);
+	$pregion_name = $GEOIP_REGION_NAME[$precord->country_code][$precord->region];
 	$pcity_name = $precord->city;
 }
 
