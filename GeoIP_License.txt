@@ -1,14 +1,16 @@
-There are two licenses, one for the C library software, and one for
+There are two licenses, one for the PHP library software, and one for
 the database.
 
-SOFTWARE LICENSE (C library)
+SOFTWARE LICENSE (PHP library)
 
-The GeoIP C Library is licensed under the LGPL.  For details see
-the COPYING file.
+The GeoIP PHP Library is licensed under the LGPL.
+<http://www.gnu.org/licenses/lgpl-3.0-standalone.html>
 
-OPEN DATA LICENSE (GeoLite Country and GeoLite City databases)
+GeoLite Country and GeoLite City databases are licensed under a
+Creative Commons Attribution-ShareAlike 3.0 Unported License.
+<http://creativecommons.org/licenses/by-sa/3.0/>
 
-Copyright (c) 2008 MaxMind, Inc.  All Rights Reserved.
+Copyright (c) 2012 MaxMind, Inc.  All Rights Reserved.
 
 All advertising materials and documentation mentioning features or use of
 this database must display the following acknowledgment:
