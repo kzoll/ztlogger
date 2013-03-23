@@ -16,7 +16,9 @@ You should have received a copy of the GNU General Public License along with thi
 
 This product includes GeoLite data created by MaxMind, available from <http://maxmind.com/>
 
-**Download:** [http://www.malwareteks.com/download.php?view.17](http://www.malwareteks.com/download.php?view.17)
+**Download:** [http://www.malwareteks.com/download.php?view.17](http://www.malwareteks.com/download.php?view.17 "ZT Logger v0.1.10")
+
+**Bug Tracker:** [http://www.malwareteks.com/mteks_plugins/bug_tracker/bugs.php?0.view.3.0.0](http://www.malwareteks.com/mteks_plugins/bug_tracker/bugs.php?0.view.3.0.0 "ZT Logger Bug Tracker")
 
 **Include Files:**<br />
 /ztlogger<br />
