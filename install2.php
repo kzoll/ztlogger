@@ -78,7 +78,7 @@ if (!file_exists($dirinc)){
 if (!file_exists($hook)){
 	echo "<br />Creating hook.txt in the Vault directory";
 	$file = fopen($hook,'a');
-	$outputstring="<?php die(''); ?>\n\nYou must add the below code to all pages you wish to have logging enabled.  On most PHP based sites you can just add it to a signle file that will be called by all pages.\n\n-----BEGIN PHP INCLUDE-----\ninclude('".$directory."ztlogger.php');\n-----END PHP INCLUDE-----";
+	$outputstring="<?php die(''); ?>\n\nYou must add the below code to all pages you wish to have logging enabled.  On most PHP based sites you can just add it to a single file that will be called by all pages.\n\n-----BEGIN PHP INCLUDE-----\ninclude('".$directory."ztlogger.php');\n-----END PHP INCLUDE-----";
 	fwrite($file,$outputstring);
 	fclose($file);
 	echo "<br />Setting chmod 0644 on hook.txt";

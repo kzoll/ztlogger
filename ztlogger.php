@@ -251,12 +251,12 @@ if (!empty($pcity_name)) {
 	$pcity_name = "";
 }
 
-//$ua = @$_SERVER['HTTP_USER_AGENT']; // Unsantitized User Agent
-$ua = htmlentities(@$_SERVER['HTTP_USER_AGENT']); // Santitized User Agent
+//$ua = @$_SERVER['HTTP_USER_AGENT']; // Uninstantiated User Agent
+$ua = htmlentities(@$_SERVER['HTTP_USER_AGENT']); // Sanitized User Agent
 $thishost = @$_SERVER['HTTP_HOST']; // Host URL
 $file_uri = @$_SERVER['REQUEST_URI']; // Requested URL
-//$referer = @$_SERVER['HTTP_REFERER']; // Unsantitized Referer
-$referer = htmlentities(@$_SERVER['HTTP_REFERER']); // Santitized Referer
+//$referer = @$_SERVER['HTTP_REFERER']; // Uninstantiated Referer
+$referer = htmlentities(@$_SERVER['HTTP_REFERER']); // Sanitized Referer
 
 // Create logfile, write execution kill.
 if (!file_exists($logfile)){
