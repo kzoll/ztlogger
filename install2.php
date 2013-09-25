@@ -3,8 +3,8 @@
 + ----------------------------------------------------------------------------+
 |	install2.php
 |
-|	Copyright (C) 2011-2012 Kevin J. Zoll (kzoll@zolltech.com)
-|	Copyright (C) 2011-2012 Zoll Technologies (zolltech.com)
+|	Copyright (C) 2011-2013 Kevin J. Zoll (kzoll@zolltech.com)
+|	Copyright (C) 2011-2013 Zoll Technologies (zolltech.com)
 |
 |	This program is free software: you can redistribute it and/or modify
 |	it under the terms of the GNU General Public License as published by
@@ -22,8 +22,8 @@
 |	This product includes GeoLite data created by
 |	MaxMind, available from http://maxmind.com/
 |
-|	Version : 0.1.10
-|	Date    : 2012/08/03
+|	Version : 0.1.11
+|	Date    : 2013/09/24
 +----------------------------------------------------------------------------+
 */
 $path = getcwd();
@@ -45,9 +45,9 @@ $ip = @$_SERVER['REMOTE_ADDR']; // IP Address
 	</head>
 	<body>
 		<div class="container">
-			<h1>ZT Logger v0.1.10</h1>
+			<h1>ZT Logger v0.1.11</h1>
 			<hr>
-			Copyright &#169; 2011-2012 Kevin J. Zoll (kzoll@zolltech.com)<br />Copyright &#169; 2011 Zoll Technologies (<a href="http://zolltech.com" target="_blank">zolltech.com</a>)<br /><br />This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.<br /><br />This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.<br /><br />You should have received a copy of the GNU General Public License along with this program.  If not, see &lt;<a href="http://www.gnu.org/licenses/" target="_blank">http://www.gnu.org/licenses/</a>&gt;.<br /><br />This product includes GeoLite data created by MaxMind, available from <a href="http://maxmind.com/" target="_blank">http://maxmind.com/</a><br /><br />Version: 0.1.10<br />Date&nbsp;&nbsp;&nbsp;&nbsp;: 2012/08/03
+			Copyright &#169; 2011-2013 Kevin J. Zoll (kzoll@zolltech.com)<br />Copyright &#169; 2011 Zoll Technologies (<a href="http://zolltech.com" target="_blank">zolltech.com</a>)<br /><br />This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.<br /><br />This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.<br /><br />You should have received a copy of the GNU General Public License along with this program.  If not, see &lt;<a href="http://www.gnu.org/licenses/" target="_blank">http://www.gnu.org/licenses/</a>&gt;.<br /><br />This product includes GeoLite data created by MaxMind, available from <a href="http://maxmind.com/" target="_blank">http://maxmind.com/</a><br /><br />Version: 0.1.11<br />Date&nbsp;&nbsp;&nbsp;&nbsp;: 2013/09/24
 			<hr>The installation routine is straight foward and really painless.  We need to create the following files in the ZT Logger Vault: counter.dat, directory.inc, hook.txt, and ipwldb.csv.  The IP Address from which the ZT Logger installation routine (this file) is ran will automatically be whitelisted.  All pages being accessed from IP Address: <?php echo $ip ?> will not be logged by ZT Logger.<hr><br />
 <?php
 // Create counter.dat

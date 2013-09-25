@@ -2,8 +2,8 @@
 
 ----------
 
-Version : 0.1.10<br />
-Date    : 2012/08/03
+Version : 0.1.11<br />
+Date    : 2013/09/24
 
 Copyright (C) 2011-2012 Kevin J. Zoll (kzoll@zolltech.com)<br />
 Copyright (C) 2011-2012 Zoll Technologies (<http://zolltech.com>)
@@ -78,6 +78,7 @@ To add an IP address to the whitelist, you will need to manually edit ipwldb.csv
 Whitelisting form to alleviate the need to manually edit ipwldb.csv.  Whitelisting will be password protected.  The Whitelist password will be stored in ztlogger.ini.
 
 **What has Changed:**<br />
+0.1.11 (2103/09/24) - Changed geoip.inc line #31 from define("GEOIP_COUNTRY_EDITION", 106); to define("GEOIP_COUNTRY_EDITION", 1);<br /><br />
 0.1.10 (2012/08/03) - Improved error handling<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fixed Bug, introduced in last update, in determining $GEOIP_REGION_NAME<br /><br />
 0.1.9 (2012/07/31) - Suppress PHP Notice: Undefined variable: proxyip in ztlogger.php on line 188<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Suppress PHP Notice: Undefined index: in ztlogger.php on line 199<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Suppress PHP Notice: Undefined index: proxyip in ztlogger.php on line 228<br /><br />
 0.1.8 (2012/07/12) - Added Detection for TorExitNode<br /><br />

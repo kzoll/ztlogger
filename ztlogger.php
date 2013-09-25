@@ -3,8 +3,8 @@
 + ----------------------------------------------------------------------------+
 |	ztlogger.php
 |
-|	Copyright (C) 2011-2012 Kevin J. Zoll (kzoll@zolltech.com)
-|	Copyright (C) 2011-2012 Zoll Technologies (zolltech.com)
+|	Copyright (C) 2011-2013 Kevin J. Zoll (kzoll@zolltech.com)
+|	Copyright (C) 2011-2013 Zoll Technologies (zolltech.com)
 |
 |	This program is free software: you can redistribute it and/or modify
 |	it under the terms of the GNU General Public License as published by
@@ -22,15 +22,15 @@
 |	This product includes GeoLite data created by
 |	MaxMind, available from http://maxmind.com/
 |
-|	Version : 0.1.10
-|	Date    : 2012/08/03
+|	Version : 0.1.11
+|	Date    : 2012/09/24
 +----------------------------------------------------------------------------+
 */
 
 include("vault/directory.inc"); //Directory information
 include($path_to_ztlogger."vault/geoipcity.inc"); //GeoIPCity information
 
-$version = "0.1.10";
+$version = "0.1.11";
 
 $vaultdir = $path_to_ztlogger."vault/"; // path to vault directory
 $logdir = $path_to_ztlogger."logs/"; // path to logs directory

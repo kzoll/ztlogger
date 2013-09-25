@@ -1,8 +1,8 @@
 --------------------
 README for ZT Logger
 --------------------
-Version : 0.1.10
-Date    : 2013/03/22
+Version : 0.1.11
+Date    : 2013/09/24
 
 Copyright (C) 2011-2013 Kevin J. Zoll (kzoll@zolltech.com)
 Copyright (C) 2011-2013 Zoll Technologies (zolltech.com)
@@ -81,6 +81,7 @@ Whitelisting form to alleviate the need to manually edit ipwldb.csv.  Whitelisti
 ----------------------------------------------------------------------
 
 What has Changed:
+0.1.11 (2103/09/24) - Changed geoip.inc line #31 from define("GEOIP_COUNTRY_EDITION", 106); to define("GEOIP_COUNTRY_EDITION", 1);
 
 0.1.10 (2012/08/03) - Improved error handling
 					  Fixed Bug, introduced in last update, in determining $GEOIP_REGION_NAME
