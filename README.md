@@ -2,8 +2,8 @@
 
 ----------
 
-Version : 0.1.11<br />
-Date    : 2013/09/24
+Version : 0.1.12<br />
+Date    : 2013/11/05
 
 Copyright (C) 2011-2012 Kevin J. Zoll (kzoll@zolltech.com)<br />
 Copyright (C) 2011-2012 Zoll Technologies (<http://zolltech.com>)
@@ -70,6 +70,9 @@ Make sure you delete install.php and install2.php from the ztlogger directory on
 
 **Upgrade:**<br />
 Copy ztlogger/ztlogger.php > ztlogger/ztlogger.php<br />
+Copy ztlogger/vault/geoip.inc > ztlogger/vault/geoip.inc<br />
+Copy ztlogger/vault/geoipcity.inc > ztlogger/vault/geoipcity.inc<br />
+Copy ztlogger/vault/geoipregionvars.php > ztlogger/vault/geoipregionvars.php<br />
 
 **Whitelisting IPs:**<br />
 To add an IP address to the whitelist, you will need to manually edit ipwldb.csv.  This is a comma-separated values (comma-delimited) file.  Meaning all values in the csv database are separated by a comma.  So, don't forget to add a space at the beginning and a comma at the end of each and every IP address you enter. Each and every entry must have a space before and a comma after each and every IP address.  I can't stress that enough.
@@ -78,6 +81,7 @@ To add an IP address to the whitelist, you will need to manually edit ipwldb.csv
 Whitelisting form to alleviate the need to manually edit ipwldb.csv.  Whitelisting will be password protected.  The Whitelist password will be stored in ztlogger.ini.
 
 **What has Changed:**<br />
+0.1.12 (2013/11/05) - Updated to GeoIP PHP API v1.14<br /><br />
 0.1.11 (2103/09/24) - Changed geoip.inc line #31 from define("GEOIP_COUNTRY_EDITION", 106); to define("GEOIP_COUNTRY_EDITION", 1);<br /><br />
 0.1.10 (2012/08/03) - Improved error handling<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fixed Bug, introduced in last update, in determining $GEOIP_REGION_NAME<br /><br />
 0.1.9 (2012/07/31) - Suppress PHP Notice: Undefined variable: proxyip in ztlogger.php on line 188<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Suppress PHP Notice: Undefined index: in ztlogger.php on line 199<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Suppress PHP Notice: Undefined index: proxyip in ztlogger.php on line 228<br /><br />

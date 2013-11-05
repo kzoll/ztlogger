@@ -1,8 +1,8 @@
 --------------------
 README for ZT Logger
 --------------------
-Version : 0.1.11
-Date    : 2013/09/24
+Version : 0.1.12
+Date    : 2013/11/05
 
 Copyright (C) 2011-2013 Kevin J. Zoll (kzoll@zolltech.com)
 Copyright (C) 2011-2013 Zoll Technologies (zolltech.com)
@@ -69,6 +69,9 @@ Make sure you delete install.php and install2.php from the ztlogger directory on
 
 Upgrade:
 Copy ztlogger/ztlogger.php > ztlogger/ztlogger.php
+Copy ztlogger/vault/geoip.inc > ztlogger/vault/geoip.inc
+Copy ztlogger/vault/geoipcity.inc > ztlogger/vault/geoipcity.inc
+Copy ztlogger/vault/geoipregionvars.php > ztlogger/vault/geoipregionvars.php
 
 ----------------------------------------------------------------------
 
@@ -81,6 +84,8 @@ Whitelisting form to alleviate the need to manually edit ipwldb.csv.  Whitelisti
 ----------------------------------------------------------------------
 
 What has Changed:
+0.1.12 (2013/11/05) - Updated to GeoIP PHP API v1.14
+
 0.1.11 (2103/09/24) - Changed geoip.inc line #31 from define("GEOIP_COUNTRY_EDITION", 106); to define("GEOIP_COUNTRY_EDITION", 1);
 
 0.1.10 (2012/08/03) - Improved error handling

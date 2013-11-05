@@ -22,15 +22,15 @@
 |	This product includes GeoLite data created by
 |	MaxMind, available from http://maxmind.com/
 |
-|	Version : 0.1.11
-|	Date    : 2012/09/24
+|	Version : 0.1.12
+|	Date    : 2012/11/05
 +----------------------------------------------------------------------------+
 */
 
 include("vault/directory.inc"); //Directory information
 include($path_to_ztlogger."vault/geoipcity.inc"); //GeoIPCity information
 
-$version = "0.1.11";
+$version = "0.1.12";
 
 $vaultdir = $path_to_ztlogger."vault/"; // path to vault directory
 $logdir = $path_to_ztlogger."logs/"; // path to logs directory
