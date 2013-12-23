@@ -22,15 +22,15 @@
 |	This product includes GeoLite data created by
 |	MaxMind, available from http://maxmind.com/
 |
-|	Version : 0.1.12
-|	Date    : 2012/11/05
+|	Version : 0.1.13
+|	Date    : 2013/12/23
 +----------------------------------------------------------------------------+
 */
 
 include("vault/directory.inc"); //Directory information
 include($path_to_ztlogger."vault/geoipcity.inc"); //GeoIPCity information
 
-$version = "0.1.12";
+$version = "0.1.13";
 
 $vaultdir = $path_to_ztlogger."vault/"; // path to vault directory
 $logdir = $path_to_ztlogger."logs/"; // path to logs directory
@@ -40,6 +40,24 @@ $log_date = date("Ymd");
 $ctr = $vaultdir."counter.dat"; // path to ztcounter.dat
 $ipwldb = $vaultdir."ipwldb.csv"; // path to ipwldb.csv
 $logfile = $logdir."ztlogfile_".$log_date.".txt"; // path to ztlogfile
+$ztlogger_ini = $path_to_ztlogger."vault/ztlogger.ini"; // path to ztogger.ini
+
+$inifile = parse_ini_file($ztlogger_ini); // Read ztlogger.ini file
+$ip_origin = $inifile['ip_origin']; // Not implemented
+$whtlst_pwd = $inifile['whtlst_pwd']; // Not implemented
+$prune_enabled = $inifile['enable_pruning'];
+$prune_age = $inifile['prune_days'] * 86400;
+$prune_path = $logdir."ztlogfile_*.txt";
+
+// Prune Log Files
+if ($prune_enabled = 1) {
+	$files = glob($prune_path);
+	foreach($files as $file) {
+		if(is_file($file) && (time() - filemtime($file) >= $prune_age)) {
+				unlink($file);
+		}
+	}
+}
 
 $remote_ip = @$_SERVER['REMOTE_ADDR'];
 $proxyip = "";
@@ -340,7 +358,7 @@ if (!isset($ph)) {
 
 	// log it!!!
 	$fp = fopen($logfile, 'a');
-	fwrite($fp,"#: ".$counter." @: ".date("F j, Y, H:i:s e P")." Running: Version ".$version."\n".$poststring.$filesstring.$IsTorExitNode."\nIP Address   : ".$real_ip."\t".$city_name.$region_name.$country_name."\t".$header_ip."\nRemote Host  : ".$rh."\nClient IP    : ".$clientip."\t".$header_client."\nProxy IP     : ".$proxyip."\t".$pcity_name.$pregion_name.$pcountry_name."\t".$header_proxy."\nProxy Host   : ".$ph."\nUser Agent   : ".$ua."\nReferer      : ".$referer."\nRequested URL: http://".$thishost.$file_uri."\n--------------------********************------------------------"."\n");
+	fwrite($fp,"#: ".$counter." @: ".date("F j, Y, H:i:s")." ".date_default_timezone_get()." ".date("T P")." Running: Version ".$version."\n".$poststring.$filesstring.$IsTorExitNode."\nIP Address   : ".$real_ip."\t".$city_name.$region_name.$country_name."\t".$header_ip."\nRemote Host  : ".$rh."\nClient IP    : ".$clientip."\t".$header_client."\nProxy IP     : ".$proxyip."\t".$pcity_name.$pregion_name.$pcountry_name."\t".$header_proxy."\nProxy Host   : ".$ph."\nUser Agent   : ".$ua."\nReferer      : ".$referer."\nRequested URL: http://".$thishost.$file_uri."\n--------------------********************------------------------"."\n");
 	fclose($fp);
 }
 
