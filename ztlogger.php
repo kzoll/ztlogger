@@ -3,8 +3,8 @@
 + ----------------------------------------------------------------------------+
 |	ztlogger.php
 |
-|	Copyright (C) 2011-2013 Kevin J. Zoll (kzoll@zolltech.com)
-|	Copyright (C) 2011-2013 Zoll Technologies (zolltech.com)
+|	Copyright (C) 2011-2014 Kevin J. Zoll (kzoll@zolltech.com)
+|	Copyright (C) 2011-2014 Zoll Technologies (zolltech.com)
 |
 |	This program is free software: you can redistribute it and/or modify
 |	it under the terms of the GNU General Public License as published by
@@ -39,7 +39,7 @@ $log_date = date("Ymd");
 
 $ctr = $vaultdir."counter.dat"; // path to ztcounter.dat
 $ipwldb = $vaultdir."ipwldb.csv"; // path to ipwldb.csv
-$logfile = $logdir."ztlogfile_".$log_date.".txt"; // path to ztlogfile
+$logfile = $logdir."ztlogfile_".$log_date.".txt"; // path to TXT ztlogfile
 $ztlogger_ini = $path_to_ztlogger."vault/ztlogger.ini"; // path to ztogger.ini
 
 $inifile = parse_ini_file($ztlogger_ini); // Read ztlogger.ini file
@@ -47,11 +47,11 @@ $ip_origin = $inifile['ip_origin']; // Not implemented
 $whtlst_pwd = $inifile['whtlst_pwd']; // Not implemented
 $prune_enabled = $inifile['enable_pruning'];
 $prune_age = $inifile['prune_days'] * 86400;
-$prune_path = $logdir."ztlogfile_*.txt";
+$prune_path_txt = $logdir."ztlogfile_*.txt";
 
-// Prune Log Files
+// Prune TXT Log Files
 if ($prune_enabled = 1) {
-	$files = glob($prune_path);
+	$files = glob($prune_path_txt);
 	foreach($files as $file) {
 		if(is_file($file) && (time() - filemtime($file) >= $prune_age)) {
 				unlink($file);
@@ -332,29 +332,29 @@ if ($whitelisted != 1)	{
 	fwrite($file,$counter);
 	fclose($file);
 	
-if (!isset($poststring)) {
-	$poststring = "";
-}
-	
-if (!isset($filesstring)) {
-	$filesstring = "";
-}
-	
-if (!isset($clientip)) {
-	$clientip = "";
-}
-	
-if (!isset($header_client)) {
-	$header_client = "";
-}
-	
-if (!isset($header_proxy)) {
-	$header_proxy = "";
-}
-	
-if (!isset($ph)) {
-	$ph = "";
-}
+	if (!isset($poststring)) {
+		$poststring = "";
+	}
+		
+	if (!isset($filesstring)) {
+		$filesstring = "";
+	}
+		
+	if (!isset($clientip)) {
+		$clientip = "";
+	}
+		
+	if (!isset($header_client)) {
+		$header_client = "";
+	}
+		
+	if (!isset($header_proxy)) {
+		$header_proxy = "";
+	}
+		
+	if (!isset($ph)) {
+		$ph = "";
+	}
 
 	// log it!!!
 	$fp = fopen($logfile, 'a');
