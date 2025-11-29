@@ -7,7 +7,9 @@ Date    : 2013/12/23
 Copyright (C) 2011-2013 Kevin J. Zoll (kzoll@zolltech.com)
 Copyright (C) 2011-2013 Zoll Technologies (zolltech.com)
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version
+##### v3
+of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
@@ -40,7 +42,9 @@ ztlogger.ini
 ----------------------------------------------------------------------
 
 Installation:
-Unpack ztlogger.zip and copy the ztlogger folder and its entire contents to your server. Ensure that all folders are chmod 0755 and all files are chmod 0644. Run install.php from your web browser.  Click the Install button.
+Unpack ztlogger.zip and copy the ztlogger folder and its entire contents to your server. Ensure that all folders are chmod
+##### v0755
+and all files are chmod 0644. Run install.php from your web browser.  Click the Install button.
 
 
 The following files are created in the ZT Logger Vault directory during install:
@@ -83,7 +87,9 @@ Whitelisting form to alleviate the need to manually edit ipwldb.csv.  Whitelisti
 ----------------------------------------------------------------------
 
 What has Changed:
-0.1.13 (2013/12/23) - Added ability to prune ztlogger logs older than 30 days.
+0.1.13 (2013/12/23) - Added ability to prune ztlogger logs older than
+##### v30
+days.
 					  Updated GeoLiteCity database to latest edition available from maxmind.
 
 0.1.12 (2013/11/05) - Updated to GeoIP PHP API v1.14

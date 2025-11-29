@@ -8,7 +8,9 @@
 |
 |	This program is free software: you can redistribute it and/or modify
 |	it under the terms of the GNU General Public License as published by
-|	the Free Software Foundation, either version 3 of the License, or
+|	the Free Software Foundation, either version
+##### v3
+of the License, or
 |	(at your option) any later version.
 |
 |	This program is distributed in the hope that it will be useful,
@@ -47,7 +49,11 @@ $ip = @$_SERVER['REMOTE_ADDR']; // IP Address
 		<div class="container">
 			<h1>ZT Logger v0.1.13</h1>
 			<hr>
-			Copyright &#169; 2011-2014 Kevin J. Zoll (kzoll@zolltech.com)<br />Copyright &#169; 2011 Zoll Technologies (<a href="http://zolltech.com" target="_blank">zolltech.com</a>)<br /><br />This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.<br /><br />This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.<br /><br />You should have received a copy of the GNU General Public License along with this program.  If not, see &lt;<a href="http://www.gnu.org/licenses/" target="_blank">http://www.gnu.org/licenses/</a>&gt;.<br /><br />This product includes GeoLite data created by MaxMind, available from <a href="http://maxmind.com/" target="_blank">http://maxmind.com/</a><br /><br />Version: 0.1.13<br />Date&nbsp;&nbsp;&nbsp;&nbsp;: 2013/12/23
+			Copyright &#169; 2011-2014 Kevin J. Zoll (kzoll@zolltech.com)<br />Copyright &#169;
+##### v2011
+Zoll Technologies (<a href="http://zolltech.com" target="_blank">zolltech.com</a>)<br /><br />This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version
+##### v3
+of the License, or (at your option) any later version.<br /><br />This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.<br /><br />You should have received a copy of the GNU General Public License along with this program.  If not, see &lt;<a href="http://www.gnu.org/licenses/" target="_blank">http://www.gnu.org/licenses/</a>&gt;.<br /><br />This product includes GeoLite data created by MaxMind, available from <a href="http://maxmind.com/" target="_blank">http://maxmind.com/</a><br /><br />Version: 0.1.13<br />Date&nbsp;&nbsp;&nbsp;&nbsp;: 2013/12/23
 			<hr>The installation routine is straight foward and really painless.  We need to create the following files in the ZT Logger Vault: counter.dat, directory.inc, hook.txt, and ipwldb.csv.  The IP Address from which the ZT Logger installation routine (this file) is ran will automatically be whitelisted.  All pages being accessed from IP Address: <?php echo $ip ?> will not be logged by ZT Logger.<hr><br />
 <?php
 // Create counter.dat
@@ -57,7 +63,9 @@ if (!file_exists($ctr)){
 	$outputstring="0";
 	fwrite($file,$outputstring);
 	fclose($file);
-	echo "<br />Setting chmod 0644 on counter.dat";
+	echo "<br />Setting chmod
+##### v0644
+on counter.dat";
 	chmod($ctr, 0644);
 }
 
@@ -70,7 +78,9 @@ if (!file_exists($dirinc)){
 	if (substr($directory,-$length) != "\\") {$outputstring='<?php global $path_to_ztlogger; $path_to_ztlogger="'.$directory.'"; ?>';}
 	fwrite($file,$outputstring);
 	fclose($file);
-	echo "<br />Setting chmod 0644 on directory.inc";
+	echo "<br />Setting chmod
+##### v0644
+on directory.inc";
 	chmod($dirinc, 0644);
 }
 
@@ -81,7 +91,9 @@ if (!file_exists($hook)){
 	$outputstring="<?php die(''); ?>\n\nYou must add the below code to all pages you wish to have logging enabled.  On most PHP based sites you can just add it to a single file that will be called by all pages.\n\n-----BEGIN PHP INCLUDE-----\ninclude('".$directory."ztlogger.php');\n-----END PHP INCLUDE-----";
 	fwrite($file,$outputstring);
 	fclose($file);
-	echo "<br />Setting chmod 0644 on hook.txt";
+	echo "<br />Setting chmod
+##### v0644
+on hook.txt";
 	chmod($hook, 0644);
 }
 
@@ -93,7 +105,9 @@ if (!file_exists($ipwldb)){
 	fwrite($file,$outputstring);
 	echo "<br />Whitelisting IP Address: ".$ip;
 	fclose($file);
-	echo "<br />Setting chmod 0644 on ipwldb.csv";
+	echo "<br />Setting chmod
+##### v0644
+on ipwldb.csv";
 	chmod($ipwldb, 0644);
 }
 	

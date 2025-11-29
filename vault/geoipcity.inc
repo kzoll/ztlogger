@@ -2,7 +2,9 @@
 
 /* geoipcity.inc
  *
- * Copyright (C) 2013 MaxMind, Inc.
+ * Copyright (C)
+##### v2013
+MaxMind, Inc.
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -16,7 +18,9 @@
  *
  * You should have received a copy of the GNU Lesser General Public
  * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307    USA
+ * Foundation, Inc.,
+##### v59
+Temple Place, Suite 330, Boston, MA 02111-1307    USA
  */
 
 

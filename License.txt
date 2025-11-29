@@ -1,7 +1,11 @@
                     GNU GENERAL PUBLIC LICENSE
-                       Version 3, 29 June 2007
+                       Version 3,
+##### v29
+June 2007
 
- Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+ Copyright (C)
+##### v2007
+Free Software Foundation, Inc. <http://fsf.org/>
  Everyone is permitted to copy and distribute verbatim copies
  of this license document, but changing it is not allowed.
 
@@ -72,7 +76,9 @@ modification follow.
 
   0. Definitions.
 
-  "This License" refers to version 3 of the GNU General Public License.
+  "This License" refers to version
+##### v3
+of the GNU General Public License.
 
   "Copyright" also means copyright-like laws that apply to other kinds of
 works, such as semiconductor masks.
@@ -180,7 +186,9 @@ makes it unnecessary.
 
   No covered work shall be deemed part of an effective technological
 measure under any applicable law fulfilling obligations under article
-11 of the WIPO copyright treaty adopted on 20 December 1996, or
+11 of the WIPO copyright treaty adopted on
+##### v20
+December 1996, or
 similar laws prohibiting or restricting circumvention of such
 measures.
 
@@ -198,7 +206,9 @@ technological measures.
 receive it, in any medium, provided that you conspicuously and
 appropriately publish on each copy an appropriate copyright notice;
 keep intact all notices stating that this License and any
-non-permissive terms added in accord with section 7 apply to the code;
+non-permissive terms added in accord with section
+##### v7
+apply to the code;
 keep intact all notices of the absence of any warranty; and give all
 recipients a copy of this License along with the Program.
 
@@ -216,7 +226,9 @@ terms of section 4, provided that you also meet all of these conditions:
 
     b) The work must carry prominent notices stating that it is
     released under this License and any conditions added under section
-    7.  This requirement modifies the requirement in section 4 to
+    7.  This requirement modifies the requirement in section
+##### v4
+to
     "keep intact all notices".
 
     c) You must license the entire work, as a whole, under this
@@ -245,7 +257,9 @@ parts of the aggregate.
   6. Conveying Non-Source Forms.
 
   You may convey a covered work in object code form under the terms
-of sections 4 and 5, provided that you also convey the
+of sections
+##### v4
+and 5, provided that you also convey the
 machine-readable Corresponding Source under the terms of this License,
 in one of these ways:
 
@@ -363,7 +377,11 @@ add to a covered work, you may (if authorized by the copyright holders of
 that material) supplement the terms of this License with terms:
 
     a) Disclaiming warranty or limiting liability differently from the
-    terms of sections 15 and 16 of this License; or
+    terms of sections
+##### v15
+and
+##### v16
+of this License; or
 
     b) Requiring preservation of specified reasonable legal notices or
     author attributions in that material or in the Appropriate Legal
@@ -417,13 +435,17 @@ license from a particular copyright holder is reinstated (a)
 provisionally, unless and until the copyright holder explicitly and
 finally terminates your license, and (b) permanently, if the copyright
 holder fails to notify you of the violation by some reasonable means
-prior to 60 days after the cessation.
+prior to
+##### v60
+days after the cessation.
 
   Moreover, your license from a particular copyright holder is
 reinstated permanently if the copyright holder notifies you of the
 violation by some reasonable means, this is the first time you have
 received notice of violation of this License (for any work) from that
-copyright holder, and you cure the violation prior to 30 days after
+copyright holder, and you cure the violation prior to
+##### v30
+days after
 your receipt of the notice.
 
   Termination of your rights under this section does not terminate the
@@ -531,7 +553,9 @@ patent license (a) in connection with copies of the covered work
 conveyed by you (or copies made from those copies), or (b) primarily
 for and in connection with specific products or compilations that
 contain the covered work, unless you entered into that arrangement,
-or that patent license was granted, prior to 28 March 2007.
+or that patent license was granted, prior to
+##### v28
+March 2007.
 
   Nothing in this License shall be construed as excluding or limiting
 any implied license or other defenses to infringement that may
@@ -553,7 +577,9 @@ License would be to refrain entirely from conveying the Program.
 
   Notwithstanding any other provision of this License, you have
 permission to link or combine any covered work with a work licensed
-under version 3 of the GNU Affero General Public License into a single
+under version
+##### v3
+of the GNU Affero General Public License into a single
 combined work, and to convey the resulting work.  The terms of this
 License will continue to apply to the part which is the covered work,
 but the special requirements of the GNU Affero General Public License,
@@ -609,7 +635,9 @@ PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
 EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGES.
 
-  17. Interpretation of Sections 15 and 16.
+  17. Interpretation of Sections
+##### v15
+and 16.
 
   If the disclaimer of warranty and limitation of liability provided
 above cannot be given local legal effect according to their terms,
@@ -636,7 +664,9 @@ the "copyright" line and a pointer to where the full notice is found.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
+    the Free Software Foundation, either version
+##### v3
+of the License, or
     (at your option) any later version.
 
     This program is distributed in the hope that it will be useful,
