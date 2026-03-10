@@ -1,7 +1,5 @@
 <?php
-// Copyright
-##### v2013
-MaxMind, Inc. All Rights Reserved
+// Copyright 2013 MaxMind, Inc. All Rights Reserved
 global $GEOIP_REGION_NAME;
 $GEOIP_REGION_NAME = array (
   'AD' => 
@@ -34,84 +32,32 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Faryab',
     '08' => 'Ghazni',
     '09' => 'Ghowr',
-   
-##### v10
-=> 'Helmand',
-   
-##### v11
-=> 'Herat',
-   
-##### v13
-=> 'Kabol',
-   
-##### v14
-=> 'Kapisa',
-   
-##### v17
-=> 'Lowgar',
-   
-##### v18
-=> 'Nangarhar',
-   
-##### v19
-=> 'Nimruz',
-   
-##### v23
-=> 'Kandahar',
-   
-##### v24
-=> 'Kondoz',
-   
-##### v26
-=> 'Takhar',
-   
-##### v27
-=> 'Vardak',
-   
-##### v28
-=> 'Zabol',
-   
-##### v29
-=> 'Paktika',
-   
-##### v30
-=> 'Balkh',
-   
-##### v31
-=> 'Jowzjan',
-   
-##### v32
-=> 'Samangan',
-   
-##### v33
-=> 'Sar-e Pol',
-   
-##### v34
-=> 'Konar',
-   
-##### v35
-=> 'Laghman',
-   
-##### v36
-=> 'Paktia',
-   
-##### v37
-=> 'Khowst',
-   
-##### v38
-=> 'Nurestan',
-   
-##### v39
-=> 'Oruzgan',
-   
-##### v40
-=> 'Parvan',
-   
-##### v41
-=> 'Daykondi',
-   
-##### v42
-=> 'Panjshir',
+    10 => 'Helmand',
+    11 => 'Herat',
+    13 => 'Kabol',
+    14 => 'Kapisa',
+    17 => 'Lowgar',
+    18 => 'Nangarhar',
+    19 => 'Nimruz',
+    23 => 'Kandahar',
+    24 => 'Kondoz',
+    26 => 'Takhar',
+    27 => 'Vardak',
+    28 => 'Zabol',
+    29 => 'Paktika',
+    30 => 'Balkh',
+    31 => 'Jowzjan',
+    32 => 'Samangan',
+    33 => 'Sar-e Pol',
+    34 => 'Konar',
+    35 => 'Laghman',
+    36 => 'Paktia',
+    37 => 'Khowst',
+    38 => 'Nurestan',
+    39 => 'Oruzgan',
+    40 => 'Parvan',
+    41 => 'Daykondi',
+    42 => 'Panjshir',
   ),
   'AG' => 
   array (
@@ -126,42 +72,18 @@ $GEOIP_REGION_NAME = array (
   ),
   'AL' => 
   array (
-   
-##### v40
-=> 'Berat',
-   
-##### v41
-=> 'Diber',
-   
-##### v42
-=> 'Durres',
-   
-##### v43
-=> 'Elbasan',
-   
-##### v44
-=> 'Fier',
-   
-##### v45
-=> 'Gjirokaster',
-   
-##### v46
-=> 'Korce',
-   
-##### v47
-=> 'Kukes',
-   
-##### v48
-=> 'Lezhe',
-   
-##### v49
-=> 'Shkoder',
-   
-##### v50
-=> 'Tirane',
-   
-##### v51
-=> 'Vlore',
+    40 => 'Berat',
+    41 => 'Diber',
+    42 => 'Durres',
+    43 => 'Elbasan',
+    44 => 'Fier',
+    45 => 'Gjirokaster',
+    46 => 'Korce',
+    47 => 'Kukes',
+    48 => 'Lezhe',
+    49 => 'Shkoder',
+    50 => 'Tirane',
+    51 => 'Vlore',
   ),
   'AM' => 
   array (
@@ -174,12 +96,8 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Shirak',
     '08' => 'Syunik\'',
     '09' => 'Tavush',
-   
-##### v10
-=> 'Vayots\' Dzor',
-   
-##### v11
-=> 'Yerevan',
+    10 => 'Vayots\' Dzor',
+    11 => 'Yerevan',
   ),
   'AO' => 
   array (
@@ -192,33 +110,15 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Cunene',
     '08' => 'Huambo',
     '09' => 'Huila',
-   
-##### v12
-=> 'Malanje',
-   
-##### v13
-=> 'Namibe',
-   
-##### v14
-=> 'Moxico',
-   
-##### v15
-=> 'Uige',
-   
-##### v16
-=> 'Zaire',
-   
-##### v17
-=> 'Lunda Norte',
-   
-##### v18
-=> 'Lunda Sul',
-   
-##### v19
-=> 'Bengo',
-   
-##### v20
-=> 'Luanda',
+    12 => 'Malanje',
+    13 => 'Namibe',
+    14 => 'Moxico',
+    15 => 'Uige',
+    16 => 'Zaire',
+    17 => 'Lunda Norte',
+    18 => 'Lunda Sul',
+    19 => 'Bengo',
+    20 => 'Luanda',
   ),
   'AR' => 
   array (
@@ -231,51 +131,21 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Distrito Federal',
     '08' => 'Entre Rios',
     '09' => 'Formosa',
-   
-##### v10
-=> 'Jujuy',
-   
-##### v11
-=> 'La Pampa',
-   
-##### v12
-=> 'La Rioja',
-   
-##### v13
-=> 'Mendoza',
-   
-##### v14
-=> 'Misiones',
-   
-##### v15
-=> 'Neuquen',
-   
-##### v16
-=> 'Rio Negro',
-   
-##### v17
-=> 'Salta',
-   
-##### v18
-=> 'San Juan',
-   
-##### v19
-=> 'San Luis',
-   
-##### v20
-=> 'Santa Cruz',
-   
-##### v21
-=> 'Santa Fe',
-   
-##### v22
-=> 'Santiago del Estero',
-   
-##### v23
-=> 'Tierra del Fuego',
-   
-##### v24
-=> 'Tucuman',
+    10 => 'Jujuy',
+    11 => 'La Pampa',
+    12 => 'La Rioja',
+    13 => 'Mendoza',
+    14 => 'Misiones',
+    15 => 'Neuquen',
+    16 => 'Rio Negro',
+    17 => 'Salta',
+    18 => 'San Juan',
+    19 => 'San Luis',
+    20 => 'Santa Cruz',
+    21 => 'Santa Fe',
+    22 => 'Santiago del Estero',
+    23 => 'Tierra del Fuego',
+    24 => 'Tucuman',
   ),
   'AT' => 
   array (
@@ -311,180 +181,64 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Ali Bayramli',
     '08' => 'Astara',
     '09' => 'Baki',
-   
-##### v10
-=> 'Balakan',
-   
-##### v11
-=> 'Barda',
-   
-##### v12
-=> 'Beylaqan',
-   
-##### v13
-=> 'Bilasuvar',
-   
-##### v14
-=> 'Cabrayil',
-   
-##### v15
-=> 'Calilabad',
-   
-##### v16
-=> 'Daskasan',
-   
-##### v17
-=> 'Davaci',
-   
-##### v18
-=> 'Fuzuli',
-   
-##### v19
-=> 'Gadabay',
-   
-##### v20
-=> 'Ganca',
-   
-##### v21
-=> 'Goranboy',
-   
-##### v22
-=> 'Goycay',
-   
-##### v23
-=> 'Haciqabul',
-   
-##### v24
-=> 'Imisli',
-   
-##### v25
-=> 'Ismayilli',
-   
-##### v26
-=> 'Kalbacar',
-   
-##### v27
-=> 'Kurdamir',
-   
-##### v28
-=> 'Lacin',
-   
-##### v30
-=> 'Lankaran',
-   
-##### v31
-=> 'Lerik',
-   
-##### v32
-=> 'Masalli',
-   
-##### v33
-=> 'Mingacevir',
-   
-##### v34
-=> 'Naftalan',
-   
-##### v35
-=> 'Naxcivan',
-   
-##### v36
-=> 'Neftcala',
-   
-##### v37
-=> 'Oguz',
-   
-##### v38
-=> 'Qabala',
-   
-##### v39
-=> 'Qax',
-   
-##### v40
-=> 'Qazax',
-   
-##### v41
-=> 'Qobustan',
-   
-##### v42
-=> 'Quba',
-   
-##### v43
-=> 'Qubadli',
-   
-##### v44
-=> 'Qusar',
-   
-##### v45
-=> 'Saatli',
-   
-##### v46
-=> 'Sabirabad',
-   
-##### v48
-=> 'Saki',
-   
-##### v49
-=> 'Salyan',
-   
-##### v50
-=> 'Samaxi',
-   
-##### v51
-=> 'Samkir',
-   
-##### v52
-=> 'Samux',
-   
-##### v53
-=> 'Siyazan',
-   
-##### v54
-=> 'Sumqayit',
-   
-##### v56
-=> 'Susa',
-   
-##### v57
-=> 'Tartar',
-   
-##### v58
-=> 'Tovuz',
-   
-##### v59
-=> 'Ucar',
-   
-##### v60
-=> 'Xacmaz',
-   
-##### v61
-=> 'Xankandi',
-   
-##### v62
-=> 'Xanlar',
-   
-##### v63
-=> 'Xizi',
-   
-##### v64
-=> 'Xocali',
-   
-##### v65
-=> 'Xocavand',
-   
-##### v66
-=> 'Yardimli',
-   
-##### v68
-=> 'Yevlax',
-   
-##### v69
-=> 'Zangilan',
-   
-##### v70
-=> 'Zaqatala',
-   
-##### v71
-=> 'Zardab',
+    10 => 'Balakan',
+    11 => 'Barda',
+    12 => 'Beylaqan',
+    13 => 'Bilasuvar',
+    14 => 'Cabrayil',
+    15 => 'Calilabad',
+    16 => 'Daskasan',
+    17 => 'Davaci',
+    18 => 'Fuzuli',
+    19 => 'Gadabay',
+    20 => 'Ganca',
+    21 => 'Goranboy',
+    22 => 'Goycay',
+    23 => 'Haciqabul',
+    24 => 'Imisli',
+    25 => 'Ismayilli',
+    26 => 'Kalbacar',
+    27 => 'Kurdamir',
+    28 => 'Lacin',
+    30 => 'Lankaran',
+    31 => 'Lerik',
+    32 => 'Masalli',
+    33 => 'Mingacevir',
+    34 => 'Naftalan',
+    35 => 'Naxcivan',
+    36 => 'Neftcala',
+    37 => 'Oguz',
+    38 => 'Qabala',
+    39 => 'Qax',
+    40 => 'Qazax',
+    41 => 'Qobustan',
+    42 => 'Quba',
+    43 => 'Qubadli',
+    44 => 'Qusar',
+    45 => 'Saatli',
+    46 => 'Sabirabad',
+    48 => 'Saki',
+    49 => 'Salyan',
+    50 => 'Samaxi',
+    51 => 'Samkir',
+    52 => 'Samux',
+    53 => 'Siyazan',
+    54 => 'Sumqayit',
+    56 => 'Susa',
+    57 => 'Tartar',
+    58 => 'Tovuz',
+    59 => 'Ucar',
+    60 => 'Xacmaz',
+    61 => 'Xankandi',
+    62 => 'Xanlar',
+    63 => 'Xizi',
+    64 => 'Xocali',
+    65 => 'Xocavand',
+    66 => 'Yardimli',
+    68 => 'Yevlax',
+    69 => 'Zangilan',
+    70 => 'Zaqatala',
+    71 => 'Zardab',
   ),
   'BA' => 
   array (
@@ -503,33 +257,17 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Saint Lucy',
     '08' => 'Saint Michael',
     '09' => 'Saint Peter',
-   
-##### v10
-=> 'Saint Philip',
-   
-##### v11
-=> 'Saint Thomas',
+    10 => 'Saint Philip',
+    11 => 'Saint Thomas',
   ),
   'BD' => 
   array (
-   
-##### v81
-=> 'Dhaka',
-   
-##### v82
-=> 'Khulna',
-   
-##### v83
-=> 'Rajshahi',
-   
-##### v84
-=> 'Chittagong',
-   
-##### v85
-=> 'Barisal',
-   
-##### v86
-=> 'Sylhet',
+    81 => 'Dhaka',
+    82 => 'Khulna',
+    83 => 'Rajshahi',
+    84 => 'Chittagong',
+    85 => 'Barisal',
+    86 => 'Sylhet',
   ),
   'BE' => 
   array (
@@ -541,249 +279,91 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Namur',
     '08' => 'Oost-Vlaanderen',
     '09' => 'West-Vlaanderen',
-   
-##### v10
-=> 'Brabant Wallon',
-   
-##### v11
-=> 'Brussels Hoofdstedelijk Gewest',
-   
-##### v12
-=> 'Vlaams-Brabant',
-   
-##### v13
-=> 'Flanders',
-   
-##### v14
-=> 'Wallonia',
+    10 => 'Brabant Wallon',
+    11 => 'Brussels Hoofdstedelijk Gewest',
+    12 => 'Vlaams-Brabant',
+    13 => 'Flanders',
+    14 => 'Wallonia',
   ),
   'BF' => 
   array (
-   
-##### v15
-=> 'Bam',
-   
-##### v19
-=> 'Boulkiemde',
-   
-##### v20
-=> 'Ganzourgou',
-   
-##### v21
-=> 'Gnagna',
-   
-##### v28
-=> 'Kouritenga',
-   
-##### v33
-=> 'Oudalan',
-   
-##### v34
-=> 'Passore',
-   
-##### v36
-=> 'Sanguie',
-   
-##### v40
-=> 'Soum',
-   
-##### v42
-=> 'Tapoa',
-   
-##### v44
-=> 'Zoundweogo',
-   
-##### v45
-=> 'Bale',
-   
-##### v46
-=> 'Banwa',
-   
-##### v47
-=> 'Bazega',
-   
-##### v48
-=> 'Bougouriba',
-   
-##### v49
-=> 'Boulgou',
-   
-##### v50
-=> 'Gourma',
-   
-##### v51
-=> 'Houet',
-   
-##### v52
-=> 'Ioba',
-   
-##### v53
-=> 'Kadiogo',
-   
-##### v54
-=> 'Kenedougou',
-   
-##### v55
-=> 'Komoe',
-   
-##### v56
-=> 'Komondjari',
-   
-##### v57
-=> 'Kompienga',
-   
-##### v58
-=> 'Kossi',
-   
-##### v59
-=> 'Koulpelogo',
-   
-##### v60
-=> 'Kourweogo',
-   
-##### v61
-=> 'Leraba',
-   
-##### v62
-=> 'Loroum',
-   
-##### v63
-=> 'Mouhoun',
-   
-##### v64
-=> 'Namentenga',
-   
-##### v65
-=> 'Naouri',
-   
-##### v66
-=> 'Nayala',
-   
-##### v67
-=> 'Noumbiel',
-   
-##### v68
-=> 'Oubritenga',
-   
-##### v69
-=> 'Poni',
-   
-##### v70
-=> 'Sanmatenga',
-   
-##### v71
-=> 'Seno',
-   
-##### v72
-=> 'Sissili',
-   
-##### v73
-=> 'Sourou',
-   
-##### v74
-=> 'Tuy',
-   
-##### v75
-=> 'Yagha',
-   
-##### v76
-=> 'Yatenga',
-   
-##### v77
-=> 'Ziro',
-   
-##### v78
-=> 'Zondoma',
+    15 => 'Bam',
+    19 => 'Boulkiemde',
+    20 => 'Ganzourgou',
+    21 => 'Gnagna',
+    28 => 'Kouritenga',
+    33 => 'Oudalan',
+    34 => 'Passore',
+    36 => 'Sanguie',
+    40 => 'Soum',
+    42 => 'Tapoa',
+    44 => 'Zoundweogo',
+    45 => 'Bale',
+    46 => 'Banwa',
+    47 => 'Bazega',
+    48 => 'Bougouriba',
+    49 => 'Boulgou',
+    50 => 'Gourma',
+    51 => 'Houet',
+    52 => 'Ioba',
+    53 => 'Kadiogo',
+    54 => 'Kenedougou',
+    55 => 'Komoe',
+    56 => 'Komondjari',
+    57 => 'Kompienga',
+    58 => 'Kossi',
+    59 => 'Koulpelogo',
+    60 => 'Kourweogo',
+    61 => 'Leraba',
+    62 => 'Loroum',
+    63 => 'Mouhoun',
+    64 => 'Namentenga',
+    65 => 'Naouri',
+    66 => 'Nayala',
+    67 => 'Noumbiel',
+    68 => 'Oubritenga',
+    69 => 'Poni',
+    70 => 'Sanmatenga',
+    71 => 'Seno',
+    72 => 'Sissili',
+    73 => 'Sourou',
+    74 => 'Tuy',
+    75 => 'Yagha',
+    76 => 'Yatenga',
+    77 => 'Ziro',
+    78 => 'Zondoma',
   ),
   'BG' => 
   array (
-   
-##### v33
-=> 'Mikhaylovgrad',
-   
-##### v38
-=> 'Blagoevgrad',
-   
-##### v39
-=> 'Burgas',
-   
-##### v40
-=> 'Dobrich',
-   
-##### v41
-=> 'Gabrovo',
-   
-##### v42
-=> 'Grad Sofiya',
-   
-##### v43
-=> 'Khaskovo',
-   
-##### v44
-=> 'Kurdzhali',
-   
-##### v45
-=> 'Kyustendil',
-   
-##### v46
-=> 'Lovech',
-   
-##### v47
-=> 'Montana',
-   
-##### v48
-=> 'Pazardzhik',
-   
-##### v49
-=> 'Pernik',
-   
-##### v50
-=> 'Pleven',
-   
-##### v51
-=> 'Plovdiv',
-   
-##### v52
-=> 'Razgrad',
-   
-##### v53
-=> 'Ruse',
-   
-##### v54
-=> 'Shumen',
-   
-##### v55
-=> 'Silistra',
-   
-##### v56
-=> 'Sliven',
-   
-##### v57
-=> 'Smolyan',
-   
-##### v58
-=> 'Sofiya',
-   
-##### v59
-=> 'Stara Zagora',
-   
-##### v60
-=> 'Turgovishte',
-   
-##### v61
-=> 'Varna',
-   
-##### v62
-=> 'Veliko Turnovo',
-   
-##### v63
-=> 'Vidin',
-   
-##### v64
-=> 'Vratsa',
-   
-##### v65
-=> 'Yambol',
+    33 => 'Mikhaylovgrad',
+    38 => 'Blagoevgrad',
+    39 => 'Burgas',
+    40 => 'Dobrich',
+    41 => 'Gabrovo',
+    42 => 'Grad Sofiya',
+    43 => 'Khaskovo',
+    44 => 'Kurdzhali',
+    45 => 'Kyustendil',
+    46 => 'Lovech',
+    47 => 'Montana',
+    48 => 'Pazardzhik',
+    49 => 'Pernik',
+    50 => 'Pleven',
+    51 => 'Plovdiv',
+    52 => 'Razgrad',
+    53 => 'Ruse',
+    54 => 'Shumen',
+    55 => 'Silistra',
+    56 => 'Sliven',
+    57 => 'Smolyan',
+    58 => 'Sofiya',
+    59 => 'Stara Zagora',
+    60 => 'Turgovishte',
+    61 => 'Varna',
+    62 => 'Veliko Turnovo',
+    63 => 'Vidin',
+    64 => 'Vratsa',
+    65 => 'Yambol',
   ),
   'BH' => 
   array (
@@ -793,116 +373,50 @@ $GEOIP_REGION_NAME = array (
     '06' => 'Sitrah',
     '08' => 'Al Mintaqah al Gharbiyah',
     '09' => 'Mintaqat Juzur Hawar',
-   
-##### v10
-=> 'Al Mintaqah ash Shamaliyah',
-   
-##### v11
-=> 'Al Mintaqah al Wusta',
-   
-##### v12
-=> 'Madinat',
-   
-##### v13
-=> 'Ar Rifa',
-   
-##### v14
-=> 'Madinat Hamad',
-   
-##### v15
-=> 'Al Muharraq',
-   
-##### v16
-=> 'Al Asimah',
-   
-##### v17
-=> 'Al Janubiyah',
-   
-##### v18
-=> 'Ash Shamaliyah',
-   
-##### v19
-=> 'Al Wusta',
+    10 => 'Al Mintaqah ash Shamaliyah',
+    11 => 'Al Mintaqah al Wusta',
+    12 => 'Madinat',
+    13 => 'Ar Rifa',
+    14 => 'Madinat Hamad',
+    15 => 'Al Muharraq',
+    16 => 'Al Asimah',
+    17 => 'Al Janubiyah',
+    18 => 'Ash Shamaliyah',
+    19 => 'Al Wusta',
   ),
   'BI' => 
   array (
     '02' => 'Bujumbura',
     '09' => 'Bubanza',
-   
-##### v10
-=> 'Bururi',
-   
-##### v11
-=> 'Cankuzo',
-   
-##### v12
-=> 'Cibitoke',
-   
-##### v13
-=> 'Gitega',
-   
-##### v14
-=> 'Karuzi',
-   
-##### v15
-=> 'Kayanza',
-   
-##### v16
-=> 'Kirundo',
-   
-##### v17
-=> 'Makamba',
-   
-##### v18
-=> 'Muyinga',
-   
-##### v19
-=> 'Ngozi',
-   
-##### v20
-=> 'Rutana',
-   
-##### v21
-=> 'Ruyigi',
-   
-##### v22
-=> 'Muramvya',
-   
-##### v23
-=> 'Mwaro',
+    10 => 'Bururi',
+    11 => 'Cankuzo',
+    12 => 'Cibitoke',
+    13 => 'Gitega',
+    14 => 'Karuzi',
+    15 => 'Kayanza',
+    16 => 'Kirundo',
+    17 => 'Makamba',
+    18 => 'Muyinga',
+    19 => 'Ngozi',
+    20 => 'Rutana',
+    21 => 'Ruyigi',
+    22 => 'Muramvya',
+    23 => 'Mwaro',
   ),
   'BJ' => 
   array (
     '07' => 'Alibori',
     '08' => 'Atakora',
     '09' => 'Atlanyique',
-   
-##### v10
-=> 'Borgou',
-   
-##### v11
-=> 'Collines',
-   
-##### v12
-=> 'Kouffo',
-   
-##### v13
-=> 'Donga',
-   
-##### v14
-=> 'Littoral',
-   
-##### v15
-=> 'Mono',
-   
-##### v16
-=> 'Oueme',
-   
-##### v17
-=> 'Plateau',
-   
-##### v18
-=> 'Zou',
+    10 => 'Borgou',
+    11 => 'Collines',
+    12 => 'Kouffo',
+    13 => 'Donga',
+    14 => 'Littoral',
+    15 => 'Mono',
+    16 => 'Oueme',
+    17 => 'Plateau',
+    18 => 'Zou',
   ),
   'BM' => 
   array (
@@ -914,45 +428,23 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Saint George\'s',
     '08' => 'Sandys',
     '09' => 'Smiths',
-   
-##### v10
-=> 'Southampton',
-   
-##### v11
-=> 'Warwick',
+    10 => 'Southampton',
+    11 => 'Warwick',
   ),
   'BN' => 
   array (
     '07' => 'Alibori',
     '08' => 'Belait',
     '09' => 'Brunei and Muara',
-   
-##### v10
-=> 'Temburong',
-   
-##### v11
-=> 'Collines',
-   
-##### v12
-=> 'Kouffo',
-   
-##### v13
-=> 'Donga',
-   
-##### v14
-=> 'Littoral',
-   
-##### v15
-=> 'Tutong',
-   
-##### v16
-=> 'Oueme',
-   
-##### v17
-=> 'Plateau',
-   
-##### v18
-=> 'Zou',
+    10 => 'Temburong',
+    11 => 'Collines',
+    12 => 'Kouffo',
+    13 => 'Donga',
+    14 => 'Littoral',
+    15 => 'Tutong',
+    16 => 'Oueme',
+    17 => 'Plateau',
+    18 => 'Zou',
   ),
   'BO' => 
   array (
@@ -976,125 +468,49 @@ $GEOIP_REGION_NAME = array (
     '06' => 'Ceara',
     '07' => 'Distrito Federal',
     '08' => 'Espirito Santo',
-   
-##### v11
-=> 'Mato Grosso do Sul',
-   
-##### v13
-=> 'Maranhao',
-   
-##### v14
-=> 'Mato Grosso',
-   
-##### v15
-=> 'Minas Gerais',
-   
-##### v16
-=> 'Para',
-   
-##### v17
-=> 'Paraiba',
-   
-##### v18
-=> 'Parana',
-   
-##### v20
-=> 'Piaui',
-   
-##### v21
-=> 'Rio de Janeiro',
-   
-##### v22
-=> 'Rio Grande do Norte',
-   
-##### v23
-=> 'Rio Grande do Sul',
-   
-##### v24
-=> 'Rondonia',
-   
-##### v25
-=> 'Roraima',
-   
-##### v26
-=> 'Santa Catarina',
-   
-##### v27
-=> 'Sao Paulo',
-   
-##### v28
-=> 'Sergipe',
-   
-##### v29
-=> 'Goias',
-   
-##### v30
-=> 'Pernambuco',
-   
-##### v31
-=> 'Tocantins',
+    11 => 'Mato Grosso do Sul',
+    13 => 'Maranhao',
+    14 => 'Mato Grosso',
+    15 => 'Minas Gerais',
+    16 => 'Para',
+    17 => 'Paraiba',
+    18 => 'Parana',
+    20 => 'Piaui',
+    21 => 'Rio de Janeiro',
+    22 => 'Rio Grande do Norte',
+    23 => 'Rio Grande do Sul',
+    24 => 'Rondonia',
+    25 => 'Roraima',
+    26 => 'Santa Catarina',
+    27 => 'Sao Paulo',
+    28 => 'Sergipe',
+    29 => 'Goias',
+    30 => 'Pernambuco',
+    31 => 'Tocantins',
   ),
   'BS' => 
   array (
     '05' => 'Bimini',
     '06' => 'Cat Island',
-   
-##### v10
-=> 'Exuma',
-   
-##### v13
-=> 'Inagua',
-   
-##### v15
-=> 'Long Island',
-   
-##### v16
-=> 'Mayaguana',
-   
-##### v18
-=> 'Ragged Island',
-   
-##### v22
-=> 'Harbour Island',
-   
-##### v23
-=> 'New Providence',
-   
-##### v24
-=> 'Acklins and Crooked Islands',
-   
-##### v25
-=> 'Freeport',
-   
-##### v26
-=> 'Fresh Creek',
-   
-##### v27
-=> 'Governor\'s Harbour',
-   
-##### v28
-=> 'Green Turtle Cay',
-   
-##### v29
-=> 'High Rock',
-   
-##### v30
-=> 'Kemps Bay',
-   
-##### v31
-=> 'Marsh Harbour',
-   
-##### v32
-=> 'Nichollstown and Berry Islands',
-   
-##### v33
-=> 'Rock Sound',
-   
-##### v34
-=> 'Sandy Point',
-   
-##### v35
-=> 'San Salvador and Rum Cay',
+    10 => 'Exuma',
+    13 => 'Inagua',
+    15 => 'Long Island',
+    16 => 'Mayaguana',
+    18 => 'Ragged Island',
+    22 => 'Harbour Island',
+    23 => 'New Providence',
+    24 => 'Acklins and Crooked Islands',
+    25 => 'Freeport',
+    26 => 'Fresh Creek',
+    27 => 'Governor\'s Harbour',
+    28 => 'Green Turtle Cay',
+    29 => 'High Rock',
+    30 => 'Kemps Bay',
+    31 => 'Marsh Harbour',
+    32 => 'Nichollstown and Berry Islands',
+    33 => 'Rock Sound',
+    34 => 'Sandy Point',
+    35 => 'San Salvador and Rum Cay',
   ),
   'BT' => 
   array (
@@ -1103,45 +519,19 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Chirang',
     '08' => 'Daga',
     '09' => 'Geylegphug',
-   
-##### v10
-=> 'Ha',
-   
-##### v11
-=> 'Lhuntshi',
-   
-##### v12
-=> 'Mongar',
-   
-##### v13
-=> 'Paro',
-   
-##### v14
-=> 'Pemagatsel',
-   
-##### v15
-=> 'Punakha',
-   
-##### v16
-=> 'Samchi',
-   
-##### v17
-=> 'Samdrup',
-   
-##### v18
-=> 'Shemgang',
-   
-##### v19
-=> 'Tashigang',
-   
-##### v20
-=> 'Thimphu',
-   
-##### v21
-=> 'Tongsa',
-   
-##### v22
-=> 'Wangdi Phodrang',
+    10 => 'Ha',
+    11 => 'Lhuntshi',
+    12 => 'Mongar',
+    13 => 'Paro',
+    14 => 'Pemagatsel',
+    15 => 'Punakha',
+    16 => 'Samchi',
+    17 => 'Samdrup',
+    18 => 'Shemgang',
+    19 => 'Tashigang',
+    20 => 'Thimphu',
+    21 => 'Tongsa',
+    22 => 'Wangdi Phodrang',
   ),
   'BW' => 
   array (
@@ -1152,12 +542,8 @@ $GEOIP_REGION_NAME = array (
     '06' => 'Kweneng',
     '08' => 'North-East',
     '09' => 'South-East',
-   
-##### v10
-=> 'Southern',
-   
-##### v11
-=> 'North-West',
+    10 => 'Southern',
+    11 => 'North-West',
   ),
   'BY' => 
   array (
@@ -1203,15 +589,9 @@ $GEOIP_REGION_NAME = array (
     '06' => 'Kinshasa',
     '08' => 'Bas-Congo',
     '09' => 'Orientale',
-   
-##### v10
-=> 'Maniema',
-   
-##### v11
-=> 'Nord-Kivu',
-   
-##### v12
-=> 'Sud-Kivu',
+    10 => 'Maniema',
+    11 => 'Nord-Kivu',
+    12 => 'Sud-Kivu',
   ),
   'CF' => 
   array (
@@ -1224,30 +604,14 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Lobaye',
     '08' => 'Mbomou',
     '09' => 'Nana-Mambere',
-   
-##### v11
-=> 'Ouaka',
-   
-##### v12
-=> 'Ouham',
-   
-##### v13
-=> 'Ouham-Pende',
-   
-##### v14
-=> 'Cuvette-Ouest',
-   
-##### v15
-=> 'Nana-Grebizi',
-   
-##### v16
-=> 'Sangha-Mbaere',
-   
-##### v17
-=> 'Ombella-Mpoko',
-   
-##### v18
-=> 'Bangui',
+    11 => 'Ouaka',
+    12 => 'Ouham',
+    13 => 'Ouham-Pende',
+    14 => 'Cuvette-Ouest',
+    15 => 'Nana-Grebizi',
+    16 => 'Sangha-Mbaere',
+    17 => 'Ombella-Mpoko',
+    18 => 'Bangui',
   ),
   'CG' => 
   array (
@@ -1257,21 +621,11 @@ $GEOIP_REGION_NAME = array (
     '06' => 'Likouala',
     '07' => 'Niari',
     '08' => 'Plateaux',
-   
-##### v10
-=> 'Sangha',
-   
-##### v11
-=> 'Pool',
-   
-##### v12
-=> 'Brazzaville',
-   
-##### v13
-=> 'Cuvette',
-   
-##### v14
-=> 'Cuvette-Ouest',
+    10 => 'Sangha',
+    11 => 'Pool',
+    12 => 'Brazzaville',
+    13 => 'Cuvette',
+    14 => 'Cuvette-Ouest',
   ),
   'CH' => 
   array (
@@ -1284,117 +638,45 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Geneve',
     '08' => 'Glarus',
     '09' => 'Graubunden',
-   
-##### v10
-=> 'Inner-Rhoden',
-   
-##### v11
-=> 'Luzern',
-   
-##### v12
-=> 'Neuchatel',
-   
-##### v13
-=> 'Nidwalden',
-   
-##### v14
-=> 'Obwalden',
-   
-##### v15
-=> 'Sankt Gallen',
-   
-##### v16
-=> 'Schaffhausen',
-   
-##### v17
-=> 'Schwyz',
-   
-##### v18
-=> 'Solothurn',
-   
-##### v19
-=> 'Thurgau',
-   
-##### v20
-=> 'Ticino',
-   
-##### v21
-=> 'Uri',
-   
-##### v22
-=> 'Valais',
-   
-##### v23
-=> 'Vaud',
-   
-##### v24
-=> 'Zug',
-   
-##### v25
-=> 'Zurich',
-   
-##### v26
-=> 'Jura',
+    10 => 'Inner-Rhoden',
+    11 => 'Luzern',
+    12 => 'Neuchatel',
+    13 => 'Nidwalden',
+    14 => 'Obwalden',
+    15 => 'Sankt Gallen',
+    16 => 'Schaffhausen',
+    17 => 'Schwyz',
+    18 => 'Solothurn',
+    19 => 'Thurgau',
+    20 => 'Ticino',
+    21 => 'Uri',
+    22 => 'Valais',
+    23 => 'Vaud',
+    24 => 'Zug',
+    25 => 'Zurich',
+    26 => 'Jura',
   ),
   'CI' => 
   array (
-   
-##### v74
-=> 'Agneby',
-   
-##### v75
-=> 'Bafing',
-   
-##### v76
-=> 'Bas-Sassandra',
-   
-##### v77
-=> 'Denguele',
-   
-##### v78
-=> 'Dix-Huit Montagnes',
-   
-##### v79
-=> 'Fromager',
-   
-##### v80
-=> 'Haut-Sassandra',
-   
-##### v81
-=> 'Lacs',
-   
-##### v82
-=> 'Lagunes',
-   
-##### v83
-=> 'Marahoue',
-   
-##### v84
-=> 'Moyen-Cavally',
-   
-##### v85
-=> 'Moyen-Comoe',
-   
-##### v86
-=> 'N\'zi-Comoe',
-   
-##### v87
-=> 'Savanes',
-   
-##### v88
-=> 'Sud-Bandama',
-   
-##### v89
-=> 'Sud-Comoe',
-   
-##### v90
-=> 'Vallee du Bandama',
-   
-##### v91
-=> 'Worodougou',
-   
-##### v92
-=> 'Zanzan',
+    74 => 'Agneby',
+    75 => 'Bafing',
+    76 => 'Bas-Sassandra',
+    77 => 'Denguele',
+    78 => 'Dix-Huit Montagnes',
+    79 => 'Fromager',
+    80 => 'Haut-Sassandra',
+    81 => 'Lacs',
+    82 => 'Lagunes',
+    83 => 'Marahoue',
+    84 => 'Moyen-Cavally',
+    85 => 'Moyen-Comoe',
+    86 => 'N\'zi-Comoe',
+    87 => 'Savanes',
+    88 => 'Sud-Bandama',
+    89 => 'Sud-Comoe',
+    90 => 'Vallee du Bandama',
+    91 => 'Worodougou',
+    92 => 'Zanzan',
   ),
   'CL' => 
   array (
@@ -1406,27 +688,13 @@ $GEOIP_REGION_NAME = array (
     '06' => 'Bio-Bio',
     '07' => 'Coquimbo',
     '08' => 'Libertador General Bernardo O\'Higgins',
-   
-##### v14
-=> 'Los Lagos',
-   
-##### v10
-=> 'Magallanes y de la Antartica Chilena',
-   
-##### v11
-=> 'Maule',
-   
-##### v12
-=> 'Region Metropolitana',
-   
-##### v15
-=> 'Tarapaca',
-   
-##### v16
-=> 'Arica y Parinacota',
-   
-##### v17
-=> 'Los Rios',
+    14 => 'Los Lagos',
+    10 => 'Magallanes y de la Antartica Chilena',
+    11 => 'Maule',
+    12 => 'Region Metropolitana',
+    15 => 'Tarapaca',
+    16 => 'Arica y Parinacota',
+    17 => 'Los Rios',
   ),
   'CM' => 
   array (
@@ -1435,21 +703,11 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Nord-Ouest',
     '08' => 'Ouest',
     '09' => 'Sud-Ouest',
-   
-##### v10
-=> 'Adamaoua',
-   
-##### v11
-=> 'Centre',
-   
-##### v12
-=> 'Extreme-Nord',
-   
-##### v13
-=> 'Nord',
-   
-##### v14
-=> 'Sud',
+    10 => 'Adamaoua',
+    11 => 'Centre',
+    12 => 'Extreme-Nord',
+    13 => 'Nord',
+    14 => 'Sud',
   ),
   'CN' => 
   array (
@@ -1462,72 +720,28 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Fujian',
     '08' => 'Heilongjiang',
     '09' => 'Henan',
-   
-##### v10
-=> 'Hebei',
-   
-##### v11
-=> 'Hunan',
-   
-##### v12
-=> 'Hubei',
-   
-##### v13
-=> 'Xinjiang',
-   
-##### v14
-=> 'Xizang',
-   
-##### v15
-=> 'Gansu',
-   
-##### v16
-=> 'Guangxi',
-   
-##### v18
-=> 'Guizhou',
-   
-##### v19
-=> 'Liaoning',
-   
-##### v20
-=> 'Nei Mongol',
-   
-##### v21
-=> 'Ningxia',
-   
-##### v22
-=> 'Beijing',
-   
-##### v23
-=> 'Shanghai',
-   
-##### v24
-=> 'Shanxi',
-   
-##### v25
-=> 'Shandong',
-   
-##### v26
-=> 'Shaanxi',
-   
-##### v28
-=> 'Tianjin',
-   
-##### v29
-=> 'Yunnan',
-   
-##### v30
-=> 'Guangdong',
-   
-##### v31
-=> 'Hainan',
-   
-##### v32
-=> 'Sichuan',
-   
-##### v33
-=> 'Chongqing',
+    10 => 'Hebei',
+    11 => 'Hunan',
+    12 => 'Hubei',
+    13 => 'Xinjiang',
+    14 => 'Xizang',
+    15 => 'Gansu',
+    16 => 'Guangxi',
+    18 => 'Guizhou',
+    19 => 'Liaoning',
+    20 => 'Nei Mongol',
+    21 => 'Ningxia',
+    22 => 'Beijing',
+    23 => 'Shanghai',
+    24 => 'Shanxi',
+    25 => 'Shandong',
+    26 => 'Shaanxi',
+    28 => 'Tianjin',
+    29 => 'Yunnan',
+    30 => 'Guangdong',
+    31 => 'Hainan',
+    32 => 'Sichuan',
+    33 => 'Chongqing',
   ),
   'CO' => 
   array (
@@ -1537,87 +751,33 @@ $GEOIP_REGION_NAME = array (
     '04' => 'Atlantico',
     '08' => 'Caqueta',
     '09' => 'Cauca',
-   
-##### v10
-=> 'Cesar',
-   
-##### v11
-=> 'Choco',
-   
-##### v12
-=> 'Cordoba',
-   
-##### v14
-=> 'Guaviare',
-   
-##### v15
-=> 'Guainia',
-   
-##### v16
-=> 'Huila',
-   
-##### v17
-=> 'La Guajira',
-   
-##### v19
-=> 'Meta',
-   
-##### v20
-=> 'Narino',
-   
-##### v21
-=> 'Norte de Santander',
-   
-##### v22
-=> 'Putumayo',
-   
-##### v23
-=> 'Quindio',
-   
-##### v24
-=> 'Risaralda',
-   
-##### v25
-=> 'San Andres y Providencia',
-   
-##### v26
-=> 'Santander',
-   
-##### v27
-=> 'Sucre',
-   
-##### v28
-=> 'Tolima',
-   
-##### v29
-=> 'Valle del Cauca',
-   
-##### v30
-=> 'Vaupes',
-   
-##### v31
-=> 'Vichada',
-   
-##### v32
-=> 'Casanare',
-   
-##### v33
-=> 'Cundinamarca',
-   
-##### v34
-=> 'Distrito Especial',
-   
-##### v35
-=> 'Bolivar',
-   
-##### v36
-=> 'Boyaca',
-   
-##### v37
-=> 'Caldas',
-   
-##### v38
-=> 'Magdalena',
+    10 => 'Cesar',
+    11 => 'Choco',
+    12 => 'Cordoba',
+    14 => 'Guaviare',
+    15 => 'Guainia',
+    16 => 'Huila',
+    17 => 'La Guajira',
+    19 => 'Meta',
+    20 => 'Narino',
+    21 => 'Norte de Santander',
+    22 => 'Putumayo',
+    23 => 'Quindio',
+    24 => 'Risaralda',
+    25 => 'San Andres y Providencia',
+    26 => 'Santander',
+    27 => 'Sucre',
+    28 => 'Tolima',
+    29 => 'Valle del Cauca',
+    30 => 'Vaupes',
+    31 => 'Vichada',
+    32 => 'Casanare',
+    33 => 'Cundinamarca',
+    34 => 'Distrito Especial',
+    35 => 'Bolivar',
+    36 => 'Boyaca',
+    37 => 'Caldas',
+    38 => 'Magdalena',
   ),
   'CR' => 
   array (
@@ -1639,27 +799,13 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Ciego de Avila',
     '08' => 'Cienfuegos',
     '09' => 'Granma',
-   
-##### v10
-=> 'Guantanamo',
-   
-##### v11
-=> 'La Habana',
-   
-##### v12
-=> 'Holguin',
-   
-##### v13
-=> 'Las Tunas',
-   
-##### v14
-=> 'Sancti Spiritus',
-   
-##### v15
-=> 'Santiago de Cuba',
-   
-##### v16
-=> 'Villa Clara',
+    10 => 'Guantanamo',
+    11 => 'La Habana',
+    12 => 'Holguin',
+    13 => 'Las Tunas',
+    14 => 'Sancti Spiritus',
+    15 => 'Santiago de Cuba',
+    16 => 'Villa Clara',
   ),
   'CV' => 
   array (
@@ -1669,36 +815,16 @@ $GEOIP_REGION_NAME = array (
     '05' => 'Paul',
     '07' => 'Ribeira Grande',
     '08' => 'Sal',
-   
-##### v10
-=> 'Sao Nicolau',
-   
-##### v11
-=> 'Sao Vicente',
-   
-##### v13
-=> 'Mosteiros',
-   
-##### v14
-=> 'Praia',
-   
-##### v15
-=> 'Santa Catarina',
-   
-##### v16
-=> 'Santa Cruz',
-   
-##### v17
-=> 'Sao Domingos',
-   
-##### v18
-=> 'Sao Filipe',
-   
-##### v19
-=> 'Sao Miguel',
-   
-##### v20
-=> 'Tarrafal',
+    10 => 'Sao Nicolau',
+    11 => 'Sao Vicente',
+    13 => 'Mosteiros',
+    14 => 'Praia',
+    15 => 'Santa Catarina',
+    16 => 'Santa Cruz',
+    17 => 'Sao Domingos',
+    18 => 'Sao Filipe',
+    19 => 'Sao Miguel',
+    20 => 'Tarrafal',
   ),
   'CY' => 
   array (
@@ -1711,48 +837,20 @@ $GEOIP_REGION_NAME = array (
   ),
   'CZ' => 
   array (
-   
-##### v52
-=> 'Hlavni mesto Praha',
-   
-##### v78
-=> 'Jihomoravsky kraj',
-   
-##### v79
-=> 'Jihocesky kraj',
-   
-##### v80
-=> 'Vysocina',
-   
-##### v81
-=> 'Karlovarsky kraj',
-   
-##### v82
-=> 'Kralovehradecky kraj',
-   
-##### v83
-=> 'Liberecky kraj',
-   
-##### v84
-=> 'Olomoucky kraj',
-   
-##### v85
-=> 'Moravskoslezsky kraj',
-   
-##### v86
-=> 'Pardubicky kraj',
-   
-##### v87
-=> 'Plzensky kraj',
-   
-##### v88
-=> 'Stredocesky kraj',
-   
-##### v89
-=> 'Ustecky kraj',
-   
-##### v90
-=> 'Zlinsky kraj',
+    52 => 'Hlavni mesto Praha',
+    78 => 'Jihomoravsky kraj',
+    79 => 'Jihocesky kraj',
+    80 => 'Vysocina',
+    81 => 'Karlovarsky kraj',
+    82 => 'Kralovehradecky kraj',
+    83 => 'Liberecky kraj',
+    84 => 'Olomoucky kraj',
+    85 => 'Moravskoslezsky kraj',
+    86 => 'Pardubicky kraj',
+    87 => 'Plzensky kraj',
+    88 => 'Stredocesky kraj',
+    89 => 'Ustecky kraj',
+    90 => 'Zlinsky kraj',
   ),
   'DE' => 
   array (
@@ -1765,27 +863,13 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Nordrhein-Westfalen',
     '08' => 'Rheinland-Pfalz',
     '09' => 'Saarland',
-   
-##### v10
-=> 'Schleswig-Holstein',
-   
-##### v11
-=> 'Brandenburg',
-   
-##### v12
-=> 'Mecklenburg-Vorpommern',
-   
-##### v13
-=> 'Sachsen',
-   
-##### v14
-=> 'Sachsen-Anhalt',
-   
-##### v15
-=> 'Thuringen',
-   
-##### v16
-=> 'Berlin',
+    10 => 'Schleswig-Holstein',
+    11 => 'Brandenburg',
+    12 => 'Mecklenburg-Vorpommern',
+    13 => 'Sachsen',
+    14 => 'Sachsen-Anhalt',
+    15 => 'Thuringen',
+    16 => 'Berlin',
   ),
   'DJ' => 
   array (
@@ -1798,21 +882,11 @@ $GEOIP_REGION_NAME = array (
   ),
   'DK' => 
   array (
-   
-##### v17
-=> 'Hovedstaden',
-   
-##### v18
-=> 'Midtjylland',
-   
-##### v19
-=> 'Nordjylland',
-   
-##### v20
-=> 'Sjelland',
-   
-##### v21
-=> 'Syddanmark',
+    17 => 'Hovedstaden',
+    18 => 'Midtjylland',
+    19 => 'Nordjylland',
+    20 => 'Sjelland',
+    21 => 'Syddanmark',
   ),
   'DM' => 
   array (
@@ -1824,12 +898,8 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Saint Luke',
     '08' => 'Saint Mark',
     '09' => 'Saint Patrick',
-   
-##### v10
-=> 'Saint Paul',
-   
-##### v11
-=> 'Saint Peter',
+    10 => 'Saint Paul',
+    11 => 'Saint Peter',
   ),
   'DO' => 
   array (
@@ -1837,84 +907,34 @@ $GEOIP_REGION_NAME = array (
     '02' => 'Baoruco',
     '03' => 'Barahona',
     '04' => 'Dajabon',
-   
-##### v34
-=> 'Distrito Nacional',
+    34 => 'Distrito Nacional',
     '06' => 'Duarte',
     '08' => 'Espaillat',
     '09' => 'Independencia',
-   
-##### v10
-=> 'La Altagracia',
-   
-##### v11
-=> 'Elias Pina',
-   
-##### v12
-=> 'La Romana',
-   
-##### v14
-=> 'Maria Trinidad Sanchez',
-   
-##### v15
-=> 'Monte Cristi',
-   
-##### v16
-=> 'Pedernales',
-   
-##### v35
-=> 'Peravia',
-   
-##### v18
-=> 'Puerto Plata',
-   
-##### v19
-=> 'Salcedo',
-   
-##### v20
-=> 'Samana',
-   
-##### v21
-=> 'Sanchez Ramirez',
-   
-##### v23
-=> 'San Juan',
-   
-##### v24
-=> 'San Pedro De Macoris',
-   
-##### v25
-=> 'Santiago',
-   
-##### v26
-=> 'Santiago Rodriguez',
-   
-##### v27
-=> 'Valverde',
-   
-##### v28
-=> 'El Seibo',
-   
-##### v29
-=> 'Hato Mayor',
-   
-##### v30
-=> 'La Vega',
-   
-##### v31
-=> 'Monsenor Nouel',
-   
-##### v32
-=> 'Monte Plata',
-   
-##### v33
-=> 'San Cristobal',
-   
-##### v36
-=> 'San Jose de Ocoa',
-   
-##### v37
-=> 'Santo Domingo',
+    10 => 'La Altagracia',
+    11 => 'Elias Pina',
+    12 => 'La Romana',
+    14 => 'Maria Trinidad Sanchez',
+    15 => 'Monte Cristi',
+    16 => 'Pedernales',
+    35 => 'Peravia',
+    18 => 'Puerto Plata',
+    19 => 'Salcedo',
+    20 => 'Samana',
+    21 => 'Sanchez Ramirez',
+    23 => 'San Juan',
+    24 => 'San Pedro De Macoris',
+    25 => 'Santiago',
+    26 => 'Santiago Rodriguez',
+    27 => 'Valverde',
+    28 => 'El Seibo',
+    29 => 'Hato Mayor',
+    30 => 'La Vega',
+    31 => 'Monsenor Nouel',
+    32 => 'Monte Plata',
+    33 => 'San Cristobal',
+    36 => 'San Jose de Ocoa',
+    37 => 'Santo Domingo',
   ),
   'DZ' => 
   array (
@@ -1924,132 +944,48 @@ $GEOIP_REGION_NAME = array (
     '06' => 'Medea',
     '07' => 'Mostaganem',
     '09' => 'Oran',
-   
-##### v10
-=> 'Saida',
-   
-##### v12
-=> 'Setif',
-   
-##### v13
-=> 'Tiaret',
-   
-##### v14
-=> 'Tizi Ouzou',
-   
-##### v15
-=> 'Tlemcen',
-   
-##### v18
-=> 'Bejaia',
-   
-##### v19
-=> 'Biskra',
-   
-##### v20
-=> 'Blida',
-   
-##### v21
-=> 'Bouira',
-   
-##### v22
-=> 'Djelfa',
-   
-##### v23
-=> 'Guelma',
-   
-##### v24
-=> 'Jijel',
-   
-##### v25
-=> 'Laghouat',
-   
-##### v26
-=> 'Mascara',
-   
-##### v27
-=> 'M\'sila',
-   
-##### v29
-=> 'Oum el Bouaghi',
-   
-##### v30
-=> 'Sidi Bel Abbes',
-   
-##### v31
-=> 'Skikda',
-   
-##### v33
-=> 'Tebessa',
-   
-##### v34
-=> 'Adrar',
-   
-##### v35
-=> 'Ain Defla',
-   
-##### v36
-=> 'Ain Temouchent',
-   
-##### v37
-=> 'Annaba',
-   
-##### v38
-=> 'Bechar',
-   
-##### v39
-=> 'Bordj Bou Arreridj',
-   
-##### v40
-=> 'Boumerdes',
-   
-##### v41
-=> 'Chlef',
-   
-##### v42
-=> 'El Bayadh',
-   
-##### v43
-=> 'El Oued',
-   
-##### v44
-=> 'El Tarf',
-   
-##### v45
-=> 'Ghardaia',
-   
-##### v46
-=> 'Illizi',
-   
-##### v47
-=> 'Khenchela',
-   
-##### v48
-=> 'Mila',
-   
-##### v49
-=> 'Naama',
-   
-##### v50
-=> 'Ouargla',
-   
-##### v51
-=> 'Relizane',
-   
-##### v52
-=> 'Souk Ahras',
-   
-##### v53
-=> 'Tamanghasset',
-   
-##### v54
-=> 'Tindouf',
-   
-##### v55
-=> 'Tipaza',
-   
-##### v56
-=> 'Tissemsilt',
+    10 => 'Saida',
+    12 => 'Setif',
+    13 => 'Tiaret',
+    14 => 'Tizi Ouzou',
+    15 => 'Tlemcen',
+    18 => 'Bejaia',
+    19 => 'Biskra',
+    20 => 'Blida',
+    21 => 'Bouira',
+    22 => 'Djelfa',
+    23 => 'Guelma',
+    24 => 'Jijel',
+    25 => 'Laghouat',
+    26 => 'Mascara',
+    27 => 'M\'sila',
+    29 => 'Oum el Bouaghi',
+    30 => 'Sidi Bel Abbes',
+    31 => 'Skikda',
+    33 => 'Tebessa',
+    34 => 'Adrar',
+    35 => 'Ain Defla',
+    36 => 'Ain Temouchent',
+    37 => 'Annaba',
+    38 => 'Bechar',
+    39 => 'Bordj Bou Arreridj',
+    40 => 'Boumerdes',
+    41 => 'Chlef',
+    42 => 'El Bayadh',
+    43 => 'El Oued',
+    44 => 'El Tarf',
+    45 => 'Ghardaia',
+    46 => 'Illizi',
+    47 => 'Khenchela',
+    48 => 'Mila',
+    49 => 'Naama',
+    50 => 'Ouargla',
+    51 => 'Relizane',
+    52 => 'Souk Ahras',
+    53 => 'Tamanghasset',
+    54 => 'Tindouf',
+    55 => 'Tipaza',
+    56 => 'Tissemsilt',
   ),
   'EC' => 
   array (
@@ -2062,45 +998,19 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Cotopaxi',
     '08' => 'El Oro',
     '09' => 'Esmeraldas',
-   
-##### v10
-=> 'Guayas',
-   
-##### v11
-=> 'Imbabura',
-   
-##### v12
-=> 'Loja',
-   
-##### v13
-=> 'Los Rios',
-   
-##### v14
-=> 'Manabi',
-   
-##### v15
-=> 'Morona-Santiago',
-   
-##### v17
-=> 'Pastaza',
-   
-##### v18
-=> 'Pichincha',
-   
-##### v19
-=> 'Tungurahua',
-   
-##### v20
-=> 'Zamora-Chinchipe',
-   
-##### v22
-=> 'Sucumbios',
-   
-##### v23
-=> 'Napo',
-   
-##### v24
-=> 'Orellana',
+    10 => 'Guayas',
+    11 => 'Imbabura',
+    12 => 'Loja',
+    13 => 'Los Rios',
+    14 => 'Manabi',
+    15 => 'Morona-Santiago',
+    17 => 'Pastaza',
+    18 => 'Pichincha',
+    19 => 'Tungurahua',
+    20 => 'Zamora-Chinchipe',
+    22 => 'Sucumbios',
+    23 => 'Napo',
+    24 => 'Orellana',
   ),
   'EE' => 
   array (
@@ -2113,42 +1023,18 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Laanemaa',
     '08' => 'Laane-Virumaa',
     '09' => 'Narva',
-   
-##### v10
-=> 'Parnu',
-   
-##### v11
-=> 'Parnumaa',
-   
-##### v12
-=> 'Polvamaa',
-   
-##### v13
-=> 'Raplamaa',
-   
-##### v14
-=> 'Saaremaa',
-   
-##### v15
-=> 'Sillamae',
-   
-##### v16
-=> 'Tallinn',
-   
-##### v17
-=> 'Tartu',
-   
-##### v18
-=> 'Tartumaa',
-   
-##### v19
-=> 'Valgamaa',
-   
-##### v20
-=> 'Viljandimaa',
-   
-##### v21
-=> 'Vorumaa',
+    10 => 'Parnu',
+    11 => 'Parnumaa',
+    12 => 'Polvamaa',
+    13 => 'Raplamaa',
+    14 => 'Saaremaa',
+    15 => 'Sillamae',
+    16 => 'Tallinn',
+    17 => 'Tartu',
+    18 => 'Tartumaa',
+    19 => 'Valgamaa',
+    20 => 'Viljandimaa',
+    21 => 'Vorumaa',
   ),
   'EG' => 
   array (
@@ -2161,57 +1047,23 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Al Isma\'iliyah',
     '08' => 'Al Jizah',
     '09' => 'Al Minufiyah',
-   
-##### v10
-=> 'Al Minya',
-   
-##### v11
-=> 'Al Qahirah',
-   
-##### v12
-=> 'Al Qalyubiyah',
-   
-##### v13
-=> 'Al Wadi al Jadid',
-   
-##### v14
-=> 'Ash Sharqiyah',
-   
-##### v15
-=> 'As Suways',
-   
-##### v16
-=> 'Aswan',
-   
-##### v17
-=> 'Asyut',
-   
-##### v18
-=> 'Bani Suwayf',
-   
-##### v19
-=> 'Bur Sa\'id',
-   
-##### v20
-=> 'Dumyat',
-   
-##### v21
-=> 'Kafr ash Shaykh',
-   
-##### v22
-=> 'Matruh',
-   
-##### v23
-=> 'Qina',
-   
-##### v24
-=> 'Suhaj',
-   
-##### v26
-=> 'Janub Sina\'',
-   
-##### v27
-=> 'Shamal Sina\'',
+    10 => 'Al Minya',
+    11 => 'Al Qahirah',
+    12 => 'Al Qalyubiyah',
+    13 => 'Al Wadi al Jadid',
+    14 => 'Ash Sharqiyah',
+    15 => 'As Suways',
+    16 => 'Aswan',
+    17 => 'Asyut',
+    18 => 'Bani Suwayf',
+    19 => 'Bur Sa\'id',
+    20 => 'Dumyat',
+    21 => 'Kafr ash Shaykh',
+    22 => 'Matruh',
+    23 => 'Qina',
+    24 => 'Suhaj',
+    26 => 'Janub Sina\'',
+    27 => 'Shamal Sina\'',
   ),
   'ER' => 
   array (
@@ -2225,105 +1077,45 @@ $GEOIP_REGION_NAME = array (
   'ES' => 
   array (
     '07' => 'Islas Baleares',
-   
-##### v27
-=> 'La Rioja',
-   
-##### v29
-=> 'Madrid',
-   
-##### v31
-=> 'Murcia',
-   
-##### v32
-=> 'Navarra',
-   
-##### v34
-=> 'Asturias',
-   
-##### v39
-=> 'Cantabria',
-   
-##### v51
-=> 'Andalucia',
-   
-##### v52
-=> 'Aragon',
-   
-##### v53
-=> 'Canarias',
-   
-##### v54
-=> 'Castilla-La Mancha',
-   
-##### v55
-=> 'Castilla y Leon',
-   
-##### v56
-=> 'Catalonia',
-   
-##### v57
-=> 'Extremadura',
-   
-##### v58
-=> 'Galicia',
-   
-##### v59
-=> 'Pais Vasco',
-   
-##### v60
-=> 'Comunidad Valenciana',
+    27 => 'La Rioja',
+    29 => 'Madrid',
+    31 => 'Murcia',
+    32 => 'Navarra',
+    34 => 'Asturias',
+    39 => 'Cantabria',
+    51 => 'Andalucia',
+    52 => 'Aragon',
+    53 => 'Canarias',
+    54 => 'Castilla-La Mancha',
+    55 => 'Castilla y Leon',
+    56 => 'Catalonia',
+    57 => 'Extremadura',
+    58 => 'Galicia',
+    59 => 'Pais Vasco',
+    60 => 'Comunidad Valenciana',
   ),
   'ET' => 
   array (
-   
-##### v44
-=> 'Adis Abeba',
-   
-##### v45
-=> 'Afar',
-   
-##### v46
-=> 'Amara',
-   
-##### v47
-=> 'Binshangul Gumuz',
-   
-##### v48
-=> 'Dire Dawa',
-   
-##### v49
-=> 'Gambela Hizboch',
-   
-##### v50
-=> 'Hareri Hizb',
-   
-##### v51
-=> 'Oromiya',
-   
-##### v52
-=> 'Sumale',
-   
-##### v53
-=> 'Tigray',
-   
-##### v54
-=> 'YeDebub Biheroch Bihereseboch na Hizboch',
+    44 => 'Adis Abeba',
+    45 => 'Afar',
+    46 => 'Amara',
+    47 => 'Binshangul Gumuz',
+    48 => 'Dire Dawa',
+    49 => 'Gambela Hizboch',
+    50 => 'Hareri Hizb',
+    51 => 'Oromiya',
+    52 => 'Sumale',
+    53 => 'Tigray',
+    54 => 'YeDebub Biheroch Bihereseboch na Hizboch',
   ),
   'FI' => 
   array (
     '01' => 'Aland',
     '06' => 'Lapland',
     '08' => 'Oulu',
-   
-##### v13
-=> 'Southern Finland',
-   
-##### v14
-=> 'Eastern Finland',
-   
-##### v15
-=> 'Western Finland',
+    13 => 'Southern Finland',
+    14 => 'Eastern Finland',
+    15 => 'Western Finland',
   ),
   'FJ' => 
   array (
@@ -2342,15 +1134,9 @@ $GEOIP_REGION_NAME = array (
   ),
   'FR' => 
   array (
-   
-##### v97
-=> 'Aquitaine',
-   
-##### v98
-=> 'Auvergne',
-   
-##### v99
-=> 'Basse-Normandie',
+    97 => 'Aquitaine',
+    98 => 'Auvergne',
+    99 => 'Basse-Normandie',
     'A1' => 'Bourgogne',
     'A2' => 'Bretagne',
     'A3' => 'Centre',
@@ -2639,171 +1425,61 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Akhalts\'ikhis Raioni',
     '08' => 'Akhmetis Raioni',
     '09' => 'Ambrolauris Raioni',
-   
-##### v10
-=> 'Aspindzis Raioni',
-   
-##### v11
-=> 'Baghdat\'is Raioni',
-   
-##### v12
-=> 'Bolnisis Raioni',
-   
-##### v13
-=> 'Borjomis Raioni',
-   
-##### v14
-=> 'Chiat\'ura',
-   
-##### v15
-=> 'Ch\'khorotsqus Raioni',
-   
-##### v16
-=> 'Ch\'okhatauris Raioni',
-   
-##### v17
-=> 'Dedop\'listsqaros Raioni',
-   
-##### v18
-=> 'Dmanisis Raioni',
-   
-##### v19
-=> 'Dushet\'is Raioni',
-   
-##### v20
-=> 'Gardabanis Raioni',
-   
-##### v21
-=> 'Gori',
-   
-##### v22
-=> 'Goris Raioni',
-   
-##### v23
-=> 'Gurjaanis Raioni',
-   
-##### v24
-=> 'Javis Raioni',
-   
-##### v25
-=> 'K\'arelis Raioni',
-   
-##### v26
-=> 'Kaspis Raioni',
-   
-##### v27
-=> 'Kharagaulis Raioni',
-   
-##### v28
-=> 'Khashuris Raioni',
-   
-##### v29
-=> 'Khobis Raioni',
-   
-##### v30
-=> 'Khonis Raioni',
-   
-##### v31
-=> 'K\'ut\'aisi',
-   
-##### v32
-=> 'Lagodekhis Raioni',
-   
-##### v33
-=> 'Lanch\'khut\'is Raioni',
-   
-##### v34
-=> 'Lentekhis Raioni',
-   
-##### v35
-=> 'Marneulis Raioni',
-   
-##### v36
-=> 'Martvilis Raioni',
-   
-##### v37
-=> 'Mestiis Raioni',
-   
-##### v38
-=> 'Mts\'khet\'is Raioni',
-   
-##### v39
-=> 'Ninotsmindis Raioni',
-   
-##### v40
-=> 'Onis Raioni',
-   
-##### v41
-=> 'Ozurget\'is Raioni',
-   
-##### v42
-=> 'P\'ot\'i',
-   
-##### v43
-=> 'Qazbegis Raioni',
-   
-##### v44
-=> 'Qvarlis Raioni',
-   
-##### v45
-=> 'Rust\'avi',
-   
-##### v46
-=> 'Sach\'kheris Raioni',
-   
-##### v47
-=> 'Sagarejos Raioni',
-   
-##### v48
-=> 'Samtrediis Raioni',
-   
-##### v49
-=> 'Senakis Raioni',
-   
-##### v50
-=> 'Sighnaghis Raioni',
-   
-##### v51
-=> 'T\'bilisi',
-   
-##### v52
-=> 'T\'elavis Raioni',
-   
-##### v53
-=> 'T\'erjolis Raioni',
-   
-##### v54
-=> 'T\'et\'ritsqaros Raioni',
-   
-##### v55
-=> 'T\'ianet\'is Raioni',
-   
-##### v56
-=> 'Tqibuli',
-   
-##### v57
-=> 'Ts\'ageris Raioni',
-   
-##### v58
-=> 'Tsalenjikhis Raioni',
-   
-##### v59
-=> 'Tsalkis Raioni',
-   
-##### v60
-=> 'Tsqaltubo',
-   
-##### v61
-=> 'Vanis Raioni',
-   
-##### v62
-=> 'Zestap\'onis Raioni',
-   
-##### v63
-=> 'Zugdidi',
-   
-##### v64
-=> 'Zugdidis Raioni',
+    10 => 'Aspindzis Raioni',
+    11 => 'Baghdat\'is Raioni',
+    12 => 'Bolnisis Raioni',
+    13 => 'Borjomis Raioni',
+    14 => 'Chiat\'ura',
+    15 => 'Ch\'khorotsqus Raioni',
+    16 => 'Ch\'okhatauris Raioni',
+    17 => 'Dedop\'listsqaros Raioni',
+    18 => 'Dmanisis Raioni',
+    19 => 'Dushet\'is Raioni',
+    20 => 'Gardabanis Raioni',
+    21 => 'Gori',
+    22 => 'Goris Raioni',
+    23 => 'Gurjaanis Raioni',
+    24 => 'Javis Raioni',
+    25 => 'K\'arelis Raioni',
+    26 => 'Kaspis Raioni',
+    27 => 'Kharagaulis Raioni',
+    28 => 'Khashuris Raioni',
+    29 => 'Khobis Raioni',
+    30 => 'Khonis Raioni',
+    31 => 'K\'ut\'aisi',
+    32 => 'Lagodekhis Raioni',
+    33 => 'Lanch\'khut\'is Raioni',
+    34 => 'Lentekhis Raioni',
+    35 => 'Marneulis Raioni',
+    36 => 'Martvilis Raioni',
+    37 => 'Mestiis Raioni',
+    38 => 'Mts\'khet\'is Raioni',
+    39 => 'Ninotsmindis Raioni',
+    40 => 'Onis Raioni',
+    41 => 'Ozurget\'is Raioni',
+    42 => 'P\'ot\'i',
+    43 => 'Qazbegis Raioni',
+    44 => 'Qvarlis Raioni',
+    45 => 'Rust\'avi',
+    46 => 'Sach\'kheris Raioni',
+    47 => 'Sagarejos Raioni',
+    48 => 'Samtrediis Raioni',
+    49 => 'Senakis Raioni',
+    50 => 'Sighnaghis Raioni',
+    51 => 'T\'bilisi',
+    52 => 'T\'elavis Raioni',
+    53 => 'T\'erjolis Raioni',
+    54 => 'T\'et\'ritsqaros Raioni',
+    55 => 'T\'ianet\'is Raioni',
+    56 => 'Tqibuli',
+    57 => 'Ts\'ageris Raioni',
+    58 => 'Tsalenjikhis Raioni',
+    59 => 'Tsalkis Raioni',
+    60 => 'Tsqaltubo',
+    61 => 'Vanis Raioni',
+    62 => 'Zestap\'onis Raioni',
+    63 => 'Zugdidi',
+    64 => 'Zugdidis Raioni',
   ),
   'GH' => 
   array (
@@ -2815,12 +1491,8 @@ $GEOIP_REGION_NAME = array (
     '06' => 'Northern',
     '08' => 'Volta',
     '09' => 'Western',
-   
-##### v10
-=> 'Upper East',
-   
-##### v11
-=> 'Upper West',
+    10 => 'Upper East',
+    11 => 'Upper West',
   ),
   'GL' => 
   array (
@@ -2847,84 +1519,32 @@ $GEOIP_REGION_NAME = array (
     '06' => 'Dalaba',
     '07' => 'Dinguiraye',
     '09' => 'Faranah',
-   
-##### v10
-=> 'Forecariah',
-   
-##### v11
-=> 'Fria',
-   
-##### v12
-=> 'Gaoual',
-   
-##### v13
-=> 'Gueckedou',
-   
-##### v15
-=> 'Kerouane',
-   
-##### v16
-=> 'Kindia',
-   
-##### v17
-=> 'Kissidougou',
-   
-##### v18
-=> 'Koundara',
-   
-##### v19
-=> 'Kouroussa',
-   
-##### v21
-=> 'Macenta',
-   
-##### v22
-=> 'Mali',
-   
-##### v23
-=> 'Mamou',
-   
-##### v25
-=> 'Pita',
-   
-##### v27
-=> 'Telimele',
-   
-##### v28
-=> 'Tougue',
-   
-##### v29
-=> 'Yomou',
-   
-##### v30
-=> 'Coyah',
-   
-##### v31
-=> 'Dubreka',
-   
-##### v32
-=> 'Kankan',
-   
-##### v33
-=> 'Koubia',
-   
-##### v34
-=> 'Labe',
-   
-##### v35
-=> 'Lelouma',
-   
-##### v36
-=> 'Lola',
-   
-##### v37
-=> 'Mandiana',
-   
-##### v38
-=> 'Nzerekore',
-   
-##### v39
-=> 'Siguiri',
+    10 => 'Forecariah',
+    11 => 'Fria',
+    12 => 'Gaoual',
+    13 => 'Gueckedou',
+    15 => 'Kerouane',
+    16 => 'Kindia',
+    17 => 'Kissidougou',
+    18 => 'Koundara',
+    19 => 'Kouroussa',
+    21 => 'Macenta',
+    22 => 'Mali',
+    23 => 'Mamou',
+    25 => 'Pita',
+    27 => 'Telimele',
+    28 => 'Tougue',
+    29 => 'Yomou',
+    30 => 'Coyah',
+    31 => 'Dubreka',
+    32 => 'Kankan',
+    33 => 'Koubia',
+    34 => 'Labe',
+    35 => 'Lelouma',
+    36 => 'Lola',
+    37 => 'Mandiana',
+    38 => 'Nzerekore',
+    39 => 'Siguiri',
   ),
   'GQ' => 
   array (
@@ -2947,132 +1567,48 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Pella',
     '08' => 'Florina',
     '09' => 'Kastoria',
-   
-##### v10
-=> 'Grevena',
-   
-##### v11
-=> 'Kozani',
-   
-##### v12
-=> 'Imathia',
-   
-##### v13
-=> 'Thessaloniki',
-   
-##### v14
-=> 'Kavala',
-   
-##### v15
-=> 'Khalkidhiki',
-   
-##### v16
-=> 'Pieria',
-   
-##### v17
-=> 'Ioannina',
-   
-##### v18
-=> 'Thesprotia',
-   
-##### v19
-=> 'Preveza',
-   
-##### v20
-=> 'Arta',
-   
-##### v21
-=> 'Larisa',
-   
-##### v22
-=> 'Trikala',
-   
-##### v23
-=> 'Kardhitsa',
-   
-##### v24
-=> 'Magnisia',
-   
-##### v25
-=> 'Kerkira',
-   
-##### v26
-=> 'Levkas',
-   
-##### v27
-=> 'Kefallinia',
-   
-##### v28
-=> 'Zakinthos',
-   
-##### v29
-=> 'Fthiotis',
-   
-##### v30
-=> 'Evritania',
-   
-##### v31
-=> 'Aitolia kai Akarnania',
-   
-##### v32
-=> 'Fokis',
-   
-##### v33
-=> 'Voiotia',
-   
-##### v34
-=> 'Evvoia',
-   
-##### v35
-=> 'Attiki',
-   
-##### v36
-=> 'Argolis',
-   
-##### v37
-=> 'Korinthia',
-   
-##### v38
-=> 'Akhaia',
-   
-##### v39
-=> 'Ilia',
-   
-##### v40
-=> 'Messinia',
-   
-##### v41
-=> 'Arkadhia',
-   
-##### v42
-=> 'Lakonia',
-   
-##### v43
-=> 'Khania',
-   
-##### v44
-=> 'Rethimni',
-   
-##### v45
-=> 'Iraklion',
-   
-##### v46
-=> 'Lasithi',
-   
-##### v47
-=> 'Dhodhekanisos',
-   
-##### v48
-=> 'Samos',
-   
-##### v49
-=> 'Kikladhes',
-   
-##### v50
-=> 'Khios',
-   
-##### v51
-=> 'Lesvos',
+    10 => 'Grevena',
+    11 => 'Kozani',
+    12 => 'Imathia',
+    13 => 'Thessaloniki',
+    14 => 'Kavala',
+    15 => 'Khalkidhiki',
+    16 => 'Pieria',
+    17 => 'Ioannina',
+    18 => 'Thesprotia',
+    19 => 'Preveza',
+    20 => 'Arta',
+    21 => 'Larisa',
+    22 => 'Trikala',
+    23 => 'Kardhitsa',
+    24 => 'Magnisia',
+    25 => 'Kerkira',
+    26 => 'Levkas',
+    27 => 'Kefallinia',
+    28 => 'Zakinthos',
+    29 => 'Fthiotis',
+    30 => 'Evritania',
+    31 => 'Aitolia kai Akarnania',
+    32 => 'Fokis',
+    33 => 'Voiotia',
+    34 => 'Evvoia',
+    35 => 'Attiki',
+    36 => 'Argolis',
+    37 => 'Korinthia',
+    38 => 'Akhaia',
+    39 => 'Ilia',
+    40 => 'Messinia',
+    41 => 'Arkadhia',
+    42 => 'Lakonia',
+    43 => 'Khania',
+    44 => 'Rethimni',
+    45 => 'Iraklion',
+    46 => 'Lasithi',
+    47 => 'Dhodhekanisos',
+    48 => 'Samos',
+    49 => 'Kikladhes',
+    50 => 'Khios',
+    51 => 'Lesvos',
   ),
   'GT' => 
   array (
@@ -3085,45 +1621,19 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Guatemala',
     '08' => 'Huehuetenango',
     '09' => 'Izabal',
-   
-##### v10
-=> 'Jalapa',
-   
-##### v11
-=> 'Jutiapa',
-   
-##### v12
-=> 'Peten',
-   
-##### v13
-=> 'Quetzaltenango',
-   
-##### v14
-=> 'Quiche',
-   
-##### v15
-=> 'Retalhuleu',
-   
-##### v16
-=> 'Sacatepequez',
-   
-##### v17
-=> 'San Marcos',
-   
-##### v18
-=> 'Santa Rosa',
-   
-##### v19
-=> 'Solola',
-   
-##### v20
-=> 'Suchitepequez',
-   
-##### v21
-=> 'Totonicapan',
-   
-##### v22
-=> 'Zacapa',
+    10 => 'Jalapa',
+    11 => 'Jutiapa',
+    12 => 'Peten',
+    13 => 'Quetzaltenango',
+    14 => 'Quiche',
+    15 => 'Retalhuleu',
+    16 => 'Sacatepequez',
+    17 => 'San Marcos',
+    18 => 'Santa Rosa',
+    19 => 'Solola',
+    20 => 'Suchitepequez',
+    21 => 'Totonicapan',
+    22 => 'Zacapa',
   ),
   'GW' => 
   array (
@@ -3133,48 +1643,22 @@ $GEOIP_REGION_NAME = array (
     '05' => 'Bolama',
     '06' => 'Cacheu',
     '07' => 'Tombali',
-   
-##### v10
-=> 'Gabu',
-   
-##### v11
-=> 'Bissau',
-   
-##### v12
-=> 'Biombo',
+    10 => 'Gabu',
+    11 => 'Bissau',
+    12 => 'Biombo',
   ),
   'GY' => 
   array (
-   
-##### v10
-=> 'Barima-Waini',
-   
-##### v11
-=> 'Cuyuni-Mazaruni',
-   
-##### v12
-=> 'Demerara-Mahaica',
-   
-##### v13
-=> 'East Berbice-Corentyne',
-   
-##### v14
-=> 'Essequibo Islands-West Demerara',
-   
-##### v15
-=> 'Mahaica-Berbice',
-   
-##### v16
-=> 'Pomeroon-Supenaam',
-   
-##### v17
-=> 'Potaro-Siparuni',
-   
-##### v18
-=> 'Upper Demerara-Berbice',
-   
-##### v19
-=> 'Upper Takutu-Upper Essequibo',
+    10 => 'Barima-Waini',
+    11 => 'Cuyuni-Mazaruni',
+    12 => 'Demerara-Mahaica',
+    13 => 'East Berbice-Corentyne',
+    14 => 'Essequibo Islands-West Demerara',
+    15 => 'Mahaica-Berbice',
+    16 => 'Pomeroon-Supenaam',
+    17 => 'Potaro-Siparuni',
+    18 => 'Upper Demerara-Berbice',
+    19 => 'Upper Takutu-Upper Essequibo',
   ),
   'HN' => 
   array (
@@ -3187,33 +1671,15 @@ $GEOIP_REGION_NAME = array (
     '07' => 'El Paraiso',
     '08' => 'Francisco Morazan',
     '09' => 'Gracias a Dios',
-   
-##### v10
-=> 'Intibuca',
-   
-##### v11
-=> 'Islas de la Bahia',
-   
-##### v12
-=> 'La Paz',
-   
-##### v13
-=> 'Lempira',
-   
-##### v14
-=> 'Ocotepeque',
-   
-##### v15
-=> 'Olancho',
-   
-##### v16
-=> 'Santa Barbara',
-   
-##### v17
-=> 'Valle',
-   
-##### v18
-=> 'Yoro',
+    10 => 'Intibuca',
+    11 => 'Islas de la Bahia',
+    12 => 'La Paz',
+    13 => 'Lempira',
+    14 => 'Ocotepeque',
+    15 => 'Olancho',
+    16 => 'Santa Barbara',
+    17 => 'Valle',
+    18 => 'Yoro',
   ),
   'HR' => 
   array (
@@ -3226,42 +1692,18 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Krapinsko-Zagorska',
     '08' => 'Licko-Senjska',
     '09' => 'Medimurska',
-   
-##### v10
-=> 'Osjecko-Baranjska',
-   
-##### v11
-=> 'Pozesko-Slavonska',
-   
-##### v12
-=> 'Primorsko-Goranska',
-   
-##### v13
-=> 'Sibensko-Kninska',
-   
-##### v14
-=> 'Sisacko-Moslavacka',
-   
-##### v15
-=> 'Splitsko-Dalmatinska',
-   
-##### v16
-=> 'Varazdinska',
-   
-##### v17
-=> 'Viroviticko-Podravska',
-   
-##### v18
-=> 'Vukovarsko-Srijemska',
-   
-##### v19
-=> 'Zadarska',
-   
-##### v20
-=> 'Zagrebacka',
-   
-##### v21
-=> 'Grad Zagreb',
+    10 => 'Osjecko-Baranjska',
+    11 => 'Pozesko-Slavonska',
+    12 => 'Primorsko-Goranska',
+    13 => 'Sibensko-Kninska',
+    14 => 'Sisacko-Moslavacka',
+    15 => 'Splitsko-Dalmatinska',
+    16 => 'Varazdinska',
+    17 => 'Viroviticko-Podravska',
+    18 => 'Vukovarsko-Srijemska',
+    19 => 'Zadarska',
+    20 => 'Zagrebacka',
+    21 => 'Grad Zagreb',
   ),
   'HT' => 
   array (
@@ -3269,24 +1711,12 @@ $GEOIP_REGION_NAME = array (
     '06' => 'Artibonite',
     '07' => 'Centre',
     '09' => 'Nord',
-   
-##### v10
-=> 'Nord-Est',
-   
-##### v11
-=> 'Ouest',
-   
-##### v12
-=> 'Sud',
-   
-##### v13
-=> 'Sud-Est',
-   
-##### v14
-=> 'Grand\' Anse',
-   
-##### v15
-=> 'Nippes',
+    10 => 'Nord-Est',
+    11 => 'Ouest',
+    12 => 'Sud',
+    13 => 'Sud-Est',
+    14 => 'Grand\' Anse',
+    15 => 'Nippes',
   ),
   'HU' => 
   array (
@@ -3299,105 +1729,39 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Debrecen',
     '08' => 'Fejer',
     '09' => 'Gyor-Moson-Sopron',
-   
-##### v10
-=> 'Hajdu-Bihar',
-   
-##### v11
-=> 'Heves',
-   
-##### v12
-=> 'Komarom-Esztergom',
-   
-##### v13
-=> 'Miskolc',
-   
-##### v14
-=> 'Nograd',
-   
-##### v15
-=> 'Pecs',
-   
-##### v16
-=> 'Pest',
-   
-##### v17
-=> 'Somogy',
-   
-##### v18
-=> 'Szabolcs-Szatmar-Bereg',
-   
-##### v19
-=> 'Szeged',
-   
-##### v20
-=> 'Jasz-Nagykun-Szolnok',
-   
-##### v21
-=> 'Tolna',
-   
-##### v22
-=> 'Vas',
-   
-##### v39
-=> 'Veszprem',
-   
-##### v24
-=> 'Zala',
-   
-##### v25
-=> 'Gyor',
-   
-##### v26
-=> 'Bekescsaba',
-   
-##### v27
-=> 'Dunaujvaros',
-   
-##### v28
-=> 'Eger',
-   
-##### v29
-=> 'Hodmezovasarhely',
-   
-##### v30
-=> 'Kaposvar',
-   
-##### v31
-=> 'Kecskemet',
-   
-##### v32
-=> 'Nagykanizsa',
-   
-##### v33
-=> 'Nyiregyhaza',
-   
-##### v34
-=> 'Sopron',
-   
-##### v35
-=> 'Szekesfehervar',
-   
-##### v36
-=> 'Szolnok',
-   
-##### v37
-=> 'Szombathely',
-   
-##### v38
-=> 'Tatabanya',
-   
-##### v40
-=> 'Zalaegerszeg',
-   
-##### v41
-=> 'Salgotarjan',
-   
-##### v42
-=> 'Szekszard',
-   
-##### v43
-=> 'Erd',
+    10 => 'Hajdu-Bihar',
+    11 => 'Heves',
+    12 => 'Komarom-Esztergom',
+    13 => 'Miskolc',
+    14 => 'Nograd',
+    15 => 'Pecs',
+    16 => 'Pest',
+    17 => 'Somogy',
+    18 => 'Szabolcs-Szatmar-Bereg',
+    19 => 'Szeged',
+    20 => 'Jasz-Nagykun-Szolnok',
+    21 => 'Tolna',
+    22 => 'Vas',
+    39 => 'Veszprem',
+    24 => 'Zala',
+    25 => 'Gyor',
+    26 => 'Bekescsaba',
+    27 => 'Dunaujvaros',
+    28 => 'Eger',
+    29 => 'Hodmezovasarhely',
+    30 => 'Kaposvar',
+    31 => 'Kecskemet',
+    32 => 'Nagykanizsa',
+    33 => 'Nyiregyhaza',
+    34 => 'Sopron',
+    35 => 'Szekesfehervar',
+    36 => 'Szolnok',
+    37 => 'Szombathely',
+    38 => 'Tatabanya',
+    40 => 'Zalaegerszeg',
+    41 => 'Salgotarjan',
+    42 => 'Szekszard',
+    43 => 'Erd',
   ),
   'ID' => 
   array (
@@ -3408,84 +1772,32 @@ $GEOIP_REGION_NAME = array (
     '05' => 'Jambi',
     '07' => 'Jawa Tengah',
     '08' => 'Jawa Timur',
-   
-##### v10
-=> 'Yogyakarta',
-   
-##### v11
-=> 'Kalimantan Barat',
-   
-##### v12
-=> 'Kalimantan Selatan',
-   
-##### v13
-=> 'Kalimantan Tengah',
-   
-##### v14
-=> 'Kalimantan Timur',
-   
-##### v15
-=> 'Lampung',
-   
-##### v17
-=> 'Nusa Tenggara Barat',
-   
-##### v18
-=> 'Nusa Tenggara Timur',
-   
-##### v21
-=> 'Sulawesi Tengah',
-   
-##### v22
-=> 'Sulawesi Tenggara',
-   
-##### v24
-=> 'Sumatera Barat',
-   
-##### v26
-=> 'Sumatera Utara',
-   
-##### v28
-=> 'Maluku',
-   
-##### v29
-=> 'Maluku Utara',
-   
-##### v30
-=> 'Jawa Barat',
-   
-##### v31
-=> 'Sulawesi Utara',
-   
-##### v32
-=> 'Sumatera Selatan',
-   
-##### v33
-=> 'Banten',
-   
-##### v34
-=> 'Gorontalo',
-   
-##### v35
-=> 'Kepulauan Bangka Belitung',
-   
-##### v36
-=> 'Papua',
-   
-##### v37
-=> 'Riau',
-   
-##### v38
-=> 'Sulawesi Selatan',
-   
-##### v39
-=> 'Irian Jaya Barat',
-   
-##### v40
-=> 'Kepulauan Riau',
-   
-##### v41
-=> 'Sulawesi Barat',
+    10 => 'Yogyakarta',
+    11 => 'Kalimantan Barat',
+    12 => 'Kalimantan Selatan',
+    13 => 'Kalimantan Tengah',
+    14 => 'Kalimantan Timur',
+    15 => 'Lampung',
+    17 => 'Nusa Tenggara Barat',
+    18 => 'Nusa Tenggara Timur',
+    21 => 'Sulawesi Tengah',
+    22 => 'Sulawesi Tenggara',
+    24 => 'Sumatera Barat',
+    26 => 'Sumatera Utara',
+    28 => 'Maluku',
+    29 => 'Maluku Utara',
+    30 => 'Jawa Barat',
+    31 => 'Sulawesi Utara',
+    32 => 'Sumatera Selatan',
+    33 => 'Banten',
+    34 => 'Gorontalo',
+    35 => 'Kepulauan Bangka Belitung',
+    36 => 'Papua',
+    37 => 'Riau',
+    38 => 'Sulawesi Selatan',
+    39 => 'Irian Jaya Barat',
+    40 => 'Kepulauan Riau',
+    41 => 'Sulawesi Barat',
   ),
   'IE' => 
   array (
@@ -3495,66 +1807,26 @@ $GEOIP_REGION_NAME = array (
     '04' => 'Cork',
     '06' => 'Donegal',
     '07' => 'Dublin',
-   
-##### v10
-=> 'Galway',
-   
-##### v11
-=> 'Kerry',
-   
-##### v12
-=> 'Kildare',
-   
-##### v13
-=> 'Kilkenny',
-   
-##### v14
-=> 'Leitrim',
-   
-##### v15
-=> 'Laois',
-   
-##### v16
-=> 'Limerick',
-   
-##### v18
-=> 'Longford',
-   
-##### v19
-=> 'Louth',
-   
-##### v20
-=> 'Mayo',
-   
-##### v21
-=> 'Meath',
-   
-##### v22
-=> 'Monaghan',
-   
-##### v23
-=> 'Offaly',
-   
-##### v24
-=> 'Roscommon',
-   
-##### v25
-=> 'Sligo',
-   
-##### v26
-=> 'Tipperary',
-   
-##### v27
-=> 'Waterford',
-   
-##### v29
-=> 'Westmeath',
-   
-##### v30
-=> 'Wexford',
-   
-##### v31
-=> 'Wicklow',
+    10 => 'Galway',
+    11 => 'Kerry',
+    12 => 'Kildare',
+    13 => 'Kilkenny',
+    14 => 'Leitrim',
+    15 => 'Laois',
+    16 => 'Limerick',
+    18 => 'Longford',
+    19 => 'Louth',
+    20 => 'Mayo',
+    21 => 'Meath',
+    22 => 'Monaghan',
+    23 => 'Offaly',
+    24 => 'Roscommon',
+    25 => 'Sligo',
+    26 => 'Tipperary',
+    27 => 'Waterford',
+    29 => 'Westmeath',
+    30 => 'Wexford',
+    31 => 'Wicklow',
   ),
   'IL' => 
   array (
@@ -3574,90 +1846,34 @@ $GEOIP_REGION_NAME = array (
     '06' => 'Dadra and Nagar Haveli',
     '07' => 'Delhi',
     '09' => 'Gujarat',
-   
-##### v10
-=> 'Haryana',
-   
-##### v11
-=> 'Himachal Pradesh',
-   
-##### v12
-=> 'Jammu and Kashmir',
-   
-##### v13
-=> 'Kerala',
-   
-##### v14
-=> 'Lakshadweep',
-   
-##### v16
-=> 'Maharashtra',
-   
-##### v17
-=> 'Manipur',
-   
-##### v18
-=> 'Meghalaya',
-   
-##### v19
-=> 'Karnataka',
-   
-##### v20
-=> 'Nagaland',
-   
-##### v21
-=> 'Orissa',
-   
-##### v22
-=> 'Puducherry',
-   
-##### v23
-=> 'Punjab',
-   
-##### v24
-=> 'Rajasthan',
-   
-##### v25
-=> 'Tamil Nadu',
-   
-##### v26
-=> 'Tripura',
-   
-##### v28
-=> 'West Bengal',
-   
-##### v29
-=> 'Sikkim',
-   
-##### v30
-=> 'Arunachal Pradesh',
-   
-##### v31
-=> 'Mizoram',
-   
-##### v32
-=> 'Daman and Diu',
-   
-##### v33
-=> 'Goa',
-   
-##### v34
-=> 'Bihar',
-   
-##### v35
-=> 'Madhya Pradesh',
-   
-##### v36
-=> 'Uttar Pradesh',
-   
-##### v37
-=> 'Chhattisgarh',
-   
-##### v38
-=> 'Jharkhand',
-   
-##### v39
-=> 'Uttarakhand',
+    10 => 'Haryana',
+    11 => 'Himachal Pradesh',
+    12 => 'Jammu and Kashmir',
+    13 => 'Kerala',
+    14 => 'Lakshadweep',
+    16 => 'Maharashtra',
+    17 => 'Manipur',
+    18 => 'Meghalaya',
+    19 => 'Karnataka',
+    20 => 'Nagaland',
+    21 => 'Orissa',
+    22 => 'Puducherry',
+    23 => 'Punjab',
+    24 => 'Rajasthan',
+    25 => 'Tamil Nadu',
+    26 => 'Tripura',
+    28 => 'West Bengal',
+    29 => 'Sikkim',
+    30 => 'Arunachal Pradesh',
+    31 => 'Mizoram',
+    32 => 'Daman and Diu',
+    33 => 'Goa',
+    34 => 'Bihar',
+    35 => 'Madhya Pradesh',
+    36 => 'Uttar Pradesh',
+    37 => 'Chhattisgarh',
+    38 => 'Jharkhand',
+    39 => 'Uttarakhand',
   ),
   'IQ' => 
   array (
@@ -3670,33 +1886,15 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Baghdad',
     '08' => 'Dahuk',
     '09' => 'Dhi Qar',
-   
-##### v10
-=> 'Diyala',
-   
-##### v11
-=> 'Arbil',
-   
-##### v12
-=> 'Karbala\'',
-   
-##### v13
-=> 'At Ta\'mim',
-   
-##### v14
-=> 'Maysan',
-   
-##### v15
-=> 'Ninawa',
-   
-##### v16
-=> 'Wasit',
-   
-##### v17
-=> 'An Najaf',
-   
-##### v18
-=> 'Salah ad Din',
+    10 => 'Diyala',
+    11 => 'Arbil',
+    12 => 'Karbala\'',
+    13 => 'At Ta\'mim',
+    14 => 'Maysan',
+    15 => 'Ninawa',
+    16 => 'Wasit',
+    17 => 'An Najaf',
+    18 => 'Salah ad Din',
   ),
   'IR' => 
   array (
@@ -3707,84 +1905,32 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Fars',
     '08' => 'Gilan',
     '09' => 'Hamadan',
-   
-##### v10
-=> 'Ilam',
-   
-##### v11
-=> 'Hormozgan',
-   
-##### v29
-=> 'Kerman',
-   
-##### v13
-=> 'Bakhtaran',
-   
-##### v15
-=> 'Khuzestan',
-   
-##### v16
-=> 'Kordestan',
-   
-##### v35
-=> 'Mazandaran',
-   
-##### v18
-=> 'Semnan Province',
-   
-##### v34
-=> 'Markazi',
-   
-##### v36
-=> 'Zanjan',
-   
-##### v22
-=> 'Bushehr',
-   
-##### v23
-=> 'Lorestan',
-   
-##### v25
-=> 'Semnan',
-   
-##### v26
-=> 'Tehran',
-   
-##### v28
-=> 'Esfahan',
-   
-##### v30
-=> 'Khorasan',
-   
-##### v40
-=> 'Yazd',
-   
-##### v32
-=> 'Ardabil',
-   
-##### v33
-=> 'East Azarbaijan',
-   
-##### v37
-=> 'Golestan',
-   
-##### v38
-=> 'Qazvin',
-   
-##### v39
-=> 'Qom',
-   
-##### v41
-=> 'Khorasan-e Janubi',
-   
-##### v42
-=> 'Khorasan-e Razavi',
-   
-##### v43
-=> 'Khorasan-e Shemali',
-   
-##### v44
-=> 'Alborz',
+    10 => 'Ilam',
+    11 => 'Hormozgan',
+    29 => 'Kerman',
+    13 => 'Bakhtaran',
+    15 => 'Khuzestan',
+    16 => 'Kordestan',
+    35 => 'Mazandaran',
+    18 => 'Semnan Province',
+    34 => 'Markazi',
+    36 => 'Zanjan',
+    22 => 'Bushehr',
+    23 => 'Lorestan',
+    25 => 'Semnan',
+    26 => 'Tehran',
+    28 => 'Esfahan',
+    30 => 'Khorasan',
+    40 => 'Yazd',
+    32 => 'Ardabil',
+    33 => 'East Azarbaijan',
+    37 => 'Golestan',
+    38 => 'Qazvin',
+    39 => 'Qom',
+    41 => 'Khorasan-e Janubi',
+    42 => 'Khorasan-e Razavi',
+    43 => 'Khorasan-e Shemali',
+    44 => 'Alborz',
   ),
   'IS' => 
   array (
@@ -3793,75 +1939,29 @@ $GEOIP_REGION_NAME = array (
     '06' => 'Austur-Skaftafellssysla',
     '07' => 'Borgarfjardarsysla',
     '09' => 'Eyjafjardarsysla',
-   
-##### v10
-=> 'Gullbringusysla',
-   
-##### v15
-=> 'Kjosarsysla',
-   
-##### v17
-=> 'Myrasysla',
-   
-##### v20
-=> 'Nordur-Mulasysla',
-   
-##### v21
-=> 'Nordur-Tingeyjarsysla',
-   
-##### v23
-=> 'Rangarvallasysla',
-   
-##### v28
-=> 'Skagafjardarsysla',
-   
-##### v29
-=> 'Snafellsnes- og Hnappadalssysla',
-   
-##### v30
-=> 'Strandasysla',
-   
-##### v31
-=> 'Sudur-Mulasysla',
-   
-##### v32
-=> 'Sudur-Tingeyjarsysla',
-   
-##### v34
-=> 'Vestur-Bardastrandarsysla',
-   
-##### v35
-=> 'Vestur-Hunavatnssysla',
-   
-##### v36
-=> 'Vestur-Isafjardarsysla',
-   
-##### v37
-=> 'Vestur-Skaftafellssysla',
-   
-##### v38
-=> 'Austurland',
-   
-##### v39
-=> 'Hofuoborgarsvaoio',
-   
-##### v40
-=> 'Norourland Eystra',
-   
-##### v41
-=> 'Norourland Vestra',
-   
-##### v42
-=> 'Suourland',
-   
-##### v43
-=> 'Suournes',
-   
-##### v44
-=> 'Vestfiroir',
-   
-##### v45
-=> 'Vesturland',
+    10 => 'Gullbringusysla',
+    15 => 'Kjosarsysla',
+    17 => 'Myrasysla',
+    20 => 'Nordur-Mulasysla',
+    21 => 'Nordur-Tingeyjarsysla',
+    23 => 'Rangarvallasysla',
+    28 => 'Skagafjardarsysla',
+    29 => 'Snafellsnes- og Hnappadalssysla',
+    30 => 'Strandasysla',
+    31 => 'Sudur-Mulasysla',
+    32 => 'Sudur-Tingeyjarsysla',
+    34 => 'Vestur-Bardastrandarsysla',
+    35 => 'Vestur-Hunavatnssysla',
+    36 => 'Vestur-Isafjardarsysla',
+    37 => 'Vestur-Skaftafellssysla',
+    38 => 'Austurland',
+    39 => 'Hofuoborgarsvaoio',
+    40 => 'Norourland Eystra',
+    41 => 'Norourland Vestra',
+    42 => 'Suourland',
+    43 => 'Suournes',
+    44 => 'Vestfiroir',
+    45 => 'Vesturland',
   ),
   'IT' => 
   array (
@@ -3874,39 +1974,17 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Lazio',
     '08' => 'Liguria',
     '09' => 'Lombardia',
-   
-##### v10
-=> 'Marche',
-   
-##### v11
-=> 'Molise',
-   
-##### v12
-=> 'Piemonte',
-   
-##### v13
-=> 'Puglia',
-   
-##### v14
-=> 'Sardegna',
-   
-##### v15
-=> 'Sicilia',
-   
-##### v16
-=> 'Toscana',
-   
-##### v17
-=> 'Trentino-Alto Adige',
-   
-##### v18
-=> 'Umbria',
-   
-##### v19
-=> 'Valle d\'Aosta',
-   
-##### v20
-=> 'Veneto',
+    10 => 'Marche',
+    11 => 'Molise',
+    12 => 'Piemonte',
+    13 => 'Puglia',
+    14 => 'Sardegna',
+    15 => 'Sicilia',
+    16 => 'Toscana',
+    17 => 'Trentino-Alto Adige',
+    18 => 'Umbria',
+    19 => 'Valle d\'Aosta',
+    20 => 'Veneto',
   ),
   'JM' => 
   array (
@@ -3916,65 +1994,29 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Portland',
     '08' => 'Saint Andrew',
     '09' => 'Saint Ann',
-   
-##### v10
-=> 'Saint Catherine',
-   
-##### v11
-=> 'Saint Elizabeth',
-   
-##### v12
-=> 'Saint James',
-   
-##### v13
-=> 'Saint Mary',
-   
-##### v14
-=> 'Saint Thomas',
-   
-##### v15
-=> 'Trelawny',
-   
-##### v16
-=> 'Westmoreland',
-   
-##### v17
-=> 'Kingston',
+    10 => 'Saint Catherine',
+    11 => 'Saint Elizabeth',
+    12 => 'Saint James',
+    13 => 'Saint Mary',
+    14 => 'Saint Thomas',
+    15 => 'Trelawny',
+    16 => 'Westmoreland',
+    17 => 'Kingston',
   ),
   'JO' => 
   array (
     '02' => 'Al Balqa\'',
     '09' => 'Al Karak',
-   
-##### v12
-=> 'At Tafilah',
-   
-##### v15
-=> 'Al Mafraq',
-   
-##### v16
-=> 'Amman',
-   
-##### v17
-=> 'Az Zaraqa',
-   
-##### v18
-=> 'Irbid',
-   
-##### v19
-=> 'Ma\'an',
-   
-##### v20
-=> 'Ajlun',
-   
-##### v21
-=> 'Al Aqabah',
-   
-##### v22
-=> 'Jarash',
-   
-##### v23
-=> 'Madaba',
+    12 => 'At Tafilah',
+    15 => 'Al Mafraq',
+    16 => 'Amman',
+    17 => 'Az Zaraqa',
+    18 => 'Irbid',
+    19 => 'Ma\'an',
+    20 => 'Ajlun',
+    21 => 'Al Aqabah',
+    22 => 'Jarash',
+    23 => 'Madaba',
   ),
   'JP' => 
   array (
@@ -3987,120 +2029,44 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Fukuoka',
     '08' => 'Fukushima',
     '09' => 'Gifu',
-   
-##### v10
-=> 'Gumma',
-   
-##### v11
-=> 'Hiroshima',
-   
-##### v12
-=> 'Hokkaido',
-   
-##### v13
-=> 'Hyogo',
-   
-##### v14
-=> 'Ibaraki',
-   
-##### v15
-=> 'Ishikawa',
-   
-##### v16
-=> 'Iwate',
-   
-##### v17
-=> 'Kagawa',
-   
-##### v18
-=> 'Kagoshima',
-   
-##### v19
-=> 'Kanagawa',
-   
-##### v20
-=> 'Kochi',
-   
-##### v21
-=> 'Kumamoto',
-   
-##### v22
-=> 'Kyoto',
-   
-##### v23
-=> 'Mie',
-   
-##### v24
-=> 'Miyagi',
-   
-##### v25
-=> 'Miyazaki',
-   
-##### v26
-=> 'Nagano',
-   
-##### v27
-=> 'Nagasaki',
-   
-##### v28
-=> 'Nara',
-   
-##### v29
-=> 'Niigata',
-   
-##### v30
-=> 'Oita',
-   
-##### v31
-=> 'Okayama',
-   
-##### v32
-=> 'Osaka',
-   
-##### v33
-=> 'Saga',
-   
-##### v34
-=> 'Saitama',
-   
-##### v35
-=> 'Shiga',
-   
-##### v36
-=> 'Shimane',
-   
-##### v37
-=> 'Shizuoka',
-   
-##### v38
-=> 'Tochigi',
-   
-##### v39
-=> 'Tokushima',
-   
-##### v40
-=> 'Tokyo',
-   
-##### v41
-=> 'Tottori',
-   
-##### v42
-=> 'Toyama',
-   
-##### v43
-=> 'Wakayama',
-   
-##### v44
-=> 'Yamagata',
-   
-##### v45
-=> 'Yamaguchi',
-   
-##### v46
-=> 'Yamanashi',
-   
-##### v47
-=> 'Okinawa',
+    10 => 'Gumma',
+    11 => 'Hiroshima',
+    12 => 'Hokkaido',
+    13 => 'Hyogo',
+    14 => 'Ibaraki',
+    15 => 'Ishikawa',
+    16 => 'Iwate',
+    17 => 'Kagawa',
+    18 => 'Kagoshima',
+    19 => 'Kanagawa',
+    20 => 'Kochi',
+    21 => 'Kumamoto',
+    22 => 'Kyoto',
+    23 => 'Mie',
+    24 => 'Miyagi',
+    25 => 'Miyazaki',
+    26 => 'Nagano',
+    27 => 'Nagasaki',
+    28 => 'Nara',
+    29 => 'Niigata',
+    30 => 'Oita',
+    31 => 'Okayama',
+    32 => 'Osaka',
+    33 => 'Saga',
+    34 => 'Saitama',
+    35 => 'Shiga',
+    36 => 'Shimane',
+    37 => 'Shizuoka',
+    38 => 'Tochigi',
+    39 => 'Tokushima',
+    40 => 'Tokyo',
+    41 => 'Tottori',
+    42 => 'Toyama',
+    43 => 'Wakayama',
+    44 => 'Yamagata',
+    45 => 'Yamaguchi',
+    46 => 'Yamanashi',
+    47 => 'Okinawa',
   ),
   'KE' => 
   array (
@@ -4126,9 +2092,7 @@ $GEOIP_REGION_NAME = array (
   ),
   'KH' => 
   array (
-   
-##### v29
-=> 'Batdambang',
+    29 => 'Batdambang',
     '02' => 'Kampong Cham',
     '03' => 'Kampong Chhnang',
     '04' => 'Kampong Speu',
@@ -4137,42 +2101,18 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Kandal',
     '08' => 'Koh Kong',
     '09' => 'Kracheh',
-   
-##### v10
-=> 'Mondulkiri',
-   
-##### v11
-=> 'Phnum Penh',
-   
-##### v12
-=> 'Pursat',
-   
-##### v13
-=> 'Preah Vihear',
-   
-##### v14
-=> 'Prey Veng',
-   
-##### v15
-=> 'Ratanakiri Kiri',
-   
-##### v16
-=> 'Siem Reap',
-   
-##### v17
-=> 'Stung Treng',
-   
-##### v18
-=> 'Svay Rieng',
-   
-##### v19
-=> 'Takeo',
-   
-##### v25
-=> 'Banteay Meanchey',
-   
-##### v30
-=> 'Pailin',
+    10 => 'Mondulkiri',
+    11 => 'Phnum Penh',
+    12 => 'Pursat',
+    13 => 'Preah Vihear',
+    14 => 'Prey Veng',
+    15 => 'Ratanakiri Kiri',
+    16 => 'Siem Reap',
+    17 => 'Stung Treng',
+    18 => 'Svay Rieng',
+    19 => 'Takeo',
+    25 => 'Banteay Meanchey',
+    30 => 'Pailin',
   ),
   'KI' => 
   array (
@@ -4197,21 +2137,11 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Saint John Figtree',
     '08' => 'Saint Mary Cayon',
     '09' => 'Saint Paul Capisterre',
-   
-##### v10
-=> 'Saint Paul Charlestown',
-   
-##### v11
-=> 'Saint Peter Basseterre',
-   
-##### v12
-=> 'Saint Thomas Lowland',
-   
-##### v13
-=> 'Saint Thomas Middle Island',
-   
-##### v15
-=> 'Trinity Palmetto Point',
+    10 => 'Saint Paul Charlestown',
+    11 => 'Saint Peter Basseterre',
+    12 => 'Saint Thomas Lowland',
+    13 => 'Saint Thomas Middle Island',
+    15 => 'Trinity Palmetto Point',
   ),
   'KP' => 
   array (
@@ -4221,27 +2151,13 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Hwanghae-bukto',
     '08' => 'Kaesong-si',
     '09' => 'Kangwon-do',
-   
-##### v11
-=> 'P\'yongan-bukto',
-   
-##### v12
-=> 'P\'yongyang-si',
-   
-##### v13
-=> 'Yanggang-do',
-   
-##### v14
-=> 'Namp\'o-si',
-   
-##### v15
-=> 'P\'yongan-namdo',
-   
-##### v17
-=> 'Hamgyong-bukto',
-   
-##### v18
-=> 'Najin Sonbong-si',
+    11 => 'P\'yongan-bukto',
+    12 => 'P\'yongyang-si',
+    13 => 'Yanggang-do',
+    14 => 'Namp\'o-si',
+    15 => 'P\'yongan-namdo',
+    17 => 'Hamgyong-bukto',
+    18 => 'Najin Sonbong-si',
   ),
   'KR' => 
   array (
@@ -4249,42 +2165,18 @@ $GEOIP_REGION_NAME = array (
     '03' => 'Cholla-bukto',
     '05' => 'Ch\'ungch\'ong-bukto',
     '06' => 'Kangwon-do',
-   
-##### v10
-=> 'Pusan-jikhalsi',
-   
-##### v11
-=> 'Seoul-t\'ukpyolsi',
-   
-##### v12
-=> 'Inch\'on-jikhalsi',
-   
-##### v13
-=> 'Kyonggi-do',
-   
-##### v14
-=> 'Kyongsang-bukto',
-   
-##### v15
-=> 'Taegu-jikhalsi',
-   
-##### v16
-=> 'Cholla-namdo',
-   
-##### v17
-=> 'Ch\'ungch\'ong-namdo',
-   
-##### v18
-=> 'Kwangju-jikhalsi',
-   
-##### v19
-=> 'Taejon-jikhalsi',
-   
-##### v20
-=> 'Kyongsang-namdo',
-   
-##### v21
-=> 'Ulsan-gwangyoksi',
+    10 => 'Pusan-jikhalsi',
+    11 => 'Seoul-t\'ukpyolsi',
+    12 => 'Inch\'on-jikhalsi',
+    13 => 'Kyonggi-do',
+    14 => 'Kyongsang-bukto',
+    15 => 'Taegu-jikhalsi',
+    16 => 'Cholla-namdo',
+    17 => 'Ch\'ungch\'ong-namdo',
+    18 => 'Kwangju-jikhalsi',
+    19 => 'Taejon-jikhalsi',
+    20 => 'Kyongsang-namdo',
+    21 => 'Ulsan-gwangyoksi',
   ),
   'KW' => 
   array (
@@ -4317,30 +2209,14 @@ $GEOIP_REGION_NAME = array (
     '07' => 'West Kazakhstan',
     '08' => 'Bayqonyr',
     '09' => 'Mangghystau',
-   
-##### v10
-=> 'South Kazakhstan',
-   
-##### v11
-=> 'Pavlodar',
-   
-##### v12
-=> 'Qaraghandy',
-   
-##### v13
-=> 'Qostanay',
-   
-##### v14
-=> 'Qyzylorda',
-   
-##### v15
-=> 'East Kazakhstan',
-   
-##### v16
-=> 'North Kazakhstan',
-   
-##### v17
-=> 'Zhambyl',
+    10 => 'South Kazakhstan',
+    11 => 'Pavlodar',
+    12 => 'Qaraghandy',
+    13 => 'Qostanay',
+    14 => 'Qyzylorda',
+    15 => 'East Kazakhstan',
+    16 => 'North Kazakhstan',
+    17 => 'Zhambyl',
   ),
   'LA' => 
   array (
@@ -4352,21 +2228,11 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Oudomxai',
     '08' => 'Phongsali',
     '09' => 'Saravan',
-   
-##### v10
-=> 'Savannakhet',
-   
-##### v11
-=> 'Vientiane',
-   
-##### v13
-=> 'Xaignabouri',
-   
-##### v14
-=> 'Xiangkhoang',
-   
-##### v17
-=> 'Louangphrabang',
+    10 => 'Savannakhet',
+    11 => 'Vientiane',
+    13 => 'Xaignabouri',
+    14 => 'Xiangkhoang',
+    17 => 'Louangphrabang',
   ),
   'LB' => 
   array (
@@ -4377,12 +2243,8 @@ $GEOIP_REGION_NAME = array (
     '05' => 'Mont-Liban',
     '06' => 'Liban-Sud',
     '07' => 'Nabatiye',
-   
-##### v10
-=> 'Aakk',
-   
-##### v11
-=> 'Baalbek-Hermel',
+    10 => 'Aakk',
+    11 => 'Baalbek-Hermel',
   ),
   'LC' => 
   array (
@@ -4395,12 +2257,8 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Laborie',
     '08' => 'Micoud',
     '09' => 'Soufriere',
-   
-##### v10
-=> 'Vieux-Fort',
-   
-##### v11
-=> 'Praslin',
+    10 => 'Vieux-Fort',
+    11 => 'Praslin',
   ),
   'LI' => 
   array (
@@ -4413,153 +2271,65 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Schaan',
     '08' => 'Schellenberg',
     '09' => 'Triesen',
-   
-##### v10
-=> 'Triesenberg',
-   
-##### v11
-=> 'Vaduz',
-   
-##### v21
-=> 'Gbarpolu',
-   
-##### v22
-=> 'River Gee',
+    10 => 'Triesenberg',
+    11 => 'Vaduz',
+    21 => 'Gbarpolu',
+    22 => 'River Gee',
   ),
   'LK' => 
   array (
-   
-##### v29
-=> 'Central',
-   
-##### v30
-=> 'North Central',
-   
-##### v32
-=> 'North Western',
-   
-##### v33
-=> 'Sabaragamuwa',
-   
-##### v34
-=> 'Southern',
-   
-##### v35
-=> 'Uva',
-   
-##### v36
-=> 'Western',
-   
-##### v37
-=> 'Eastern',
-   
-##### v38
-=> 'Northern',
+    29 => 'Central',
+    30 => 'North Central',
+    32 => 'North Western',
+    33 => 'Sabaragamuwa',
+    34 => 'Southern',
+    35 => 'Uva',
+    36 => 'Western',
+    37 => 'Eastern',
+    38 => 'Northern',
   ),
   'LR' => 
   array (
     '01' => 'Bong',
-   
-##### v12
-=> 'Grand Cape Mount',
-   
-##### v20
-=> 'Lofa',
-   
-##### v13
-=> 'Maryland',
+    12 => 'Grand Cape Mount',
+    20 => 'Lofa',
+    13 => 'Maryland',
     '07' => 'Monrovia',
     '09' => 'Nimba',
-   
-##### v10
-=> 'Sino',
-   
-##### v11
-=> 'Grand Bassa',
-   
-##### v14
-=> 'Montserrado',
-   
-##### v17
-=> 'Margibi',
-   
-##### v18
-=> 'River Cess',
-   
-##### v19
-=> 'Grand Gedeh',
-   
-##### v21
-=> 'Gbarpolu',
-   
-##### v22
-=> 'River Gee',
+    10 => 'Sino',
+    11 => 'Grand Bassa',
+    14 => 'Montserrado',
+    17 => 'Margibi',
+    18 => 'River Cess',
+    19 => 'Grand Gedeh',
+    21 => 'Gbarpolu',
+    22 => 'River Gee',
   ),
   'LS' => 
   array (
-   
-##### v10
-=> 'Berea',
-   
-##### v11
-=> 'Butha-Buthe',
-   
-##### v12
-=> 'Leribe',
-   
-##### v13
-=> 'Mafeteng',
-   
-##### v14
-=> 'Maseru',
-   
-##### v15
-=> 'Mohales Hoek',
-   
-##### v16
-=> 'Mokhotlong',
-   
-##### v17
-=> 'Qachas Nek',
-   
-##### v18
-=> 'Quthing',
-   
-##### v19
-=> 'Thaba-Tseka',
+    10 => 'Berea',
+    11 => 'Butha-Buthe',
+    12 => 'Leribe',
+    13 => 'Mafeteng',
+    14 => 'Maseru',
+    15 => 'Mohales Hoek',
+    16 => 'Mokhotlong',
+    17 => 'Qachas Nek',
+    18 => 'Quthing',
+    19 => 'Thaba-Tseka',
   ),
   'LT' => 
   array (
-   
-##### v56
-=> 'Alytaus Apskritis',
-   
-##### v57
-=> 'Kauno Apskritis',
-   
-##### v58
-=> 'Klaipedos Apskritis',
-   
-##### v59
-=> 'Marijampoles Apskritis',
-   
-##### v60
-=> 'Panevezio Apskritis',
-   
-##### v61
-=> 'Siauliu Apskritis',
-   
-##### v62
-=> 'Taurages Apskritis',
-   
-##### v63
-=> 'Telsiu Apskritis',
-   
-##### v64
-=> 'Utenos Apskritis',
-   
-##### v65
-=> 'Vilniaus Apskritis',
+    56 => 'Alytaus Apskritis',
+    57 => 'Kauno Apskritis',
+    58 => 'Klaipedos Apskritis',
+    59 => 'Marijampoles Apskritis',
+    60 => 'Panevezio Apskritis',
+    61 => 'Siauliu Apskritis',
+    62 => 'Taurages Apskritis',
+    63 => 'Telsiu Apskritis',
+    64 => 'Utenos Apskritis',
+    65 => 'Vilniaus Apskritis',
   ),
   'LU' => 
   array (
@@ -4577,195 +2347,75 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Daugavpils',
     '08' => 'Dobeles',
     '09' => 'Gulbenes',
-   
-##### v10
-=> 'Jekabpils',
-   
-##### v11
-=> 'Jelgava',
-   
-##### v12
-=> 'Jelgavas',
-   
-##### v13
-=> 'Jurmala',
-   
-##### v14
-=> 'Kraslavas',
-   
-##### v15
-=> 'Kuldigas',
-   
-##### v16
-=> 'Liepaja',
-   
-##### v17
-=> 'Liepajas',
-   
-##### v18
-=> 'Limbazu',
-   
-##### v19
-=> 'Ludzas',
-   
-##### v20
-=> 'Madonas',
-   
-##### v21
-=> 'Ogres',
-   
-##### v22
-=> 'Preilu',
-   
-##### v23
-=> 'Rezekne',
-   
-##### v24
-=> 'Rezeknes',
-   
-##### v25
-=> 'Riga',
-   
-##### v26
-=> 'Rigas',
-   
-##### v27
-=> 'Saldus',
-   
-##### v28
-=> 'Talsu',
-   
-##### v29
-=> 'Tukuma',
-   
-##### v30
-=> 'Valkas',
-   
-##### v31
-=> 'Valmieras',
-   
-##### v33
-=> 'Ventspils',
+    10 => 'Jekabpils',
+    11 => 'Jelgava',
+    12 => 'Jelgavas',
+    13 => 'Jurmala',
+    14 => 'Kraslavas',
+    15 => 'Kuldigas',
+    16 => 'Liepaja',
+    17 => 'Liepajas',
+    18 => 'Limbazu',
+    19 => 'Ludzas',
+    20 => 'Madonas',
+    21 => 'Ogres',
+    22 => 'Preilu',
+    23 => 'Rezekne',
+    24 => 'Rezeknes',
+    25 => 'Riga',
+    26 => 'Rigas',
+    27 => 'Saldus',
+    28 => 'Talsu',
+    29 => 'Tukuma',
+    30 => 'Valkas',
+    31 => 'Valmieras',
+    33 => 'Ventspils',
   ),
   'LY' => 
   array (
     '03' => 'Al Aziziyah',
     '05' => 'Al Jufrah',
     '08' => 'Al Kufrah',
-   
-##### v13
-=> 'Ash Shati\'',
-   
-##### v30
-=> 'Murzuq',
-   
-##### v34
-=> 'Sabha',
-   
-##### v41
-=> 'Tarhunah',
-   
-##### v42
-=> 'Tubruq',
-   
-##### v45
-=> 'Zlitan',
-   
-##### v47
-=> 'Ajdabiya',
-   
-##### v48
-=> 'Al Fatih',
-   
-##### v49
-=> 'Al Jabal al Akhdar',
-   
-##### v50
-=> 'Al Khums',
-   
-##### v51
-=> 'An Nuqat al Khams',
-   
-##### v52
-=> 'Awbari',
-   
-##### v53
-=> 'Az Zawiyah',
-   
-##### v54
-=> 'Banghazi',
-   
-##### v55
-=> 'Darnah',
-   
-##### v56
-=> 'Ghadamis',
-   
-##### v57
-=> 'Gharyan',
-   
-##### v58
-=> 'Misratah',
-   
-##### v59
-=> 'Sawfajjin',
-   
-##### v60
-=> 'Surt',
-   
-##### v61
-=> 'Tarabulus',
-   
-##### v62
-=> 'Yafran',
+    13 => 'Ash Shati\'',
+    30 => 'Murzuq',
+    34 => 'Sabha',
+    41 => 'Tarhunah',
+    42 => 'Tubruq',
+    45 => 'Zlitan',
+    47 => 'Ajdabiya',
+    48 => 'Al Fatih',
+    49 => 'Al Jabal al Akhdar',
+    50 => 'Al Khums',
+    51 => 'An Nuqat al Khams',
+    52 => 'Awbari',
+    53 => 'Az Zawiyah',
+    54 => 'Banghazi',
+    55 => 'Darnah',
+    56 => 'Ghadamis',
+    57 => 'Gharyan',
+    58 => 'Misratah',
+    59 => 'Sawfajjin',
+    60 => 'Surt',
+    61 => 'Tarabulus',
+    62 => 'Yafran',
   ),
   'MA' => 
   array (
-   
-##### v45
-=> 'Grand Casablanca',
-   
-##### v46
-=> 'Fes-Boulemane',
-   
-##### v47
-=> 'Marrakech-Tensift-Al Haouz',
-   
-##### v48
-=> 'Meknes-Tafilalet',
-   
-##### v49
-=> 'Rabat-Sale-Zemmour-Zaer',
-   
-##### v50
-=> 'Chaouia-Ouardigha',
-   
-##### v51
-=> 'Doukkala-Abda',
-   
-##### v52
-=> 'Gharb-Chrarda-Beni Hssen',
-   
-##### v53
-=> 'Guelmim-Es Smara',
-   
-##### v54
-=> 'Oriental',
-   
-##### v55
-=> 'Souss-Massa-Dr',
-   
-##### v56
-=> 'Tadla-Azilal',
-   
-##### v57
-=> 'Tanger-Tetouan',
-   
-##### v58
-=> 'Taza-Al Hoceima-Taounate',
-   
-##### v59
-=> 'La',
+    45 => 'Grand Casablanca',
+    46 => 'Fes-Boulemane',
+    47 => 'Marrakech-Tensift-Al Haouz',
+    48 => 'Meknes-Tafilalet',
+    49 => 'Rabat-Sale-Zemmour-Zaer',
+    50 => 'Chaouia-Ouardigha',
+    51 => 'Doukkala-Abda',
+    52 => 'Gharb-Chrarda-Beni Hssen',
+    53 => 'Guelmim-Es Smara',
+    54 => 'Oriental',
+    55 => 'Souss-Massa-Dr',
+    56 => 'Tadla-Azilal',
+    57 => 'Tanger-Tetouan',
+    58 => 'Taza-Al Hoceima-Taounate',
+    59 => 'La',
   ),
   'MC' => 
   array (
@@ -4775,117 +2425,43 @@ $GEOIP_REGION_NAME = array (
   ),
   'MD' => 
   array (
-   
-##### v51
-=> 'Gagauzia',
-   
-##### v57
-=> 'Chisinau',
-   
-##### v58
-=> 'Stinga Nistrului',
-   
-##### v59
-=> 'Anenii Noi',
-   
-##### v60
-=> 'Balti',
-   
-##### v61
-=> 'Basarabeasca',
-   
-##### v62
-=> 'Bender',
-   
-##### v63
-=> 'Briceni',
-   
-##### v64
-=> 'Cahul',
-   
-##### v65
-=> 'Cantemir',
-   
-##### v66
-=> 'Calarasi',
-   
-##### v67
-=> 'Causeni',
-   
-##### v68
-=> 'Cimislia',
-   
-##### v69
-=> 'Criuleni',
-   
-##### v70
-=> 'Donduseni',
-   
-##### v71
-=> 'Drochia',
-   
-##### v72
-=> 'Dubasari',
-   
-##### v73
-=> 'Edinet',
-   
-##### v74
-=> 'Falesti',
-   
-##### v75
-=> 'Floresti',
-   
-##### v76
-=> 'Glodeni',
-   
-##### v77
-=> 'Hincesti',
-   
-##### v78
-=> 'Ialoveni',
-   
-##### v79
-=> 'Leova',
-   
-##### v80
-=> 'Nisporeni',
-   
-##### v81
-=> 'Ocnita',
-   
-##### v82
-=> 'Orhei',
-   
-##### v83
-=> 'Rezina',
-   
-##### v84
-=> 'Riscani',
-   
-##### v85
-=> 'Singerei',
-   
-##### v86
-=> 'Soldanesti',
-   
-##### v87
-=> 'Soroca',
-   
-##### v88
-=> 'Stefan-Voda',
-   
-##### v89
-=> 'Straseni',
-   
-##### v90
-=> 'Taraclia',
-   
-##### v91
-=> 'Telenesti',
-   
-##### v92
-=> 'Ungheni',
+    51 => 'Gagauzia',
+    57 => 'Chisinau',
+    58 => 'Stinga Nistrului',
+    59 => 'Anenii Noi',
+    60 => 'Balti',
+    61 => 'Basarabeasca',
+    62 => 'Bender',
+    63 => 'Briceni',
+    64 => 'Cahul',
+    65 => 'Cantemir',
+    66 => 'Calarasi',
+    67 => 'Causeni',
+    68 => 'Cimislia',
+    69 => 'Criuleni',
+    70 => 'Donduseni',
+    71 => 'Drochia',
+    72 => 'Dubasari',
+    73 => 'Edinet',
+    74 => 'Falesti',
+    75 => 'Floresti',
+    76 => 'Glodeni',
+    77 => 'Hincesti',
+    78 => 'Ialoveni',
+    79 => 'Leova',
+    80 => 'Nisporeni',
+    81 => 'Ocnita',
+    82 => 'Orhei',
+    83 => 'Rezina',
+    84 => 'Riscani',
+    85 => 'Singerei',
+    86 => 'Soldanesti',
+    87 => 'Soroca',
+    88 => 'Stefan-Voda',
+    89 => 'Straseni',
+    90 => 'Taraclia',
+    91 => 'Telenesti',
+    92 => 'Ungheni',
   ),
   'MG' => 
   array (
@@ -4907,276 +2483,96 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Blatec',
     '08' => 'Bogdanci',
     '09' => 'Bogomila',
-   
-##### v10
-=> 'Bogovinje',
-   
-##### v11
-=> 'Bosilovo',
-   
-##### v12
-=> 'Brvenica',
-   
-##### v13
-=> 'Cair',
-   
-##### v14
-=> 'Capari',
-   
-##### v15
-=> 'Caska',
-   
-##### v16
-=> 'Cegrane',
-   
-##### v17
-=> 'Centar',
-   
-##### v18
-=> 'Centar Zupa',
-   
-##### v19
-=> 'Cesinovo',
-   
-##### v20
-=> 'Cucer-Sandevo',
-   
-##### v21
-=> 'Debar',
-   
-##### v22
-=> 'Delcevo',
-   
-##### v23
-=> 'Delogozdi',
-   
-##### v24
-=> 'Demir Hisar',
-   
-##### v25
-=> 'Demir Kapija',
-   
-##### v26
-=> 'Dobrusevo',
-   
-##### v27
-=> 'Dolna Banjica',
-   
-##### v28
-=> 'Dolneni',
-   
-##### v29
-=> 'Dorce Petrov',
-   
-##### v30
-=> 'Drugovo',
-   
-##### v31
-=> 'Dzepciste',
-   
-##### v32
-=> 'Gazi Baba',
-   
-##### v33
-=> 'Gevgelija',
-   
-##### v34
-=> 'Gostivar',
-   
-##### v35
-=> 'Gradsko',
-   
-##### v36
-=> 'Ilinden',
-   
-##### v37
-=> 'Izvor',
-   
-##### v38
-=> 'Jegunovce',
-   
-##### v39
-=> 'Kamenjane',
-   
-##### v40
-=> 'Karbinci',
-   
-##### v41
-=> 'Karpos',
-   
-##### v42
-=> 'Kavadarci',
-   
-##### v43
-=> 'Kicevo',
-   
-##### v44
-=> 'Kisela Voda',
-   
-##### v45
-=> 'Klecevce',
-   
-##### v46
-=> 'Kocani',
-   
-##### v47
-=> 'Konce',
-   
-##### v48
-=> 'Kondovo',
-   
-##### v49
-=> 'Konopiste',
-   
-##### v50
-=> 'Kosel',
-   
-##### v51
-=> 'Kratovo',
-   
-##### v52
-=> 'Kriva Palanka',
-   
-##### v53
-=> 'Krivogastani',
-   
-##### v54
-=> 'Krusevo',
-   
-##### v55
-=> 'Kuklis',
-   
-##### v56
-=> 'Kukurecani',
-   
-##### v57
-=> 'Kumanovo',
-   
-##### v58
-=> 'Labunista',
-   
-##### v59
-=> 'Lipkovo',
-   
-##### v60
-=> 'Lozovo',
-   
-##### v61
-=> 'Lukovo',
-   
-##### v62
-=> 'Makedonska Kamenica',
-   
-##### v63
-=> 'Makedonski Brod',
-   
-##### v64
-=> 'Mavrovi Anovi',
-   
-##### v65
-=> 'Meseista',
-   
-##### v66
-=> 'Miravci',
-   
-##### v67
-=> 'Mogila',
-   
-##### v68
-=> 'Murtino',
-   
-##### v69
-=> 'Negotino',
-   
-##### v70
-=> 'Negotino-Polosko',
-   
-##### v71
-=> 'Novaci',
-   
-##### v72
-=> 'Novo Selo',
-   
-##### v73
-=> 'Oblesevo',
-   
-##### v74
-=> 'Ohrid',
-   
-##### v75
-=> 'Orasac',
-   
-##### v76
-=> 'Orizari',
-   
-##### v77
-=> 'Oslomej',
-   
-##### v78
-=> 'Pehcevo',
-   
-##### v79
-=> 'Petrovec',
-   
-##### v80
-=> 'Plasnica',
-   
-##### v81
-=> 'Podares',
-   
-##### v82
-=> 'Prilep',
-   
-##### v83
-=> 'Probistip',
-   
-##### v84
-=> 'Radovis',
-   
-##### v85
-=> 'Rankovce',
-   
-##### v86
-=> 'Resen',
-   
-##### v87
-=> 'Rosoman',
-   
-##### v88
-=> 'Rostusa',
-   
-##### v89
-=> 'Samokov',
-   
-##### v90
-=> 'Saraj',
-   
-##### v91
-=> 'Sipkovica',
-   
-##### v92
-=> 'Sopiste',
-   
-##### v93
-=> 'Sopotnica',
-   
-##### v94
-=> 'Srbinovo',
-   
-##### v95
-=> 'Staravina',
-   
-##### v96
-=> 'Star Dojran',
-   
-##### v97
-=> 'Staro Nagoricane',
-   
-##### v98
-=> 'Stip',
-   
-##### v99
-=> 'Struga',
+    10 => 'Bogovinje',
+    11 => 'Bosilovo',
+    12 => 'Brvenica',
+    13 => 'Cair',
+    14 => 'Capari',
+    15 => 'Caska',
+    16 => 'Cegrane',
+    17 => 'Centar',
+    18 => 'Centar Zupa',
+    19 => 'Cesinovo',
+    20 => 'Cucer-Sandevo',
+    21 => 'Debar',
+    22 => 'Delcevo',
+    23 => 'Delogozdi',
+    24 => 'Demir Hisar',
+    25 => 'Demir Kapija',
+    26 => 'Dobrusevo',
+    27 => 'Dolna Banjica',
+    28 => 'Dolneni',
+    29 => 'Dorce Petrov',
+    30 => 'Drugovo',
+    31 => 'Dzepciste',
+    32 => 'Gazi Baba',
+    33 => 'Gevgelija',
+    34 => 'Gostivar',
+    35 => 'Gradsko',
+    36 => 'Ilinden',
+    37 => 'Izvor',
+    38 => 'Jegunovce',
+    39 => 'Kamenjane',
+    40 => 'Karbinci',
+    41 => 'Karpos',
+    42 => 'Kavadarci',
+    43 => 'Kicevo',
+    44 => 'Kisela Voda',
+    45 => 'Klecevce',
+    46 => 'Kocani',
+    47 => 'Konce',
+    48 => 'Kondovo',
+    49 => 'Konopiste',
+    50 => 'Kosel',
+    51 => 'Kratovo',
+    52 => 'Kriva Palanka',
+    53 => 'Krivogastani',
+    54 => 'Krusevo',
+    55 => 'Kuklis',
+    56 => 'Kukurecani',
+    57 => 'Kumanovo',
+    58 => 'Labunista',
+    59 => 'Lipkovo',
+    60 => 'Lozovo',
+    61 => 'Lukovo',
+    62 => 'Makedonska Kamenica',
+    63 => 'Makedonski Brod',
+    64 => 'Mavrovi Anovi',
+    65 => 'Meseista',
+    66 => 'Miravci',
+    67 => 'Mogila',
+    68 => 'Murtino',
+    69 => 'Negotino',
+    70 => 'Negotino-Polosko',
+    71 => 'Novaci',
+    72 => 'Novo Selo',
+    73 => 'Oblesevo',
+    74 => 'Ohrid',
+    75 => 'Orasac',
+    76 => 'Orizari',
+    77 => 'Oslomej',
+    78 => 'Pehcevo',
+    79 => 'Petrovec',
+    80 => 'Plasnica',
+    81 => 'Podares',
+    82 => 'Prilep',
+    83 => 'Probistip',
+    84 => 'Radovis',
+    85 => 'Rankovce',
+    86 => 'Resen',
+    87 => 'Rosoman',
+    88 => 'Rostusa',
+    89 => 'Samokov',
+    90 => 'Saraj',
+    91 => 'Sipkovica',
+    92 => 'Sopiste',
+    93 => 'Sopotnica',
+    94 => 'Srbinovo',
+    95 => 'Staravina',
+    96 => 'Star Dojran',
+    97 => 'Staro Nagoricane',
+    98 => 'Stip',
+    99 => 'Struga',
     'A1' => 'Strumica',
     'A2' => 'Studenicani',
     'A3' => 'Suto Orizari',
@@ -5212,9 +2608,7 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Koulikoro',
     '08' => 'Tombouctou',
     '09' => 'Gao',
-   
-##### v10
-=> 'Kidal',
+    10 => 'Kidal',
   ),
   'MM' => 
   array (
@@ -5227,24 +2621,12 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Magwe',
     '08' => 'Mandalay',
     '09' => 'Pegu',
-   
-##### v10
-=> 'Sagaing',
-   
-##### v11
-=> 'Shan State',
-   
-##### v12
-=> 'Tenasserim',
-   
-##### v13
-=> 'Mon State',
-   
-##### v14
-=> 'Rangoon',
-   
-##### v17
-=> 'Yangon',
+    10 => 'Sagaing',
+    11 => 'Shan State',
+    12 => 'Tenasserim',
+    13 => 'Mon State',
+    14 => 'Rangoon',
+    17 => 'Yangon',
   ),
   'MN' => 
   array (
@@ -5256,54 +2638,22 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Dornogovi',
     '08' => 'Dundgovi',
     '09' => 'Dzavhan',
-   
-##### v10
-=> 'Govi-Altay',
-   
-##### v11
-=> 'Hentiy',
-   
-##### v12
-=> 'Hovd',
-   
-##### v13
-=> 'Hovsgol',
-   
-##### v14
-=> 'Omnogovi',
-   
-##### v15
-=> 'Ovorhangay',
-   
-##### v16
-=> 'Selenge',
-   
-##### v17
-=> 'Suhbaatar',
-   
-##### v18
-=> 'Tov',
-   
-##### v19
-=> 'Uvs',
-   
-##### v20
-=> 'Ulaanbaatar',
-   
-##### v21
-=> 'Bulgan',
-   
-##### v22
-=> 'Erdenet',
-   
-##### v23
-=> 'Darhan-Uul',
-   
-##### v24
-=> 'Govisumber',
-   
-##### v25
-=> 'Orhon',
+    10 => 'Govi-Altay',
+    11 => 'Hentiy',
+    12 => 'Hovd',
+    13 => 'Hovsgol',
+    14 => 'Omnogovi',
+    15 => 'Ovorhangay',
+    16 => 'Selenge',
+    17 => 'Suhbaatar',
+    18 => 'Tov',
+    19 => 'Uvs',
+    20 => 'Ulaanbaatar',
+    21 => 'Bulgan',
+    22 => 'Erdenet',
+    23 => 'Darhan-Uul',
+    24 => 'Govisumber',
+    25 => 'Orhon',
   ),
   'MO' => 
   array (
@@ -5321,15 +2671,9 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Adrar',
     '08' => 'Dakhlet Nouadhibou',
     '09' => 'Tagant',
-   
-##### v10
-=> 'Guidimaka',
-   
-##### v11
-=> 'Tiris Zemmour',
-   
-##### v12
-=> 'Inchiri',
+    10 => 'Guidimaka',
+    11 => 'Tiris Zemmour',
+    12 => 'Inchiri',
   ),
   'MS' => 
   array (
@@ -5339,101 +2683,41 @@ $GEOIP_REGION_NAME = array (
   ),
   'MU' => 
   array (
-   
-##### v12
-=> 'Black River',
-   
-##### v13
-=> 'Flacq',
-   
-##### v14
-=> 'Grand Port',
-   
-##### v15
-=> 'Moka',
-   
-##### v16
-=> 'Pamplemousses',
-   
-##### v17
-=> 'Plaines Wilhems',
-   
-##### v18
-=> 'Port Louis',
-   
-##### v19
-=> 'Riviere du Rempart',
-   
-##### v20
-=> 'Savanne',
-   
-##### v21
-=> 'Agalega Islands',
-   
-##### v22
-=> 'Cargados Carajos',
-   
-##### v23
-=> 'Rodrigues',
+    12 => 'Black River',
+    13 => 'Flacq',
+    14 => 'Grand Port',
+    15 => 'Moka',
+    16 => 'Pamplemousses',
+    17 => 'Plaines Wilhems',
+    18 => 'Port Louis',
+    19 => 'Riviere du Rempart',
+    20 => 'Savanne',
+    21 => 'Agalega Islands',
+    22 => 'Cargados Carajos',
+    23 => 'Rodrigues',
   ),
   'MV' => 
   array (
     '01' => 'Seenu',
     '05' => 'Laamu',
-   
-##### v30
-=> 'Alifu',
-   
-##### v31
-=> 'Baa',
-   
-##### v32
-=> 'Dhaalu',
-   
-##### v33
-=> 'Faafu',
-   
-##### v34
-=> 'Gaafu Alifu',
-   
-##### v35
-=> 'Gaafu Dhaalu',
-   
-##### v36
-=> 'Haa Alifu',
-   
-##### v37
-=> 'Haa Dhaalu',
-   
-##### v38
-=> 'Kaafu',
-   
-##### v39
-=> 'Lhaviyani',
-   
-##### v40
-=> 'Maale',
-   
-##### v41
-=> 'Meemu',
-   
-##### v42
-=> 'Gnaviyani',
-   
-##### v43
-=> 'Noonu',
-   
-##### v44
-=> 'Raa',
-   
-##### v45
-=> 'Shaviyani',
-   
-##### v46
-=> 'Thaa',
-   
-##### v47
-=> 'Vaavu',
+    30 => 'Alifu',
+    31 => 'Baa',
+    32 => 'Dhaalu',
+    33 => 'Faafu',
+    34 => 'Gaafu Alifu',
+    35 => 'Gaafu Dhaalu',
+    36 => 'Haa Alifu',
+    37 => 'Haa Dhaalu',
+    38 => 'Kaafu',
+    39 => 'Lhaviyani',
+    40 => 'Maale',
+    41 => 'Meemu',
+    42 => 'Gnaviyani',
+    43 => 'Noonu',
+    44 => 'Raa',
+    45 => 'Shaviyani',
+    46 => 'Thaa',
+    47 => 'Vaavu',
   ),
   'MW' => 
   array (
@@ -5445,63 +2729,25 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Dowa',
     '08' => 'Karonga',
     '09' => 'Kasungu',
-   
-##### v11
-=> 'Lilongwe',
-   
-##### v12
-=> 'Mangochi',
-   
-##### v13
-=> 'Mchinji',
-   
-##### v15
-=> 'Mzimba',
-   
-##### v16
-=> 'Ntcheu',
-   
-##### v17
-=> 'Nkhata Bay',
-   
-##### v18
-=> 'Nkhotakota',
-   
-##### v19
-=> 'Nsanje',
-   
-##### v20
-=> 'Ntchisi',
-   
-##### v21
-=> 'Rumphi',
-   
-##### v22
-=> 'Salima',
-   
-##### v23
-=> 'Zomba',
-   
-##### v24
-=> 'Blantyre',
-   
-##### v25
-=> 'Mwanza',
-   
-##### v26
-=> 'Balaka',
-   
-##### v27
-=> 'Likoma',
-   
-##### v28
-=> 'Machinga',
-   
-##### v29
-=> 'Mulanje',
-   
-##### v30
-=> 'Phalombe',
+    11 => 'Lilongwe',
+    12 => 'Mangochi',
+    13 => 'Mchinji',
+    15 => 'Mzimba',
+    16 => 'Ntcheu',
+    17 => 'Nkhata Bay',
+    18 => 'Nkhotakota',
+    19 => 'Nsanje',
+    20 => 'Ntchisi',
+    21 => 'Rumphi',
+    22 => 'Salima',
+    23 => 'Zomba',
+    24 => 'Blantyre',
+    25 => 'Mwanza',
+    26 => 'Balaka',
+    27 => 'Likoma',
+    28 => 'Machinga',
+    29 => 'Mulanje',
+    30 => 'Phalombe',
   ),
   'MX' => 
   array (
@@ -5514,75 +2760,29 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Coahuila de Zaragoza',
     '08' => 'Colima',
     '09' => 'Distrito Federal',
-   
-##### v10
-=> 'Durango',
-   
-##### v11
-=> 'Guanajuato',
-   
-##### v12
-=> 'Guerrero',
-   
-##### v13
-=> 'Hidalgo',
-   
-##### v14
-=> 'Jalisco',
-   
-##### v15
-=> 'Mexico',
-   
-##### v16
-=> 'Michoacan de Ocampo',
-   
-##### v17
-=> 'Morelos',
-   
-##### v18
-=> 'Nayarit',
-   
-##### v19
-=> 'Nuevo Leon',
-   
-##### v20
-=> 'Oaxaca',
-   
-##### v21
-=> 'Puebla',
-   
-##### v22
-=> 'Queretaro de Arteaga',
-   
-##### v23
-=> 'Quintana Roo',
-   
-##### v24
-=> 'San Luis Potosi',
-   
-##### v25
-=> 'Sinaloa',
-   
-##### v26
-=> 'Sonora',
-   
-##### v27
-=> 'Tabasco',
-   
-##### v28
-=> 'Tamaulipas',
-   
-##### v29
-=> 'Tlaxcala',
-   
-##### v30
-=> 'Veracruz-Llave',
-   
-##### v31
-=> 'Yucatan',
-   
-##### v32
-=> 'Zacatecas',
+    10 => 'Durango',
+    11 => 'Guanajuato',
+    12 => 'Guerrero',
+    13 => 'Hidalgo',
+    14 => 'Jalisco',
+    15 => 'Mexico',
+    16 => 'Michoacan de Ocampo',
+    17 => 'Morelos',
+    18 => 'Nayarit',
+    19 => 'Nuevo Leon',
+    20 => 'Oaxaca',
+    21 => 'Puebla',
+    22 => 'Queretaro de Arteaga',
+    23 => 'Quintana Roo',
+    24 => 'San Luis Potosi',
+    25 => 'Sinaloa',
+    26 => 'Sonora',
+    27 => 'Tabasco',
+    28 => 'Tamaulipas',
+    29 => 'Tlaxcala',
+    30 => 'Veracruz-Llave',
+    31 => 'Yucatan',
+    32 => 'Zacatecas',
   ),
   'MY' => 
   array (
@@ -5595,44 +2795,26 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Perak',
     '08' => 'Perlis',
     '09' => 'Pulau Pinang',
-   
-##### v11
-=> 'Sarawak',
-   
-##### v12
-=> 'Selangor',
-   
-##### v13
-=> 'Terengganu',
-   
-##### v14
-=> 'Kuala Lumpur',
-   
-##### v15
-=> 'Labuan',
-   
-##### v16
-=> 'Sabah',
-   
-##### v17
-=> 'Putrajaya',
+    11 => 'Sarawak',
+    12 => 'Selangor',
+    13 => 'Terengganu',
+    14 => 'Kuala Lumpur',
+    15 => 'Labuan',
+    16 => 'Sabah',
+    17 => 'Putrajaya',
   ),
   'MZ' => 
   array (
     '01' => 'Cabo Delgado',
     '02' => 'Gaza',
     '03' => 'Inhambane',
-   
-##### v11
-=> 'Maputo',
+    11 => 'Maputo',
     '05' => 'Sofala',
     '06' => 'Nampula',
     '07' => 'Niassa',
     '08' => 'Tete',
     '09' => 'Zambezia',
-   
-##### v10
-=> 'Manica',
+    10 => 'Manica',
   ),
   'NA' => 
   array (
@@ -5645,93 +2827,35 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Karibib',
     '08' => 'Keetmanshoop',
     '09' => 'Luderitz',
-   
-##### v10
-=> 'Maltahohe',
-   
-##### v11
-=> 'Okahandja',
-   
-##### v12
-=> 'Omaruru',
-   
-##### v13
-=> 'Otjiwarongo',
-   
-##### v14
-=> 'Outjo',
-   
-##### v15
-=> 'Owambo',
-   
-##### v16
-=> 'Rehoboth',
-   
-##### v17
-=> 'Swakopmund',
-   
-##### v18
-=> 'Tsumeb',
-   
-##### v20
-=> 'Karasburg',
-   
-##### v21
-=> 'Windhoek',
-   
-##### v22
-=> 'Damaraland',
-   
-##### v23
-=> 'Hereroland Oos',
-   
-##### v24
-=> 'Hereroland Wes',
-   
-##### v25
-=> 'Kavango',
-   
-##### v26
-=> 'Mariental',
-   
-##### v27
-=> 'Namaland',
-   
-##### v28
-=> 'Caprivi',
-   
-##### v29
-=> 'Erongo',
-   
-##### v30
-=> 'Hardap',
-   
-##### v31
-=> 'Karas',
-   
-##### v32
-=> 'Kunene',
-   
-##### v33
-=> 'Ohangwena',
-   
-##### v34
-=> 'Okavango',
-   
-##### v35
-=> 'Omaheke',
-   
-##### v36
-=> 'Omusati',
-   
-##### v37
-=> 'Oshana',
-   
-##### v38
-=> 'Oshikoto',
-   
-##### v39
-=> 'Otjozondjupa',
+    10 => 'Maltahohe',
+    11 => 'Okahandja',
+    12 => 'Omaruru',
+    13 => 'Otjiwarongo',
+    14 => 'Outjo',
+    15 => 'Owambo',
+    16 => 'Rehoboth',
+    17 => 'Swakopmund',
+    18 => 'Tsumeb',
+    20 => 'Karasburg',
+    21 => 'Windhoek',
+    22 => 'Damaraland',
+    23 => 'Hereroland Oos',
+    24 => 'Hereroland Wes',
+    25 => 'Kavango',
+    26 => 'Mariental',
+    27 => 'Namaland',
+    28 => 'Caprivi',
+    29 => 'Erongo',
+    30 => 'Hardap',
+    31 => 'Karas',
+    32 => 'Kunene',
+    33 => 'Ohangwena',
+    34 => 'Okavango',
+    35 => 'Omaheke',
+    36 => 'Omusati',
+    37 => 'Oshana',
+    38 => 'Oshikoto',
+    39 => 'Otjozondjupa',
   ),
   'NE' => 
   array (
@@ -5746,114 +2870,42 @@ $GEOIP_REGION_NAME = array (
   'NG' => 
   array (
     '05' => 'Lagos',
-   
-##### v11
-=> 'Federal Capital Territory',
-   
-##### v16
-=> 'Ogun',
-   
-##### v21
-=> 'Akwa Ibom',
-   
-##### v22
-=> 'Cross River',
-   
-##### v23
-=> 'Kaduna',
-   
-##### v24
-=> 'Katsina',
-   
-##### v25
-=> 'Anambra',
-   
-##### v26
-=> 'Benue',
-   
-##### v27
-=> 'Borno',
-   
-##### v28
-=> 'Imo',
-   
-##### v29
-=> 'Kano',
-   
-##### v30
-=> 'Kwara',
-   
-##### v31
-=> 'Niger',
-   
-##### v32
-=> 'Oyo',
-   
-##### v35
-=> 'Adamawa',
-   
-##### v36
-=> 'Delta',
-   
-##### v37
-=> 'Edo',
-   
-##### v39
-=> 'Jigawa',
-   
-##### v40
-=> 'Kebbi',
-   
-##### v41
-=> 'Kogi',
-   
-##### v42
-=> 'Osun',
-   
-##### v43
-=> 'Taraba',
-   
-##### v44
-=> 'Yobe',
-   
-##### v45
-=> 'Abia',
-   
-##### v46
-=> 'Bauchi',
-   
-##### v47
-=> 'Enugu',
-   
-##### v48
-=> 'Ondo',
-   
-##### v49
-=> 'Plateau',
-   
-##### v50
-=> 'Rivers',
-   
-##### v51
-=> 'Sokoto',
-   
-##### v52
-=> 'Bayelsa',
-   
-##### v53
-=> 'Ebonyi',
-   
-##### v54
-=> 'Ekiti',
-   
-##### v55
-=> 'Gombe',
-   
-##### v56
-=> 'Nassarawa',
-   
-##### v57
-=> 'Zamfara',
+    11 => 'Federal Capital Territory',
+    16 => 'Ogun',
+    21 => 'Akwa Ibom',
+    22 => 'Cross River',
+    23 => 'Kaduna',
+    24 => 'Katsina',
+    25 => 'Anambra',
+    26 => 'Benue',
+    27 => 'Borno',
+    28 => 'Imo',
+    29 => 'Kano',
+    30 => 'Kwara',
+    31 => 'Niger',
+    32 => 'Oyo',
+    35 => 'Adamawa',
+    36 => 'Delta',
+    37 => 'Edo',
+    39 => 'Jigawa',
+    40 => 'Kebbi',
+    41 => 'Kogi',
+    42 => 'Osun',
+    43 => 'Taraba',
+    44 => 'Yobe',
+    45 => 'Abia',
+    46 => 'Bauchi',
+    47 => 'Enugu',
+    48 => 'Ondo',
+    49 => 'Plateau',
+    50 => 'Rivers',
+    51 => 'Sokoto',
+    52 => 'Bayelsa',
+    53 => 'Ebonyi',
+    54 => 'Ekiti',
+    55 => 'Gombe',
+    56 => 'Nassarawa',
+    57 => 'Zamfara',
   ),
   'NI' => 
   array (
@@ -5866,33 +2918,15 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Jinotega',
     '08' => 'Leon',
     '09' => 'Madriz',
-   
-##### v10
-=> 'Managua',
-   
-##### v11
-=> 'Masaya',
-   
-##### v12
-=> 'Matagalpa',
-   
-##### v13
-=> 'Nueva Segovia',
-   
-##### v14
-=> 'Rio San Juan',
-   
-##### v15
-=> 'Rivas',
-   
-##### v16
-=> 'Zelaya',
-   
-##### v17
-=> 'Autonoma Atlantico Norte',
-   
-##### v18
-=> 'Region Autonoma Atlantico Sur',
+    10 => 'Managua',
+    11 => 'Masaya',
+    12 => 'Matagalpa',
+    13 => 'Nueva Segovia',
+    14 => 'Rio San Juan',
+    15 => 'Rivas',
+    16 => 'Zelaya',
+    17 => 'Autonoma Atlantico Norte',
+    18 => 'Region Autonoma Atlantico Sur',
   ),
   'NL' => 
   array (
@@ -5904,18 +2938,10 @@ $GEOIP_REGION_NAME = array (
     '06' => 'Noord-Brabant',
     '07' => 'Noord-Holland',
     '09' => 'Utrecht',
-   
-##### v10
-=> 'Zeeland',
-   
-##### v11
-=> 'Zuid-Holland',
-   
-##### v15
-=> 'Overijssel',
-   
-##### v16
-=> 'Flevoland',
+    10 => 'Zeeland',
+    11 => 'Zuid-Holland',
+    15 => 'Overijssel',
+    16 => 'Flevoland',
   ),
   'NO' => 
   array (
@@ -5927,39 +2953,17 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Hordaland',
     '08' => 'More og Romsdal',
     '09' => 'Nordland',
-   
-##### v10
-=> 'Nord-Trondelag',
-   
-##### v11
-=> 'Oppland',
-   
-##### v12
-=> 'Oslo',
-   
-##### v13
-=> 'Ostfold',
-   
-##### v14
-=> 'Rogaland',
-   
-##### v15
-=> 'Sogn og Fjordane',
-   
-##### v16
-=> 'Sor-Trondelag',
-   
-##### v17
-=> 'Telemark',
-   
-##### v18
-=> 'Troms',
-   
-##### v19
-=> 'Vest-Agder',
-   
-##### v20
-=> 'Vestfold',
+    10 => 'Nord-Trondelag',
+    11 => 'Oppland',
+    12 => 'Oslo',
+    13 => 'Ostfold',
+    14 => 'Rogaland',
+    15 => 'Sogn og Fjordane',
+    16 => 'Sor-Trondelag',
+    17 => 'Telemark',
+    18 => 'Troms',
+    19 => 'Vest-Agder',
+    20 => 'Vestfold',
   ),
   'NP' => 
   array (
@@ -5972,21 +2976,11 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Kosi',
     '08' => 'Lumbini',
     '09' => 'Mahakali',
-   
-##### v10
-=> 'Mechi',
-   
-##### v11
-=> 'Narayani',
-   
-##### v12
-=> 'Rapti',
-   
-##### v13
-=> 'Sagarmatha',
-   
-##### v14
-=> 'Seti',
+    10 => 'Mechi',
+    11 => 'Narayani',
+    12 => 'Rapti',
+    13 => 'Sagarmatha',
+    14 => 'Seti',
   ),
   'NR' => 
   array (
@@ -5999,27 +2993,15 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Buada',
     '08' => 'Denigomodu',
     '09' => 'Ewa',
-   
-##### v10
-=> 'Ijuw',
-   
-##### v11
-=> 'Meneng',
-   
-##### v12
-=> 'Nibok',
-   
-##### v13
-=> 'Uaboe',
-   
-##### v14
-=> 'Yaren',
+    10 => 'Ijuw',
+    11 => 'Meneng',
+    12 => 'Nibok',
+    13 => 'Uaboe',
+    14 => 'Yaren',
   ),
   'NZ' => 
   array (
-   
-##### v10
-=> 'Chatham Islands',
+    10 => 'Chatham Islands',
     'E7' => 'Auckland',
     'E8' => 'Bay of Plenty',
     'E9' => 'Canterbury',
@@ -6058,9 +3040,7 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Los Santos',
     '08' => 'Panama',
     '09' => 'San Blas',
-   
-##### v10
-=> 'Veraguas',
+    10 => 'Veraguas',
   ),
   'PE' => 
   array (
@@ -6073,54 +3053,22 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Callao',
     '08' => 'Cusco',
     '09' => 'Huancavelica',
-   
-##### v10
-=> 'Huanuco',
-   
-##### v11
-=> 'Ica',
-   
-##### v12
-=> 'Junin',
-   
-##### v13
-=> 'La Libertad',
-   
-##### v14
-=> 'Lambayeque',
-   
-##### v15
-=> 'Lima',
-   
-##### v16
-=> 'Loreto',
-   
-##### v17
-=> 'Madre de Dios',
-   
-##### v18
-=> 'Moquegua',
-   
-##### v19
-=> 'Pasco',
-   
-##### v20
-=> 'Piura',
-   
-##### v21
-=> 'Puno',
-   
-##### v22
-=> 'San Martin',
-   
-##### v23
-=> 'Tacna',
-   
-##### v24
-=> 'Tumbes',
-   
-##### v25
-=> 'Ucayali',
+    10 => 'Huanuco',
+    11 => 'Ica',
+    12 => 'Junin',
+    13 => 'La Libertad',
+    14 => 'Lambayeque',
+    15 => 'Lima',
+    16 => 'Loreto',
+    17 => 'Madre de Dios',
+    18 => 'Moquegua',
+    19 => 'Pasco',
+    20 => 'Piura',
+    21 => 'Puno',
+    22 => 'San Martin',
+    23 => 'Tacna',
+    24 => 'Tumbes',
+    25 => 'Ucayali',
   ),
   'PG' => 
   array (
@@ -6133,39 +3081,17 @@ $GEOIP_REGION_NAME = array (
     '07' => 'North Solomons',
     '08' => 'Chimbu',
     '09' => 'Eastern Highlands',
-   
-##### v10
-=> 'East New Britain',
-   
-##### v11
-=> 'East Sepik',
-   
-##### v12
-=> 'Madang',
-   
-##### v13
-=> 'Manus',
-   
-##### v14
-=> 'Morobe',
-   
-##### v15
-=> 'New Ireland',
-   
-##### v16
-=> 'Western Highlands',
-   
-##### v17
-=> 'West New Britain',
-   
-##### v18
-=> 'Sandaun',
-   
-##### v19
-=> 'Enga',
-   
-##### v20
-=> 'National Capital',
+    10 => 'East New Britain',
+    11 => 'East Sepik',
+    12 => 'Madang',
+    13 => 'Manus',
+    14 => 'Morobe',
+    15 => 'New Ireland',
+    16 => 'Western Highlands',
+    17 => 'West New Britain',
+    18 => 'Sandaun',
+    19 => 'Enga',
+    20 => 'National Capital',
   ),
   'PH' => 
   array (
@@ -6178,186 +3104,68 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Bataan',
     '08' => 'Batanes',
     '09' => 'Batangas',
-   
-##### v10
-=> 'Benguet',
-   
-##### v11
-=> 'Bohol',
-   
-##### v12
-=> 'Bukidnon',
-   
-##### v13
-=> 'Bulacan',
-   
-##### v14
-=> 'Cagayan',
-   
-##### v15
-=> 'Camarines Norte',
-   
-##### v16
-=> 'Camarines Sur',
-   
-##### v17
-=> 'Camiguin',
-   
-##### v18
-=> 'Capiz',
-   
-##### v19
-=> 'Catanduanes',
-   
-##### v20
-=> 'Cavite',
-   
-##### v21
-=> 'Cebu',
-   
-##### v22
-=> 'Basilan',
-   
-##### v23
-=> 'Eastern Samar',
-   
-##### v24
-=> 'Davao',
-   
-##### v25
-=> 'Davao del Sur',
-   
-##### v26
-=> 'Davao Oriental',
-   
-##### v27
-=> 'Ifugao',
-   
-##### v28
-=> 'Ilocos Norte',
-   
-##### v29
-=> 'Ilocos Sur',
-   
-##### v30
-=> 'Iloilo',
-   
-##### v31
-=> 'Isabela',
-   
-##### v32
-=> 'Kalinga-Apayao',
-   
-##### v33
-=> 'Laguna',
-   
-##### v34
-=> 'Lanao del Norte',
-   
-##### v35
-=> 'Lanao del Sur',
-   
-##### v36
-=> 'La Union',
-   
-##### v37
-=> 'Leyte',
-   
-##### v38
-=> 'Marinduque',
-   
-##### v39
-=> 'Masbate',
-   
-##### v40
-=> 'Mindoro Occidental',
-   
-##### v41
-=> 'Mindoro Oriental',
-   
-##### v42
-=> 'Misamis Occidental',
-   
-##### v43
-=> 'Misamis Oriental',
-   
-##### v44
-=> 'Mountain',
+    10 => 'Benguet',
+    11 => 'Bohol',
+    12 => 'Bukidnon',
+    13 => 'Bulacan',
+    14 => 'Cagayan',
+    15 => 'Camarines Norte',
+    16 => 'Camarines Sur',
+    17 => 'Camiguin',
+    18 => 'Capiz',
+    19 => 'Catanduanes',
+    20 => 'Cavite',
+    21 => 'Cebu',
+    22 => 'Basilan',
+    23 => 'Eastern Samar',
+    24 => 'Davao',
+    25 => 'Davao del Sur',
+    26 => 'Davao Oriental',
+    27 => 'Ifugao',
+    28 => 'Ilocos Norte',
+    29 => 'Ilocos Sur',
+    30 => 'Iloilo',
+    31 => 'Isabela',
+    32 => 'Kalinga-Apayao',
+    33 => 'Laguna',
+    34 => 'Lanao del Norte',
+    35 => 'Lanao del Sur',
+    36 => 'La Union',
+    37 => 'Leyte',
+    38 => 'Marinduque',
+    39 => 'Masbate',
+    40 => 'Mindoro Occidental',
+    41 => 'Mindoro Oriental',
+    42 => 'Misamis Occidental',
+    43 => 'Misamis Oriental',
+    44 => 'Mountain',
     'H3' => 'Negros Occidental',
-   
-##### v46
-=> 'Negros Oriental',
-   
-##### v47
-=> 'Nueva Ecija',
-   
-##### v48
-=> 'Nueva Vizcaya',
-   
-##### v49
-=> 'Palawan',
-   
-##### v50
-=> 'Pampanga',
-   
-##### v51
-=> 'Pangasinan',
-   
-##### v53
-=> 'Rizal',
-   
-##### v54
-=> 'Romblon',
-   
-##### v55
-=> 'Samar',
-   
-##### v56
-=> 'Maguindanao',
-   
-##### v57
-=> 'North Cotabato',
-   
-##### v58
-=> 'Sorsogon',
-   
-##### v59
-=> 'Southern Leyte',
-   
-##### v60
-=> 'Sulu',
+    46 => 'Negros Oriental',
+    47 => 'Nueva Ecija',
+    48 => 'Nueva Vizcaya',
+    49 => 'Palawan',
+    50 => 'Pampanga',
+    51 => 'Pangasinan',
+    53 => 'Rizal',
+    54 => 'Romblon',
+    55 => 'Samar',
+    56 => 'Maguindanao',
+    57 => 'North Cotabato',
+    58 => 'Sorsogon',
+    59 => 'Southern Leyte',
+    60 => 'Sulu',
     'N3' => 'Surigao del Norte',
-   
-##### v62
-=> 'Surigao del Sur',
-   
-##### v63
-=> 'Tarlac',
+    62 => 'Surigao del Sur',
+    63 => 'Tarlac',
     'P1' => 'Zambales',
-   
-##### v65
-=> 'Zamboanga del Norte',
-   
-##### v66
-=> 'Zamboanga del Sur',
-   
-##### v67
-=> 'Northern Samar',
-   
-##### v68
-=> 'Quirino',
-   
-##### v69
-=> 'Siquijor',
-   
-##### v70
-=> 'South Cotabato',
-   
-##### v71
-=> 'Sultan Kudarat',
-   
-##### v72
-=> 'Tawitawi',
+    65 => 'Zamboanga del Norte',
+    66 => 'Zamboanga del Sur',
+    67 => 'Northern Samar',
+    68 => 'Quirino',
+    69 => 'Siquijor',
+    70 => 'South Cotabato',
+    71 => 'Sultan Kudarat',
+    72 => 'Tawitawi',
     'A1' => 'Angeles',
     'A2' => 'Bacolod',
     'A3' => 'Bago',
@@ -6445,54 +3253,22 @@ $GEOIP_REGION_NAME = array (
   ),
   'PL' => 
   array (
-   
-##### v72
-=> 'Dolnoslaskie',
-   
-##### v73
-=> 'Kujawsko-Pomorskie',
-   
-##### v74
-=> 'Lodzkie',
-   
-##### v75
-=> 'Lubelskie',
-   
-##### v76
-=> 'Lubuskie',
-   
-##### v77
-=> 'Malopolskie',
-   
-##### v78
-=> 'Mazowieckie',
-   
-##### v79
-=> 'Opolskie',
-   
-##### v80
-=> 'Podkarpackie',
-   
-##### v81
-=> 'Podlaskie',
-   
-##### v82
-=> 'Pomorskie',
-   
-##### v83
-=> 'Slaskie',
-   
-##### v84
-=> 'Swietokrzyskie',
-   
-##### v85
-=> 'Warminsko-Mazurskie',
-   
-##### v86
-=> 'Wielkopolskie',
-   
-##### v87
-=> 'Zachodniopomorskie',
+    72 => 'Dolnoslaskie',
+    73 => 'Kujawsko-Pomorskie',
+    74 => 'Lodzkie',
+    75 => 'Lubelskie',
+    76 => 'Lubuskie',
+    77 => 'Malopolskie',
+    78 => 'Mazowieckie',
+    79 => 'Opolskie',
+    80 => 'Podkarpackie',
+    81 => 'Podlaskie',
+    82 => 'Pomorskie',
+    83 => 'Slaskie',
+    84 => 'Swietokrzyskie',
+    85 => 'Warminsko-Mazurskie',
+    86 => 'Wielkopolskie',
+    87 => 'Zachodniopomorskie',
   ),
   'PS' => 
   array (
@@ -6509,88 +3285,40 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Coimbra',
     '08' => 'Evora',
     '09' => 'Faro',
-   
-##### v10
-=> 'Madeira',
-   
-##### v11
-=> 'Guarda',
-   
-##### v13
-=> 'Leiria',
-   
-##### v14
-=> 'Lisboa',
-   
-##### v16
-=> 'Portalegre',
-   
-##### v17
-=> 'Porto',
-   
-##### v18
-=> 'Santarem',
-   
-##### v19
-=> 'Setubal',
-   
-##### v20
-=> 'Viana do Castelo',
-   
-##### v21
-=> 'Vila Real',
-   
-##### v22
-=> 'Viseu',
-   
-##### v23
-=> 'Azores',
+    10 => 'Madeira',
+    11 => 'Guarda',
+    13 => 'Leiria',
+    14 => 'Lisboa',
+    16 => 'Portalegre',
+    17 => 'Porto',
+    18 => 'Santarem',
+    19 => 'Setubal',
+    20 => 'Viana do Castelo',
+    21 => 'Vila Real',
+    22 => 'Viseu',
+    23 => 'Azores',
   ),
   'PY' => 
   array (
     '01' => 'Alto Parana',
     '02' => 'Amambay',
-   
-##### v24
-=> 'Boqueron',
+    24 => 'Boqueron',
     '04' => 'Caaguazu',
     '05' => 'Caazapa',
     '06' => 'Central',
     '07' => 'Concepcion',
     '08' => 'Cordillera',
-   
-##### v10
-=> 'Guaira',
-   
-##### v11
-=> 'Itapua',
-   
-##### v12
-=> 'Misiones',
-   
-##### v13
-=> 'Neembucu',
-   
-##### v15
-=> 'Paraguari',
-   
-##### v16
-=> 'Presidente Hayes',
-   
-##### v17
-=> 'San Pedro',
-   
-##### v19
-=> 'Canindeyu',
-   
-##### v20
-=> 'Chaco',
-   
-##### v21
-=> 'Nueva Asuncion',
-   
-##### v23
-=> 'Alto Paraguay',
+    10 => 'Guaira',
+    11 => 'Itapua',
+    12 => 'Misiones',
+    13 => 'Neembucu',
+    15 => 'Paraguari',
+    16 => 'Presidente Hayes',
+    17 => 'San Pedro',
+    19 => 'Canindeyu',
+    20 => 'Chaco',
+    21 => 'Nueva Asuncion',
+    23 => 'Alto Paraguay',
   ),
   'QA' => 
   array (
@@ -6602,15 +3330,9 @@ $GEOIP_REGION_NAME = array (
     '06' => 'Ar Rayyan',
     '08' => 'Madinat ach Shamal',
     '09' => 'Umm Salal',
-   
-##### v10
-=> 'Al Wakrah',
-   
-##### v11
-=> 'Jariyan al Batnah',
-   
-##### v12
-=> 'Umm Sa\'id',
+    10 => 'Al Wakrah',
+    11 => 'Jariyan al Batnah',
+    12 => 'Umm Sa\'id',
   ),
   'RO' => 
   array (
@@ -6623,105 +3345,39 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Botosani',
     '08' => 'Braila',
     '09' => 'Brasov',
-   
-##### v10
-=> 'Bucuresti',
-   
-##### v11
-=> 'Buzau',
-   
-##### v12
-=> 'Caras-Severin',
-   
-##### v13
-=> 'Cluj',
-   
-##### v14
-=> 'Constanta',
-   
-##### v15
-=> 'Covasna',
-   
-##### v16
-=> 'Dambovita',
-   
-##### v17
-=> 'Dolj',
-   
-##### v18
-=> 'Galati',
-   
-##### v19
-=> 'Gorj',
-   
-##### v20
-=> 'Harghita',
-   
-##### v21
-=> 'Hunedoara',
-   
-##### v22
-=> 'Ialomita',
-   
-##### v23
-=> 'Iasi',
-   
-##### v25
-=> 'Maramures',
-   
-##### v26
-=> 'Mehedinti',
-   
-##### v27
-=> 'Mures',
-   
-##### v28
-=> 'Neamt',
-   
-##### v29
-=> 'Olt',
-   
-##### v30
-=> 'Prahova',
-   
-##### v31
-=> 'Salaj',
-   
-##### v32
-=> 'Satu Mare',
-   
-##### v33
-=> 'Sibiu',
-   
-##### v34
-=> 'Suceava',
-   
-##### v35
-=> 'Teleorman',
-   
-##### v36
-=> 'Timis',
-   
-##### v37
-=> 'Tulcea',
-   
-##### v38
-=> 'Vaslui',
-   
-##### v39
-=> 'Valcea',
-   
-##### v40
-=> 'Vrancea',
-   
-##### v41
-=> 'Calarasi',
-   
-##### v42
-=> 'Giurgiu',
-   
-##### v43
-=> 'Ilfov',
+    10 => 'Bucuresti',
+    11 => 'Buzau',
+    12 => 'Caras-Severin',
+    13 => 'Cluj',
+    14 => 'Constanta',
+    15 => 'Covasna',
+    16 => 'Dambovita',
+    17 => 'Dolj',
+    18 => 'Galati',
+    19 => 'Gorj',
+    20 => 'Harghita',
+    21 => 'Hunedoara',
+    22 => 'Ialomita',
+    23 => 'Iasi',
+    25 => 'Maramures',
+    26 => 'Mehedinti',
+    27 => 'Mures',
+    28 => 'Neamt',
+    29 => 'Olt',
+    30 => 'Prahova',
+    31 => 'Salaj',
+    32 => 'Satu Mare',
+    33 => 'Sibiu',
+    34 => 'Suceava',
+    35 => 'Teleorman',
+    36 => 'Timis',
+    37 => 'Tulcea',
+    38 => 'Vaslui',
+    39 => 'Valcea',
+    40 => 'Vrancea',
+    41 => 'Calarasi',
+    42 => 'Giurgiu',
+    43 => 'Ilfov',
   ),
   'RS' => 
   array (
@@ -6739,273 +3395,99 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Astrakhan\'',
     '08' => 'Bashkortostan',
     '09' => 'Belgorod',
-   
-##### v10
-=> 'Bryansk',
-   
-##### v11
-=> 'Buryat',
-   
-##### v12
-=> 'Chechnya',
-   
-##### v13
-=> 'Chelyabinsk',
-   
-##### v14
-=> 'Chita',
-   
-##### v15
-=> 'Chukot',
-   
-##### v16
-=> 'Chuvashia',
-   
-##### v17
-=> 'Dagestan',
-   
-##### v18
-=> 'Evenk',
-   
-##### v19
-=> 'Ingush',
-   
-##### v20
-=> 'Irkutsk',
-   
-##### v21
-=> 'Ivanovo',
-   
-##### v22
-=> 'Kabardin-Balkar',
-   
-##### v23
-=> 'Kaliningrad',
-   
-##### v24
-=> 'Kalmyk',
-   
-##### v25
-=> 'Kaluga',
-   
-##### v26
-=> 'Kamchatka',
-   
-##### v27
-=> 'Karachay-Cherkess',
-   
-##### v28
-=> 'Karelia',
-   
-##### v29
-=> 'Kemerovo',
-   
-##### v30
-=> 'Khabarovsk',
-   
-##### v31
-=> 'Khakass',
-   
-##### v32
-=> 'Khanty-Mansiy',
-   
-##### v33
-=> 'Kirov',
-   
-##### v34
-=> 'Komi',
-   
-##### v36
-=> 'Koryak',
-   
-##### v37
-=> 'Kostroma',
-   
-##### v38
-=> 'Krasnodar',
-   
-##### v39
-=> 'Krasnoyarsk',
-   
-##### v40
-=> 'Kurgan',
-   
-##### v41
-=> 'Kursk',
-   
-##### v42
-=> 'Leningrad',
-   
-##### v43
-=> 'Lipetsk',
-   
-##### v44
-=> 'Magadan',
-   
-##### v45
-=> 'Mariy-El',
-   
-##### v46
-=> 'Mordovia',
-   
-##### v47
-=> 'Moskva',
-   
-##### v48
-=> 'Moscow City',
-   
-##### v49
-=> 'Murmansk',
-   
-##### v50
-=> 'Nenets',
-   
-##### v51
-=> 'Nizhegorod',
-   
-##### v52
-=> 'Novgorod',
-   
-##### v53
-=> 'Novosibirsk',
-   
-##### v54
-=> 'Omsk',
-   
-##### v55
-=> 'Orenburg',
-   
-##### v56
-=> 'Orel',
-   
-##### v57
-=> 'Penza',
-   
-##### v58
-=> 'Perm\'',
-   
-##### v59
-=> 'Primor\'ye',
-   
-##### v60
-=> 'Pskov',
-   
-##### v61
-=> 'Rostov',
-   
-##### v62
-=> 'Ryazan\'',
-   
-##### v63
-=> 'Sakha',
-   
-##### v64
-=> 'Sakhalin',
-   
-##### v65
-=> 'Samara',
-   
-##### v66
-=> 'Saint Petersburg City',
-   
-##### v67
-=> 'Saratov',
-   
-##### v68
-=> 'North Ossetia',
-   
-##### v69
-=> 'Smolensk',
-   
-##### v70
-=> 'Stavropol\'',
-   
-##### v71
-=> 'Sverdlovsk',
-   
-##### v72
-=> 'Tambovskaya oblast',
-   
-##### v73
-=> 'Tatarstan',
-   
-##### v74
-=> 'Taymyr',
-   
-##### v75
-=> 'Tomsk',
-   
-##### v76
-=> 'Tula',
-   
-##### v77
-=> 'Tver\'',
-   
-##### v78
-=> 'Tyumen\'',
-   
-##### v79
-=> 'Tuva',
-   
-##### v80
-=> 'Udmurt',
-   
-##### v81
-=> 'Ul\'yanovsk',
-   
-##### v83
-=> 'Vladimir',
-   
-##### v84
-=> 'Volgograd',
-   
-##### v85
-=> 'Vologda',
-   
-##### v86
-=> 'Voronezh',
-   
-##### v87
-=> 'Yamal-Nenets',
-   
-##### v88
-=> 'Yaroslavl\'',
-   
-##### v89
-=> 'Yevrey',
-   
-##### v90
-=> 'Permskiy Kray',
-   
-##### v91
-=> 'Krasnoyarskiy Kray',
-   
-##### v92
-=> 'Kamchatskiy Kray',
-   
-##### v93
-=> 'Zabaykal\'skiy Kray',
+    10 => 'Bryansk',
+    11 => 'Buryat',
+    12 => 'Chechnya',
+    13 => 'Chelyabinsk',
+    14 => 'Chita',
+    15 => 'Chukot',
+    16 => 'Chuvashia',
+    17 => 'Dagestan',
+    18 => 'Evenk',
+    19 => 'Ingush',
+    20 => 'Irkutsk',
+    21 => 'Ivanovo',
+    22 => 'Kabardin-Balkar',
+    23 => 'Kaliningrad',
+    24 => 'Kalmyk',
+    25 => 'Kaluga',
+    26 => 'Kamchatka',
+    27 => 'Karachay-Cherkess',
+    28 => 'Karelia',
+    29 => 'Kemerovo',
+    30 => 'Khabarovsk',
+    31 => 'Khakass',
+    32 => 'Khanty-Mansiy',
+    33 => 'Kirov',
+    34 => 'Komi',
+    36 => 'Koryak',
+    37 => 'Kostroma',
+    38 => 'Krasnodar',
+    39 => 'Krasnoyarsk',
+    40 => 'Kurgan',
+    41 => 'Kursk',
+    42 => 'Leningrad',
+    43 => 'Lipetsk',
+    44 => 'Magadan',
+    45 => 'Mariy-El',
+    46 => 'Mordovia',
+    47 => 'Moskva',
+    48 => 'Moscow City',
+    49 => 'Murmansk',
+    50 => 'Nenets',
+    51 => 'Nizhegorod',
+    52 => 'Novgorod',
+    53 => 'Novosibirsk',
+    54 => 'Omsk',
+    55 => 'Orenburg',
+    56 => 'Orel',
+    57 => 'Penza',
+    58 => 'Perm\'',
+    59 => 'Primor\'ye',
+    60 => 'Pskov',
+    61 => 'Rostov',
+    62 => 'Ryazan\'',
+    63 => 'Sakha',
+    64 => 'Sakhalin',
+    65 => 'Samara',
+    66 => 'Saint Petersburg City',
+    67 => 'Saratov',
+    68 => 'North Ossetia',
+    69 => 'Smolensk',
+    70 => 'Stavropol\'',
+    71 => 'Sverdlovsk',
+    72 => 'Tambovskaya oblast',
+    73 => 'Tatarstan',
+    74 => 'Taymyr',
+    75 => 'Tomsk',
+    76 => 'Tula',
+    77 => 'Tver\'',
+    78 => 'Tyumen\'',
+    79 => 'Tuva',
+    80 => 'Udmurt',
+    81 => 'Ul\'yanovsk',
+    83 => 'Vladimir',
+    84 => 'Volgograd',
+    85 => 'Vologda',
+    86 => 'Voronezh',
+    87 => 'Yamal-Nenets',
+    88 => 'Yaroslavl\'',
+    89 => 'Yevrey',
+    90 => 'Permskiy Kray',
+    91 => 'Krasnoyarskiy Kray',
+    92 => 'Kamchatskiy Kray',
+    93 => 'Zabaykal\'skiy Kray',
   ),
   'RW' => 
   array (
     '01' => 'Butare',
     '06' => 'Gitarama',
     '07' => 'Kibungo',
-   
-##### v12
-=> 'Kigali',
-   
-##### v11
-=> 'Est',
-   
-##### v13
-=> 'Nord',
-   
-##### v14
-=> 'Ouest',
-   
-##### v15
-=> 'Sud',
+    12 => 'Kigali',
+    11 => 'Est',
+    13 => 'Nord',
+    14 => 'Ouest',
+    15 => 'Sud',
   ),
   'SA' => 
   array (
@@ -7013,33 +3495,15 @@ $GEOIP_REGION_NAME = array (
     '05' => 'Al Madinah',
     '06' => 'Ash Sharqiyah',
     '08' => 'Al Qasim',
-   
-##### v10
-=> 'Ar Riyad',
-   
-##### v11
-=> 'Asir Province',
-   
-##### v13
-=> 'Ha\'il',
-   
-##### v14
-=> 'Makkah',
-   
-##### v15
-=> 'Al Hudud ash Shamaliyah',
-   
-##### v16
-=> 'Najran',
-   
-##### v17
-=> 'Jizan',
-   
-##### v19
-=> 'Tabuk',
-   
-##### v20
-=> 'Al Jawf',
+    10 => 'Ar Riyad',
+    11 => 'Asir Province',
+    13 => 'Ha\'il',
+    14 => 'Makkah',
+    15 => 'Al Hudud ash Shamaliyah',
+    16 => 'Najran',
+    17 => 'Jizan',
+    19 => 'Tabuk',
+    20 => 'Al Jawf',
   ),
   'SB' => 
   array (
@@ -7048,18 +3512,10 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Isabel',
     '08' => 'Makira',
     '09' => 'Temotu',
-   
-##### v10
-=> 'Central',
-   
-##### v11
-=> 'Western',
-   
-##### v12
-=> 'Choiseul',
-   
-##### v13
-=> 'Rennell and Bellona',
+    10 => 'Central',
+    11 => 'Western',
+    12 => 'Choiseul',
+    13 => 'Rennell and Bellona',
   ),
   'SC' => 
   array (
@@ -7072,93 +3528,37 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Baie Sainte Anne',
     '08' => 'Beau Vallon',
     '09' => 'Bel Air',
-   
-##### v10
-=> 'Bel Ombre',
-   
-##### v11
-=> 'Cascade',
-   
-##### v12
-=> 'Glacis',
-   
-##### v14
-=> 'Grand\' Anse',
-   
-##### v15
-=> 'La Digue',
-   
-##### v16
-=> 'La Riviere Anglaise',
-   
-##### v17
-=> 'Mont Buxton',
-   
-##### v18
-=> 'Mont Fleuri',
-   
-##### v19
-=> 'Plaisance',
-   
-##### v20
-=> 'Pointe La Rue',
-   
-##### v21
-=> 'Port Glaud',
-   
-##### v22
-=> 'Saint Louis',
-   
-##### v23
-=> 'Takamaka',
+    10 => 'Bel Ombre',
+    11 => 'Cascade',
+    12 => 'Glacis',
+    14 => 'Grand\' Anse',
+    15 => 'La Digue',
+    16 => 'La Riviere Anglaise',
+    17 => 'Mont Buxton',
+    18 => 'Mont Fleuri',
+    19 => 'Plaisance',
+    20 => 'Pointe La Rue',
+    21 => 'Port Glaud',
+    22 => 'Saint Louis',
+    23 => 'Takamaka',
   ),
   'SD' => 
   array (
-   
-##### v27
-=> 'Al Wusta',
-   
-##### v28
-=> 'Al Istiwa\'iyah',
-   
-##### v29
-=> 'Al Khartum',
-   
-##### v30
-=> 'Ash Shamaliyah',
-   
-##### v31
-=> 'Ash Sharqiyah',
-   
-##### v32
-=> 'Bahr al Ghazal',
-   
-##### v33
-=> 'Darfur',
-   
-##### v34
-=> 'Kurdufan',
-   
-##### v35
-=> 'Upper Nile',
-   
-##### v40
-=> 'Al Wahadah State',
-   
-##### v44
-=> 'Central Equatoria State',
-   
-##### v49
-=> 'Southern Darfur',
-   
-##### v50
-=> 'Southern Kordofan',
-   
-##### v52
-=> 'Kassala',
-   
-##### v55
-=> 'Northern Darfur',
+    27 => 'Al Wusta',
+    28 => 'Al Istiwa\'iyah',
+    29 => 'Al Khartum',
+    30 => 'Ash Shamaliyah',
+    31 => 'Ash Sharqiyah',
+    32 => 'Bahr al Ghazal',
+    33 => 'Darfur',
+    34 => 'Kurdufan',
+    35 => 'Upper Nile',
+    40 => 'Al Wahadah State',
+    44 => 'Central Equatoria State',
+    49 => 'Southern Darfur',
+    50 => 'Southern Kordofan',
+    52 => 'Kassala',
+    55 => 'Northern Darfur',
   ),
   'SE' => 
   array (
@@ -7169,48 +3569,20 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Jamtlands Lan',
     '08' => 'Jonkopings Lan',
     '09' => 'Kalmar Lan',
-   
-##### v10
-=> 'Dalarnas Lan',
-   
-##### v12
-=> 'Kronobergs Lan',
-   
-##### v14
-=> 'Norrbottens Lan',
-   
-##### v15
-=> 'Orebro Lan',
-   
-##### v16
-=> 'Ostergotlands Lan',
-   
-##### v18
-=> 'Sodermanlands Lan',
-   
-##### v21
-=> 'Uppsala Lan',
-   
-##### v22
-=> 'Varmlands Lan',
-   
-##### v23
-=> 'Vasterbottens Lan',
-   
-##### v24
-=> 'Vasternorrlands Lan',
-   
-##### v25
-=> 'Vastmanlands Lan',
-   
-##### v26
-=> 'Stockholms Lan',
-   
-##### v27
-=> 'Skane Lan',
-   
-##### v28
-=> 'Vastra Gotaland',
+    10 => 'Dalarnas Lan',
+    12 => 'Kronobergs Lan',
+    14 => 'Norrbottens Lan',
+    15 => 'Orebro Lan',
+    16 => 'Ostergotlands Lan',
+    18 => 'Sodermanlands Lan',
+    21 => 'Uppsala Lan',
+    22 => 'Varmlands Lan',
+    23 => 'Vasterbottens Lan',
+    24 => 'Vasternorrlands Lan',
+    25 => 'Vastmanlands Lan',
+    26 => 'Stockholms Lan',
+    27 => 'Skane Lan',
+    28 => 'Vastra Gotaland',
   ),
   'SH' => 
   array (
@@ -7229,207 +3601,73 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Brda Commune',
     '08' => 'Brezice Commune',
     '09' => 'Brezovica Commune',
-   
-##### v11
-=> 'Celje Commune',
-   
-##### v12
-=> 'Cerklje na Gorenjskem Commune',
-   
-##### v13
-=> 'Cerknica Commune',
-   
-##### v14
-=> 'Cerkno Commune',
-   
-##### v15
-=> 'Crensovci Commune',
-   
-##### v16
-=> 'Crna na Koroskem Commune',
-   
-##### v17
-=> 'Crnomelj Commune',
-   
-##### v19
-=> 'Divaca Commune',
-   
-##### v20
-=> 'Dobrepolje Commune',
-   
-##### v22
-=> 'Dol pri Ljubljani Commune',
-   
-##### v24
-=> 'Dornava Commune',
-   
-##### v25
-=> 'Dravograd Commune',
-   
-##### v26
-=> 'Duplek Commune',
-   
-##### v27
-=> 'Gorenja vas-Poljane Commune',
-   
-##### v28
-=> 'Gorisnica Commune',
-   
-##### v29
-=> 'Gornja Radgona Commune',
-   
-##### v30
-=> 'Gornji Grad Commune',
-   
-##### v31
-=> 'Gornji Petrovci Commune',
-   
-##### v32
-=> 'Grosuplje Commune',
-   
-##### v34
-=> 'Hrastnik Commune',
-   
-##### v35
-=> 'Hrpelje-Kozina Commune',
-   
-##### v36
-=> 'Idrija Commune',
-   
-##### v37
-=> 'Ig Commune',
-   
-##### v38
-=> 'Ilirska Bistrica Commune',
-   
-##### v39
-=> 'Ivancna Gorica Commune',
-   
-##### v40
-=> 'Izola-Isola Commune',
-   
-##### v42
-=> 'Jursinci Commune',
-   
-##### v44
-=> 'Kanal Commune',
-   
-##### v45
-=> 'Kidricevo Commune',
-   
-##### v46
-=> 'Kobarid Commune',
-   
-##### v47
-=> 'Kobilje Commune',
-   
-##### v49
-=> 'Komen Commune',
-   
-##### v50
-=> 'Koper-Capodistria Urban Commune',
-   
-##### v51
-=> 'Kozje Commune',
-   
-##### v52
-=> 'Kranj Commune',
-   
-##### v53
-=> 'Kranjska Gora Commune',
-   
-##### v54
-=> 'Krsko Commune',
-   
-##### v55
-=> 'Kungota Commune',
-   
-##### v57
-=> 'Lasko Commune',
-   
-##### v61
-=> 'Ljubljana Urban Commune',
-   
-##### v62
-=> 'Ljubno Commune',
-   
-##### v64
-=> 'Logatec Commune',
-   
-##### v66
-=> 'Loski Potok Commune',
-   
-##### v68
-=> 'Lukovica Commune',
-   
-##### v71
-=> 'Medvode Commune',
-   
-##### v72
-=> 'Menges Commune',
-   
-##### v73
-=> 'Metlika Commune',
-   
-##### v74
-=> 'Mezica Commune',
-   
-##### v76
-=> 'Mislinja Commune',
-   
-##### v77
-=> 'Moravce Commune',
-   
-##### v78
-=> 'Moravske Toplice Commune',
-   
-##### v79
-=> 'Mozirje Commune',
-   
-##### v80
-=> 'Murska Sobota Urban Commune',
-   
-##### v81
-=> 'Muta Commune',
-   
-##### v82
-=> 'Naklo Commune',
-   
-##### v83
-=> 'Nazarje Commune',
-   
-##### v84
-=> 'Nova Gorica Urban Commune',
-   
-##### v86
-=> 'Odranci Commune',
-   
-##### v87
-=> 'Ormoz Commune',
-   
-##### v88
-=> 'Osilnica Commune',
-   
-##### v89
-=> 'Pesnica Commune',
-   
-##### v91
-=> 'Pivka Commune',
-   
-##### v92
-=> 'Podcetrtek Commune',
-   
-##### v94
-=> 'Postojna Commune',
-   
-##### v97
-=> 'Puconci Commune',
-   
-##### v98
-=> 'Race-Fram Commune',
-   
-##### v99
-=> 'Radece Commune',
+    11 => 'Celje Commune',
+    12 => 'Cerklje na Gorenjskem Commune',
+    13 => 'Cerknica Commune',
+    14 => 'Cerkno Commune',
+    15 => 'Crensovci Commune',
+    16 => 'Crna na Koroskem Commune',
+    17 => 'Crnomelj Commune',
+    19 => 'Divaca Commune',
+    20 => 'Dobrepolje Commune',
+    22 => 'Dol pri Ljubljani Commune',
+    24 => 'Dornava Commune',
+    25 => 'Dravograd Commune',
+    26 => 'Duplek Commune',
+    27 => 'Gorenja vas-Poljane Commune',
+    28 => 'Gorisnica Commune',
+    29 => 'Gornja Radgona Commune',
+    30 => 'Gornji Grad Commune',
+    31 => 'Gornji Petrovci Commune',
+    32 => 'Grosuplje Commune',
+    34 => 'Hrastnik Commune',
+    35 => 'Hrpelje-Kozina Commune',
+    36 => 'Idrija Commune',
+    37 => 'Ig Commune',
+    38 => 'Ilirska Bistrica Commune',
+    39 => 'Ivancna Gorica Commune',
+    40 => 'Izola-Isola Commune',
+    42 => 'Jursinci Commune',
+    44 => 'Kanal Commune',
+    45 => 'Kidricevo Commune',
+    46 => 'Kobarid Commune',
+    47 => 'Kobilje Commune',
+    49 => 'Komen Commune',
+    50 => 'Koper-Capodistria Urban Commune',
+    51 => 'Kozje Commune',
+    52 => 'Kranj Commune',
+    53 => 'Kranjska Gora Commune',
+    54 => 'Krsko Commune',
+    55 => 'Kungota Commune',
+    57 => 'Lasko Commune',
+    61 => 'Ljubljana Urban Commune',
+    62 => 'Ljubno Commune',
+    64 => 'Logatec Commune',
+    66 => 'Loski Potok Commune',
+    68 => 'Lukovica Commune',
+    71 => 'Medvode Commune',
+    72 => 'Menges Commune',
+    73 => 'Metlika Commune',
+    74 => 'Mezica Commune',
+    76 => 'Mislinja Commune',
+    77 => 'Moravce Commune',
+    78 => 'Moravske Toplice Commune',
+    79 => 'Mozirje Commune',
+    80 => 'Murska Sobota Urban Commune',
+    81 => 'Muta Commune',
+    82 => 'Naklo Commune',
+    83 => 'Nazarje Commune',
+    84 => 'Nova Gorica Urban Commune',
+    86 => 'Odranci Commune',
+    87 => 'Ormoz Commune',
+    88 => 'Osilnica Commune',
+    89 => 'Pesnica Commune',
+    91 => 'Pivka Commune',
+    92 => 'Podcetrtek Commune',
+    94 => 'Postojna Commune',
+    97 => 'Puconci Commune',
+    98 => 'Race-Fram Commune',
+    99 => 'Radece Commune',
     'A1' => 'Radenci Commune',
     'A2' => 'Radlje ob Dravi Commune',
     'A3' => 'Radovljica Commune',
@@ -7587,24 +3825,12 @@ $GEOIP_REGION_NAME = array (
     '05' => 'Tambacounda',
     '07' => 'Thies',
     '09' => 'Fatick',
-   
-##### v10
-=> 'Kaolack',
-   
-##### v11
-=> 'Kolda',
-   
-##### v12
-=> 'Ziguinchor',
-   
-##### v13
-=> 'Louga',
-   
-##### v14
-=> 'Saint-Louis',
-   
-##### v15
-=> 'Matam',
+    10 => 'Kaolack',
+    11 => 'Kolda',
+    12 => 'Ziguinchor',
+    13 => 'Louga',
+    14 => 'Saint-Louis',
+    15 => 'Matam',
   ),
   'SO' => 
   array (
@@ -7617,66 +3843,28 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Hiiraan',
     '08' => 'Jubbada Dhexe',
     '09' => 'Jubbada Hoose',
-   
-##### v10
-=> 'Mudug',
-   
-##### v18
-=> 'Nugaal',
-   
-##### v12
-=> 'Sanaag',
-   
-##### v13
-=> 'Shabeellaha Dhexe',
-   
-##### v14
-=> 'Shabeellaha Hoose',
-   
-##### v20
-=> 'Woqooyi Galbeed',
-   
-##### v19
-=> 'Togdheer',
-   
-##### v21
-=> 'Awdal',
-   
-##### v22
-=> 'Sool',
+    10 => 'Mudug',
+    18 => 'Nugaal',
+    12 => 'Sanaag',
+    13 => 'Shabeellaha Dhexe',
+    14 => 'Shabeellaha Hoose',
+    20 => 'Woqooyi Galbeed',
+    19 => 'Togdheer',
+    21 => 'Awdal',
+    22 => 'Sool',
   ),
   'SR' => 
   array (
-   
-##### v10
-=> 'Brokopondo',
-   
-##### v11
-=> 'Commewijne',
-   
-##### v12
-=> 'Coronie',
-   
-##### v13
-=> 'Marowijne',
-   
-##### v14
-=> 'Nickerie',
-   
-##### v15
-=> 'Para',
-   
-##### v16
-=> 'Paramaribo',
-   
-##### v17
-=> 'Saramacca',
-   
-##### v18
-=> 'Sipaliwini',
-   
-##### v19
-=> 'Wanica',
+    10 => 'Brokopondo',
+    11 => 'Commewijne',
+    12 => 'Coronie',
+    13 => 'Marowijne',
+    14 => 'Nickerie',
+    15 => 'Para',
+    16 => 'Paramaribo',
+    17 => 'Saramacca',
+    18 => 'Sipaliwini',
+    19 => 'Wanica',
   ),
   'SS' => 
   array (
@@ -7689,9 +3877,7 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Upper Nile',
     '08' => 'Warrap',
     '09' => 'Western Bahr el Ghazal',
-   
-##### v10
-=> 'Western Equatoria',
+    10 => 'Western Equatoria',
   ),
   'ST' => 
   array (
@@ -7709,21 +3895,11 @@ $GEOIP_REGION_NAME = array (
     '07' => 'La Union',
     '08' => 'Morazan',
     '09' => 'San Miguel',
-   
-##### v10
-=> 'San Salvador',
-   
-##### v11
-=> 'Santa Ana',
-   
-##### v12
-=> 'San Vicente',
-   
-##### v13
-=> 'Sonsonate',
-   
-##### v14
-=> 'Usulutan',
+    10 => 'San Salvador',
+    11 => 'Santa Ana',
+    12 => 'San Vicente',
+    13 => 'Sonsonate',
+    14 => 'Usulutan',
   ),
   'SY' => 
   array (
@@ -7736,21 +3912,11 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Dayr az Zawr',
     '08' => 'Rif Dimashq',
     '09' => 'Halab',
-   
-##### v10
-=> 'Hamah',
-   
-##### v11
-=> 'Hims',
-   
-##### v12
-=> 'Idlib',
-   
-##### v13
-=> 'Dimashq',
-   
-##### v14
-=> 'Tartus',
+    10 => 'Hamah',
+    11 => 'Hims',
+    12 => 'Idlib',
+    13 => 'Dimashq',
+    14 => 'Tartus',
   ),
   'SZ' => 
   array (
@@ -7771,39 +3937,19 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Lac',
     '08' => 'Logone Occidental',
     '09' => 'Logone Oriental',
-   
-##### v10
-=> 'Mayo-Kebbi',
-   
-##### v11
-=> 'Moyen-Chari',
-   
-##### v12
-=> 'Ouaddai',
-   
-##### v13
-=> 'Salamat',
-   
-##### v14
-=> 'Tandjile',
+    10 => 'Mayo-Kebbi',
+    11 => 'Moyen-Chari',
+    12 => 'Ouaddai',
+    13 => 'Salamat',
+    14 => 'Tandjile',
   ),
   'TG' => 
   array (
-   
-##### v22
-=> 'Centrale',
-   
-##### v23
-=> 'Kara',
-   
-##### v24
-=> 'Maritime',
-   
-##### v25
-=> 'Plateaux',
-   
-##### v26
-=> 'Savanes',
+    22 => 'Centrale',
+    23 => 'Kara',
+    24 => 'Maritime',
+    25 => 'Plateaux',
+    26 => 'Savanes',
   ),
   'TH' => 
   array (
@@ -7816,210 +3962,74 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Phrae',
     '08' => 'Tak',
     '09' => 'Sukhothai',
-   
-##### v10
-=> 'Uttaradit',
-   
-##### v11
-=> 'Kamphaeng Phet',
-   
-##### v12
-=> 'Phitsanulok',
-   
-##### v13
-=> 'Phichit',
-   
-##### v14
-=> 'Phetchabun',
-   
-##### v15
-=> 'Uthai Thani',
-   
-##### v16
-=> 'Nakhon Sawan',
-   
-##### v17
-=> 'Nong Khai',
-   
-##### v18
-=> 'Loei',
-   
-##### v20
-=> 'Sakon Nakhon',
-   
-##### v73
-=> 'Nakhon Phanom',
-   
-##### v22
-=> 'Khon Kaen',
-   
-##### v23
-=> 'Kalasin',
-   
-##### v24
-=> 'Maha Sarakham',
-   
-##### v25
-=> 'Roi Et',
-   
-##### v26
-=> 'Chaiyaphum',
-   
-##### v27
-=> 'Nakhon Ratchasima',
-   
-##### v28
-=> 'Buriram',
-   
-##### v29
-=> 'Surin',
-   
-##### v30
-=> 'Sisaket',
-   
-##### v31
-=> 'Narathiwat',
-   
-##### v32
-=> 'Chai Nat',
-   
-##### v33
-=> 'Sing Buri',
-   
-##### v34
-=> 'Lop Buri',
-   
-##### v35
-=> 'Ang Thong',
-   
-##### v36
-=> 'Phra Nakhon Si Ayutthaya',
-   
-##### v37
-=> 'Saraburi',
-   
-##### v38
-=> 'Nonthaburi',
-   
-##### v39
-=> 'Pathum Thani',
-   
-##### v40
-=> 'Krung Thep',
-   
-##### v41
-=> 'Phayao',
-   
-##### v42
-=> 'Samut Prakan',
-   
-##### v43
-=> 'Nakhon Nayok',
-   
-##### v44
-=> 'Chachoengsao',
-   
-##### v74
-=> 'Prachin Buri',
-   
-##### v46
-=> 'Chon Buri',
-   
-##### v47
-=> 'Rayong',
-   
-##### v48
-=> 'Chanthaburi',
-   
-##### v49
-=> 'Trat',
-   
-##### v50
-=> 'Kanchanaburi',
-   
-##### v51
-=> 'Suphan Buri',
-   
-##### v52
-=> 'Ratchaburi',
-   
-##### v53
-=> 'Nakhon Pathom',
-   
-##### v54
-=> 'Samut Songkhram',
-   
-##### v55
-=> 'Samut Sakhon',
-   
-##### v56
-=> 'Phetchaburi',
-   
-##### v57
-=> 'Prachuap Khiri Khan',
-   
-##### v58
-=> 'Chumphon',
-   
-##### v59
-=> 'Ranong',
-   
-##### v60
-=> 'Surat Thani',
-   
-##### v61
-=> 'Phangnga',
-   
-##### v62
-=> 'Phuket',
-   
-##### v63
-=> 'Krabi',
-   
-##### v64
-=> 'Nakhon Si Thammarat',
-   
-##### v65
-=> 'Trang',
-   
-##### v66
-=> 'Phatthalung',
-   
-##### v67
-=> 'Satun',
-   
-##### v68
-=> 'Songkhla',
-   
-##### v69
-=> 'Pattani',
-   
-##### v70
-=> 'Yala',
-   
-##### v75
-=> 'Ubon Ratchathani',
-   
-##### v72
-=> 'Yasothon',
-   
-##### v76
-=> 'Udon Thani',
-   
-##### v77
-=> 'Amnat Charoen',
-   
-##### v78
-=> 'Mukdahan',
-   
-##### v79
-=> 'Nong Bua Lamphu',
-   
-##### v80
-=> 'Sa Kaeo',
-   
-##### v81
-=> 'Bueng Kan',
+    10 => 'Uttaradit',
+    11 => 'Kamphaeng Phet',
+    12 => 'Phitsanulok',
+    13 => 'Phichit',
+    14 => 'Phetchabun',
+    15 => 'Uthai Thani',
+    16 => 'Nakhon Sawan',
+    17 => 'Nong Khai',
+    18 => 'Loei',
+    20 => 'Sakon Nakhon',
+    73 => 'Nakhon Phanom',
+    22 => 'Khon Kaen',
+    23 => 'Kalasin',
+    24 => 'Maha Sarakham',
+    25 => 'Roi Et',
+    26 => 'Chaiyaphum',
+    27 => 'Nakhon Ratchasima',
+    28 => 'Buriram',
+    29 => 'Surin',
+    30 => 'Sisaket',
+    31 => 'Narathiwat',
+    32 => 'Chai Nat',
+    33 => 'Sing Buri',
+    34 => 'Lop Buri',
+    35 => 'Ang Thong',
+    36 => 'Phra Nakhon Si Ayutthaya',
+    37 => 'Saraburi',
+    38 => 'Nonthaburi',
+    39 => 'Pathum Thani',
+    40 => 'Krung Thep',
+    41 => 'Phayao',
+    42 => 'Samut Prakan',
+    43 => 'Nakhon Nayok',
+    44 => 'Chachoengsao',
+    74 => 'Prachin Buri',
+    46 => 'Chon Buri',
+    47 => 'Rayong',
+    48 => 'Chanthaburi',
+    49 => 'Trat',
+    50 => 'Kanchanaburi',
+    51 => 'Suphan Buri',
+    52 => 'Ratchaburi',
+    53 => 'Nakhon Pathom',
+    54 => 'Samut Songkhram',
+    55 => 'Samut Sakhon',
+    56 => 'Phetchaburi',
+    57 => 'Prachuap Khiri Khan',
+    58 => 'Chumphon',
+    59 => 'Ranong',
+    60 => 'Surat Thani',
+    61 => 'Phangnga',
+    62 => 'Phuket',
+    63 => 'Krabi',
+    64 => 'Nakhon Si Thammarat',
+    65 => 'Trang',
+    66 => 'Phatthalung',
+    67 => 'Satun',
+    68 => 'Songkhla',
+    69 => 'Pattani',
+    70 => 'Yala',
+    75 => 'Ubon Ratchathani',
+    72 => 'Yasothon',
+    76 => 'Udon Thani',
+    77 => 'Amnat Charoen',
+    78 => 'Mukdahan',
+    79 => 'Nong Bua Lamphu',
+    80 => 'Sa Kaeo',
+    81 => 'Bueng Kan',
   ),
   'TJ' => 
   array (
@@ -8044,69 +4054,27 @@ $GEOIP_REGION_NAME = array (
     '02' => 'Kasserine',
     '03' => 'Kairouan',
     '06' => 'Jendouba',
-   
-##### v10
-=> 'Qafsah',
-   
-##### v14
-=> 'El Kef',
-   
-##### v15
-=> 'Al Mahdia',
-   
-##### v16
-=> 'Al Munastir',
-   
-##### v17
-=> 'Bajah',
-   
-##### v18
-=> 'Bizerte',
-   
-##### v19
-=> 'Nabeul',
-   
-##### v22
-=> 'Siliana',
-   
-##### v23
-=> 'Sousse',
-   
-##### v27
-=> 'Ben Arous',
-   
-##### v28
-=> 'Madanin',
-   
-##### v29
-=> 'Gabes',
-   
-##### v31
-=> 'Kebili',
-   
-##### v32
-=> 'Sfax',
-   
-##### v33
-=> 'Sidi Bou Zid',
-   
-##### v34
-=> 'Tataouine',
-   
-##### v35
-=> 'Tozeur',
-   
-##### v36
-=> 'Tunis',
-   
-##### v37
-=> 'Zaghouan',
-   
-##### v38
-=> 'Aiana',
-   
-##### v39
-=> 'Manouba',
+    10 => 'Qafsah',
+    14 => 'El Kef',
+    15 => 'Al Mahdia',
+    16 => 'Al Munastir',
+    17 => 'Bajah',
+    18 => 'Bizerte',
+    19 => 'Nabeul',
+    22 => 'Siliana',
+    23 => 'Sousse',
+    27 => 'Ben Arous',
+    28 => 'Madanin',
+    29 => 'Gabes',
+    31 => 'Kebili',
+    32 => 'Sfax',
+    33 => 'Sidi Bou Zid',
+    34 => 'Tataouine',
+    35 => 'Tozeur',
+    36 => 'Tunis',
+    37 => 'Zaghouan',
+    38 => 'Aiana',
+    39 => 'Manouba',
   ),
   'TO' => 
   array (
@@ -8123,228 +4091,80 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Antalya',
     '08' => 'Artvin',
     '09' => 'Aydin',
-   
-##### v10
-=> 'Balikesir',
-   
-##### v11
-=> 'Bilecik',
-   
-##### v12
-=> 'Bingol',
-   
-##### v13
-=> 'Bitlis',
-   
-##### v14
-=> 'Bolu',
-   
-##### v15
-=> 'Burdur',
-   
-##### v16
-=> 'Bursa',
-   
-##### v17
-=> 'Canakkale',
-   
-##### v19
-=> 'Corum',
-   
-##### v20
-=> 'Denizli',
-   
-##### v21
-=> 'Diyarbakir',
-   
-##### v22
-=> 'Edirne',
-   
-##### v23
-=> 'Elazig',
-   
-##### v24
-=> 'Erzincan',
-   
-##### v25
-=> 'Erzurum',
-   
-##### v26
-=> 'Eskisehir',
-   
-##### v28
-=> 'Giresun',
-   
-##### v31
-=> 'Hatay',
-   
-##### v32
-=> 'Mersin',
-   
-##### v33
-=> 'Isparta',
-   
-##### v34
-=> 'Istanbul',
-   
-##### v35
-=> 'Izmir',
-   
-##### v37
-=> 'Kastamonu',
-   
-##### v38
-=> 'Kayseri',
-   
-##### v39
-=> 'Kirklareli',
-   
-##### v40
-=> 'Kirsehir',
-   
-##### v41
-=> 'Kocaeli',
-   
-##### v43
-=> 'Kutahya',
-   
-##### v44
-=> 'Malatya',
-   
-##### v45
-=> 'Manisa',
-   
-##### v46
-=> 'Kahramanmaras',
-   
-##### v48
-=> 'Mugla',
-   
-##### v49
-=> 'Mus',
-   
-##### v50
-=> 'Nevsehir',
-   
-##### v52
-=> 'Ordu',
-   
-##### v53
-=> 'Rize',
-   
-##### v54
-=> 'Sakarya',
-   
-##### v55
-=> 'Samsun',
-   
-##### v57
-=> 'Sinop',
-   
-##### v58
-=> 'Sivas',
-   
-##### v59
-=> 'Tekirdag',
-   
-##### v60
-=> 'Tokat',
-   
-##### v61
-=> 'Trabzon',
-   
-##### v62
-=> 'Tunceli',
-   
-##### v63
-=> 'Sanliurfa',
-   
-##### v64
-=> 'Usak',
-   
-##### v65
-=> 'Van',
-   
-##### v66
-=> 'Yozgat',
-   
-##### v68
-=> 'Ankara',
-   
-##### v69
-=> 'Gumushane',
-   
-##### v70
-=> 'Hakkari',
-   
-##### v71
-=> 'Konya',
-   
-##### v72
-=> 'Mardin',
-   
-##### v73
-=> 'Nigde',
-   
-##### v74
-=> 'Siirt',
-   
-##### v75
-=> 'Aksaray',
-   
-##### v76
-=> 'Batman',
-   
-##### v77
-=> 'Bayburt',
-   
-##### v78
-=> 'Karaman',
-   
-##### v79
-=> 'Kirikkale',
-   
-##### v80
-=> 'Sirnak',
-   
-##### v81
-=> 'Adana',
-   
-##### v82
-=> 'Cankiri',
-   
-##### v83
-=> 'Gaziantep',
-   
-##### v84
-=> 'Kars',
-   
-##### v85
-=> 'Zonguldak',
-   
-##### v86
-=> 'Ardahan',
-   
-##### v87
-=> 'Bartin',
-   
-##### v88
-=> 'Igdir',
-   
-##### v89
-=> 'Karabuk',
-   
-##### v90
-=> 'Kilis',
-   
-##### v91
-=> 'Osmaniye',
-   
-##### v92
-=> 'Yalova',
-   
-##### v93
-=> 'Duzce',
+    10 => 'Balikesir',
+    11 => 'Bilecik',
+    12 => 'Bingol',
+    13 => 'Bitlis',
+    14 => 'Bolu',
+    15 => 'Burdur',
+    16 => 'Bursa',
+    17 => 'Canakkale',
+    19 => 'Corum',
+    20 => 'Denizli',
+    21 => 'Diyarbakir',
+    22 => 'Edirne',
+    23 => 'Elazig',
+    24 => 'Erzincan',
+    25 => 'Erzurum',
+    26 => 'Eskisehir',
+    28 => 'Giresun',
+    31 => 'Hatay',
+    32 => 'Mersin',
+    33 => 'Isparta',
+    34 => 'Istanbul',
+    35 => 'Izmir',
+    37 => 'Kastamonu',
+    38 => 'Kayseri',
+    39 => 'Kirklareli',
+    40 => 'Kirsehir',
+    41 => 'Kocaeli',
+    43 => 'Kutahya',
+    44 => 'Malatya',
+    45 => 'Manisa',
+    46 => 'Kahramanmaras',
+    48 => 'Mugla',
+    49 => 'Mus',
+    50 => 'Nevsehir',
+    52 => 'Ordu',
+    53 => 'Rize',
+    54 => 'Sakarya',
+    55 => 'Samsun',
+    57 => 'Sinop',
+    58 => 'Sivas',
+    59 => 'Tekirdag',
+    60 => 'Tokat',
+    61 => 'Trabzon',
+    62 => 'Tunceli',
+    63 => 'Sanliurfa',
+    64 => 'Usak',
+    65 => 'Van',
+    66 => 'Yozgat',
+    68 => 'Ankara',
+    69 => 'Gumushane',
+    70 => 'Hakkari',
+    71 => 'Konya',
+    72 => 'Mardin',
+    73 => 'Nigde',
+    74 => 'Siirt',
+    75 => 'Aksaray',
+    76 => 'Batman',
+    77 => 'Bayburt',
+    78 => 'Karaman',
+    79 => 'Kirikkale',
+    80 => 'Sirnak',
+    81 => 'Adana',
+    82 => 'Cankiri',
+    83 => 'Gaziantep',
+    84 => 'Kars',
+    85 => 'Zonguldak',
+    86 => 'Ardahan',
+    87 => 'Bartin',
+    88 => 'Igdir',
+    89 => 'Karabuk',
+    90 => 'Kilis',
+    91 => 'Osmaniye',
+    92 => 'Yalova',
+    93 => 'Duzce',
   ),
   'TT' => 
   array (
@@ -8357,15 +4177,9 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Saint David',
     '08' => 'Saint George',
     '09' => 'Saint Patrick',
-   
-##### v10
-=> 'San Fernando',
-   
-##### v11
-=> 'Tobago',
-   
-##### v12
-=> 'Victoria',
+    10 => 'San Fernando',
+    11 => 'Tobago',
+    12 => 'Victoria',
   ),
   'TW' => 
   array (
@@ -8384,60 +4198,24 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Lindi',
     '08' => 'Mara',
     '09' => 'Mbeya',
-   
-##### v10
-=> 'Morogoro',
-   
-##### v11
-=> 'Mtwara',
-   
-##### v12
-=> 'Mwanza',
-   
-##### v13
-=> 'Pemba North',
-   
-##### v14
-=> 'Ruvuma',
-   
-##### v15
-=> 'Shinyanga',
-   
-##### v16
-=> 'Singida',
-   
-##### v17
-=> 'Tabora',
-   
-##### v18
-=> 'Tanga',
-   
-##### v19
-=> 'Kagera',
-   
-##### v20
-=> 'Pemba South',
-   
-##### v21
-=> 'Zanzibar Central',
-   
-##### v22
-=> 'Zanzibar North',
-   
-##### v23
-=> 'Dar es Salaam',
-   
-##### v24
-=> 'Rukwa',
-   
-##### v25
-=> 'Zanzibar Urban',
-   
-##### v26
-=> 'Arusha',
-   
-##### v27
-=> 'Manyara',
+    10 => 'Morogoro',
+    11 => 'Mtwara',
+    12 => 'Mwanza',
+    13 => 'Pemba North',
+    14 => 'Ruvuma',
+    15 => 'Shinyanga',
+    16 => 'Singida',
+    17 => 'Tabora',
+    18 => 'Tanga',
+    19 => 'Kagera',
+    20 => 'Pemba South',
+    21 => 'Zanzibar Central',
+    22 => 'Zanzibar North',
+    23 => 'Dar es Salaam',
+    24 => 'Rukwa',
+    25 => 'Zanzibar Urban',
+    26 => 'Arusha',
+    27 => 'Manyara',
   ),
   'UA' => 
   array (
@@ -8450,228 +4228,82 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Kharkivs\'ka Oblast\'',
     '08' => 'Khersons\'ka Oblast\'',
     '09' => 'Khmel\'nyts\'ka Oblast\'',
-   
-##### v10
-=> 'Kirovohrads\'ka Oblast\'',
-   
-##### v11
-=> 'Krym',
-   
-##### v12
-=> 'Kyyiv',
-   
-##### v13
-=> 'Kyyivs\'ka Oblast\'',
-   
-##### v14
-=> 'Luhans\'ka Oblast\'',
-   
-##### v15
-=> 'L\'vivs\'ka Oblast\'',
-   
-##### v16
-=> 'Mykolayivs\'ka Oblast\'',
-   
-##### v17
-=> 'Odes\'ka Oblast\'',
-   
-##### v18
-=> 'Poltavs\'ka Oblast\'',
-   
-##### v19
-=> 'Rivnens\'ka Oblast\'',
-   
-##### v20
-=> 'Sevastopol\'',
-   
-##### v21
-=> 'Sums\'ka Oblast\'',
-   
-##### v22
-=> 'Ternopil\'s\'ka Oblast\'',
-   
-##### v23
-=> 'Vinnyts\'ka Oblast\'',
-   
-##### v24
-=> 'Volyns\'ka Oblast\'',
-   
-##### v25
-=> 'Zakarpats\'ka Oblast\'',
-   
-##### v26
-=> 'Zaporiz\'ka Oblast\'',
-   
-##### v27
-=> 'Zhytomyrs\'ka Oblast\'',
+    10 => 'Kirovohrads\'ka Oblast\'',
+    11 => 'Krym',
+    12 => 'Kyyiv',
+    13 => 'Kyyivs\'ka Oblast\'',
+    14 => 'Luhans\'ka Oblast\'',
+    15 => 'L\'vivs\'ka Oblast\'',
+    16 => 'Mykolayivs\'ka Oblast\'',
+    17 => 'Odes\'ka Oblast\'',
+    18 => 'Poltavs\'ka Oblast\'',
+    19 => 'Rivnens\'ka Oblast\'',
+    20 => 'Sevastopol\'',
+    21 => 'Sums\'ka Oblast\'',
+    22 => 'Ternopil\'s\'ka Oblast\'',
+    23 => 'Vinnyts\'ka Oblast\'',
+    24 => 'Volyns\'ka Oblast\'',
+    25 => 'Zakarpats\'ka Oblast\'',
+    26 => 'Zaporiz\'ka Oblast\'',
+    27 => 'Zhytomyrs\'ka Oblast\'',
   ),
   'UG' => 
   array (
-   
-##### v26
-=> 'Apac',
-   
-##### v28
-=> 'Bundibugyo',
-   
-##### v29
-=> 'Bushenyi',
-   
-##### v30
-=> 'Gulu',
-   
-##### v31
-=> 'Hoima',
-   
-##### v33
-=> 'Jinja',
-   
-##### v36
-=> 'Kalangala',
-   
-##### v37
-=> 'Kampala',
-   
-##### v38
-=> 'Kamuli',
-   
-##### v39
-=> 'Kapchorwa',
-   
-##### v40
-=> 'Kasese',
-   
-##### v41
-=> 'Kibale',
-   
-##### v42
-=> 'Kiboga',
-   
-##### v43
-=> 'Kisoro',
-   
-##### v45
-=> 'Kotido',
-   
-##### v46
-=> 'Kumi',
-   
-##### v47
-=> 'Lira',
-   
-##### v50
-=> 'Masindi',
-   
-##### v52
-=> 'Mbarara',
-   
-##### v56
-=> 'Mubende',
-   
-##### v58
-=> 'Nebbi',
-   
-##### v59
-=> 'Ntungamo',
-   
-##### v60
-=> 'Pallisa',
-   
-##### v61
-=> 'Rakai',
-   
-##### v65
-=> 'Adjumani',
-   
-##### v66
-=> 'Bugiri',
-   
-##### v67
-=> 'Busia',
-   
-##### v69
-=> 'Katakwi',
-   
-##### v70
-=> 'Luwero',
-   
-##### v71
-=> 'Masaka',
-   
-##### v72
-=> 'Moyo',
-   
-##### v73
-=> 'Nakasongola',
-   
-##### v74
-=> 'Sembabule',
-   
-##### v76
-=> 'Tororo',
-   
-##### v77
-=> 'Arua',
-   
-##### v78
-=> 'Iganga',
-   
-##### v79
-=> 'Kabarole',
-   
-##### v80
-=> 'Kaberamaido',
-   
-##### v81
-=> 'Kamwenge',
-   
-##### v82
-=> 'Kanungu',
-   
-##### v83
-=> 'Kayunga',
-   
-##### v84
-=> 'Kitgum',
-   
-##### v85
-=> 'Kyenjojo',
-   
-##### v86
-=> 'Mayuge',
-   
-##### v87
-=> 'Mbale',
-   
-##### v88
-=> 'Moroto',
-   
-##### v89
-=> 'Mpigi',
-   
-##### v90
-=> 'Mukono',
-   
-##### v91
-=> 'Nakapiripirit',
-   
-##### v92
-=> 'Pader',
-   
-##### v93
-=> 'Rukungiri',
-   
-##### v94
-=> 'Sironko',
-   
-##### v95
-=> 'Soroti',
-   
-##### v96
-=> 'Wakiso',
-   
-##### v97
-=> 'Yumbe',
+    26 => 'Apac',
+    28 => 'Bundibugyo',
+    29 => 'Bushenyi',
+    30 => 'Gulu',
+    31 => 'Hoima',
+    33 => 'Jinja',
+    36 => 'Kalangala',
+    37 => 'Kampala',
+    38 => 'Kamuli',
+    39 => 'Kapchorwa',
+    40 => 'Kasese',
+    41 => 'Kibale',
+    42 => 'Kiboga',
+    43 => 'Kisoro',
+    45 => 'Kotido',
+    46 => 'Kumi',
+    47 => 'Lira',
+    50 => 'Masindi',
+    52 => 'Mbarara',
+    56 => 'Mubende',
+    58 => 'Nebbi',
+    59 => 'Ntungamo',
+    60 => 'Pallisa',
+    61 => 'Rakai',
+    65 => 'Adjumani',
+    66 => 'Bugiri',
+    67 => 'Busia',
+    69 => 'Katakwi',
+    70 => 'Luwero',
+    71 => 'Masaka',
+    72 => 'Moyo',
+    73 => 'Nakasongola',
+    74 => 'Sembabule',
+    76 => 'Tororo',
+    77 => 'Arua',
+    78 => 'Iganga',
+    79 => 'Kabarole',
+    80 => 'Kaberamaido',
+    81 => 'Kamwenge',
+    82 => 'Kanungu',
+    83 => 'Kayunga',
+    84 => 'Kitgum',
+    85 => 'Kyenjojo',
+    86 => 'Mayuge',
+    87 => 'Mbale',
+    88 => 'Moroto',
+    89 => 'Mpigi',
+    90 => 'Mukono',
+    91 => 'Nakapiripirit',
+    92 => 'Pader',
+    93 => 'Rukungiri',
+    94 => 'Sironko',
+    95 => 'Soroti',
+    96 => 'Wakiso',
+    97 => 'Yumbe',
   ),
   'US' => 
   array (
@@ -8748,36 +4380,16 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Florida',
     '08' => 'Lavalleja',
     '09' => 'Maldonado',
-   
-##### v10
-=> 'Montevideo',
-   
-##### v11
-=> 'Paysandu',
-   
-##### v12
-=> 'Rio Negro',
-   
-##### v13
-=> 'Rivera',
-   
-##### v14
-=> 'Rocha',
-   
-##### v15
-=> 'Salto',
-   
-##### v16
-=> 'San Jose',
-   
-##### v17
-=> 'Soriano',
-   
-##### v18
-=> 'Tacuarembo',
-   
-##### v19
-=> 'Treinta y Tres',
+    10 => 'Montevideo',
+    11 => 'Paysandu',
+    12 => 'Rio Negro',
+    13 => 'Rivera',
+    14 => 'Rocha',
+    15 => 'Salto',
+    16 => 'San Jose',
+    17 => 'Soriano',
+    18 => 'Tacuarembo',
+    19 => 'Treinta y Tres',
   ),
   'UZ' => 
   array (
@@ -8790,18 +4402,10 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Nawoiy',
     '08' => 'Qashqadaryo',
     '09' => 'Qoraqalpoghiston',
-   
-##### v10
-=> 'Samarqand',
-   
-##### v11
-=> 'Sirdaryo',
-   
-##### v12
-=> 'Surkhondaryo',
-   
-##### v14
-=> 'Toshkent',
+    10 => 'Samarqand',
+    11 => 'Sirdaryo',
+    12 => 'Surkhondaryo',
+    14 => 'Toshkent',
   ),
   'VC' => 
   array (
@@ -8823,54 +4427,22 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Carabobo',
     '08' => 'Cojedes',
     '09' => 'Delta Amacuro',
-   
-##### v11
-=> 'Falcon',
-   
-##### v12
-=> 'Guarico',
-   
-##### v13
-=> 'Lara',
-   
-##### v14
-=> 'Merida',
-   
-##### v15
-=> 'Miranda',
-   
-##### v16
-=> 'Monagas',
-   
-##### v17
-=> 'Nueva Esparta',
-   
-##### v18
-=> 'Portuguesa',
-   
-##### v19
-=> 'Sucre',
-   
-##### v20
-=> 'Tachira',
-   
-##### v21
-=> 'Trujillo',
-   
-##### v22
-=> 'Yaracuy',
-   
-##### v23
-=> 'Zulia',
-   
-##### v24
-=> 'Dependencias Federales',
-   
-##### v25
-=> 'Distrito Federal',
-   
-##### v26
-=> 'Vargas',
+    11 => 'Falcon',
+    12 => 'Guarico',
+    13 => 'Lara',
+    14 => 'Merida',
+    15 => 'Miranda',
+    16 => 'Monagas',
+    17 => 'Nueva Esparta',
+    18 => 'Portuguesa',
+    19 => 'Sucre',
+    20 => 'Tachira',
+    21 => 'Trujillo',
+    22 => 'Yaracuy',
+    23 => 'Zulia',
+    24 => 'Dependencias Federales',
+    25 => 'Distrito Federal',
+    26 => 'Vargas',
   ),
   'VN' => 
   array (
@@ -8878,183 +4450,65 @@ $GEOIP_REGION_NAME = array (
     '03' => 'Ben Tre',
     '05' => 'Cao Bang',
     '09' => 'Dong Thap',
-   
-##### v13
-=> 'Hai Phong',
-   
-##### v20
-=> 'Ho Chi Minh',
-   
-##### v21
-=> 'Kien Giang',
-   
-##### v23
-=> 'Lam Dong',
-   
-##### v24
-=> 'Long An',
-   
-##### v30
-=> 'Quang Ninh',
-   
-##### v32
-=> 'Son La',
-   
-##### v33
-=> 'Tay Ninh',
-   
-##### v34
-=> 'Thanh Hoa',
-   
-##### v35
-=> 'Thai Binh',
-   
-##### v37
-=> 'Tien Giang',
-   
-##### v39
-=> 'Lang Son',
-   
-##### v43
-=> 'Dong Nai',
-   
-##### v44
-=> 'Ha Noi',
-   
-##### v45
-=> 'Ba Ria-Vung Tau',
-   
-##### v46
-=> 'Binh Dinh',
-   
-##### v47
-=> 'Binh Thuan',
-   
-##### v49
-=> 'Gia Lai',
-   
-##### v50
-=> 'Ha Giang',
-   
-##### v52
-=> 'Ha Tinh',
-   
-##### v53
-=> 'Hoa Binh',
-   
-##### v54
-=> 'Khanh Hoa',
-   
-##### v55
-=> 'Kon Tum',
-   
-##### v58
-=> 'Nghe An',
-   
-##### v59
-=> 'Ninh Binh',
-   
-##### v60
-=> 'Ninh Thuan',
-   
-##### v61
-=> 'Phu Yen',
-   
-##### v62
-=> 'Quang Binh',
-   
-##### v63
-=> 'Quang Ngai',
-   
-##### v64
-=> 'Quang Tri',
-   
-##### v65
-=> 'Soc Trang',
-   
-##### v66
-=> 'Thua Thien-Hue',
-   
-##### v67
-=> 'Tra Vinh',
-   
-##### v68
-=> 'Tuyen Quang',
-   
-##### v69
-=> 'Vinh Long',
-   
-##### v70
-=> 'Yen Bai',
-   
-##### v71
-=> 'Bac Giang',
-   
-##### v72
-=> 'Bac Kan',
-   
-##### v73
-=> 'Bac Lieu',
-   
-##### v74
-=> 'Bac Ninh',
-   
-##### v75
-=> 'Binh Duong',
-   
-##### v76
-=> 'Binh Phuoc',
-   
-##### v77
-=> 'Ca Mau',
-   
-##### v78
-=> 'Da Nang',
-   
-##### v79
-=> 'Hai Duong',
-   
-##### v80
-=> 'Ha Nam',
-   
-##### v81
-=> 'Hung Yen',
-   
-##### v82
-=> 'Nam Dinh',
-   
-##### v83
-=> 'Phu Tho',
-   
-##### v84
-=> 'Quang Nam',
-   
-##### v85
-=> 'Thai Nguyen',
-   
-##### v86
-=> 'Vinh Phuc',
-   
-##### v87
-=> 'Can Tho',
-   
-##### v88
-=> 'Dac Lak',
-   
-##### v89
-=> 'Lai Chau',
-   
-##### v90
-=> 'Lao Cai',
-   
-##### v91
-=> 'Dak Nong',
-   
-##### v92
-=> 'Dien Bien',
-   
-##### v93
-=> 'Hau Giang',
+    13 => 'Hai Phong',
+    20 => 'Ho Chi Minh',
+    21 => 'Kien Giang',
+    23 => 'Lam Dong',
+    24 => 'Long An',
+    30 => 'Quang Ninh',
+    32 => 'Son La',
+    33 => 'Tay Ninh',
+    34 => 'Thanh Hoa',
+    35 => 'Thai Binh',
+    37 => 'Tien Giang',
+    39 => 'Lang Son',
+    43 => 'Dong Nai',
+    44 => 'Ha Noi',
+    45 => 'Ba Ria-Vung Tau',
+    46 => 'Binh Dinh',
+    47 => 'Binh Thuan',
+    49 => 'Gia Lai',
+    50 => 'Ha Giang',
+    52 => 'Ha Tinh',
+    53 => 'Hoa Binh',
+    54 => 'Khanh Hoa',
+    55 => 'Kon Tum',
+    58 => 'Nghe An',
+    59 => 'Ninh Binh',
+    60 => 'Ninh Thuan',
+    61 => 'Phu Yen',
+    62 => 'Quang Binh',
+    63 => 'Quang Ngai',
+    64 => 'Quang Tri',
+    65 => 'Soc Trang',
+    66 => 'Thua Thien-Hue',
+    67 => 'Tra Vinh',
+    68 => 'Tuyen Quang',
+    69 => 'Vinh Long',
+    70 => 'Yen Bai',
+    71 => 'Bac Giang',
+    72 => 'Bac Kan',
+    73 => 'Bac Lieu',
+    74 => 'Bac Ninh',
+    75 => 'Binh Duong',
+    76 => 'Binh Phuoc',
+    77 => 'Ca Mau',
+    78 => 'Da Nang',
+    79 => 'Hai Duong',
+    80 => 'Ha Nam',
+    81 => 'Hung Yen',
+    82 => 'Nam Dinh',
+    83 => 'Phu Tho',
+    84 => 'Quang Nam',
+    85 => 'Thai Nguyen',
+    86 => 'Vinh Phuc',
+    87 => 'Can Tho',
+    88 => 'Dac Lak',
+    89 => 'Lai Chau',
+    90 => 'Lao Cai',
+    91 => 'Dak Nong',
+    92 => 'Dien Bien',
+    93 => 'Hau Giang',
   ),
   'VU' => 
   array (
@@ -9063,33 +4517,15 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Torba',
     '08' => 'Efate',
     '09' => 'Epi',
-   
-##### v10
-=> 'Malakula',
-   
-##### v11
-=> 'Paama',
-   
-##### v12
-=> 'Pentecote',
-   
-##### v13
-=> 'Sanma',
-   
-##### v14
-=> 'Shepherd',
-   
-##### v15
-=> 'Tafea',
-   
-##### v16
-=> 'Malampa',
-   
-##### v17
-=> 'Penama',
-   
-##### v18
-=> 'Shefa',
+    10 => 'Malakula',
+    11 => 'Paama',
+    12 => 'Pentecote',
+    13 => 'Sanma',
+    14 => 'Shepherd',
+    15 => 'Tafea',
+    16 => 'Malampa',
+    17 => 'Penama',
+    18 => 'Shefa',
   ),
   'WS' => 
   array (
@@ -9101,12 +4537,8 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Gagaifomauga',
     '08' => 'Palauli',
     '09' => 'Satupa',
-   
-##### v10
-=> 'Tuamasaga',
-   
-##### v11
-=> 'Vaisigano',
+    10 => 'Tuamasaga',
+    11 => 'Vaisigano',
   ),
   'YE' => 
   array (
@@ -9115,46 +4547,20 @@ $GEOIP_REGION_NAME = array (
     '03' => 'Al Mahrah',
     '04' => 'Hadramawt',
     '05' => 'Shabwah',
-   
-##### v24
-=> 'Lahij',
-   
-##### v20
-=> 'Al Bayda\'',
+    24 => 'Lahij',
+    20 => 'Al Bayda\'',
     '08' => 'Al Hudaydah',
-   
-##### v21
-=> 'Al Jawf',
-   
-##### v10
-=> 'Al Mahwit',
-   
-##### v11
-=> 'Dhamar',
-   
-##### v22
-=> 'Hajjah',
-   
-##### v23
-=> 'Ibb',
-   
-##### v14
-=> 'Ma\'rib',
-   
-##### v15
-=> 'Sa\'dah',
-   
-##### v16
-=> 'San\'a\'',
-   
-##### v25
-=> 'Taizz',
-   
-##### v18
-=> 'Ad Dali',
-   
-##### v19
-=> 'Amran',
+    21 => 'Al Jawf',
+    10 => 'Al Mahwit',
+    11 => 'Dhamar',
+    22 => 'Hajjah',
+    23 => 'Ibb',
+    14 => 'Ma\'rib',
+    15 => 'Sa\'dah',
+    16 => 'San\'a\'',
+    25 => 'Taizz',
+    18 => 'Ad Dali',
+    19 => 'Amran',
   ),
   'ZA' => 
   array (
@@ -9166,12 +4572,8 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Mpumalanga',
     '08' => 'Northern Cape',
     '09' => 'Limpopo',
-   
-##### v10
-=> 'North-West',
-   
-##### v11
-=> 'Western Cape',
+    10 => 'North-West',
+    11 => 'Western Cape',
   ),
   'ZM' => 
   array (
@@ -9196,8 +4598,6 @@ $GEOIP_REGION_NAME = array (
     '07' => 'Matabeleland South',
     '08' => 'Masvingo',
     '09' => 'Bulawayo',
-   
-##### v10
-=> 'Harare',
+    10 => 'Harare',
   ),
 );

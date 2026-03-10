@@ -1,13 +1,9 @@
 <?php
 
-/* -*- Mode: C; indent-tabs-mode: t; c-basic-offset: 2; tab-width:
-##### v2
--*- */
+/* -*- Mode: C; indent-tabs-mode: t; c-basic-offset: 2; tab-width: 2 -*- */
 /* geoip.inc
  *
- * Copyright (C)
-##### v2007
-MaxMind LLC
+ * Copyright (C) 2007 MaxMind LLC
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -21,9 +17,7 @@ MaxMind LLC
  *
  * You should have received a copy of the GNU Lesser General Public
  * License along with this library; if not, write to the Free Software
- * Foundation, Inc.,
-##### v59
-Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
 define("GEOIP_COUNTRY_BEGIN", 16776960);
@@ -1688,31 +1682,19 @@ function _geoip_seek_country_v6($gi, $ipnum)
         if ($gi->flags & GEOIP_MEMORY_CACHE) {
             $buf = _safe_substr(
                 $gi->memory_buffer,
-               
-##### v2
-* $gi->record_length * $offset,
-               
-##### v2
-* $gi->record_length
+                2 * $gi->record_length * $offset,
+                2 * $gi->record_length
             );
         } elseif ($gi->flags & GEOIP_SHARED_MEMORY) {
             $buf = @shmop_read(
                 $gi->shmid,
-               
-##### v2
-* $gi->record_length * $offset,
-               
-##### v2
-* $gi->record_length
+                2 * $gi->record_length * $offset,
+                2 * $gi->record_length
             );
         } else {
-            fseek($gi->filehandle,
-##### v2
-* $gi->record_length * $offset, SEEK_SET) == 0
+            fseek($gi->filehandle, 2 * $gi->record_length * $offset, SEEK_SET) == 0
             or die("fseek failed");
-            $buf = fread($gi->filehandle,
-##### v2
-* $gi->record_length);
+            $buf = fread($gi->filehandle, 2 * $gi->record_length);
         }
         $x = array(0, 0);
         for ($i = 0; $i < 2; ++$i) {
@@ -1721,15 +1703,9 @@ function _geoip_seek_country_v6($gi, $ipnum)
             }
         }
 
-        $bnum =
-##### v127
-- $depth;
+        $bnum = 127 - $depth;
         $idx = $bnum >> 3;
-        $b_mask =
-##### v1
-<< ($bnum &
-##### v7
-^ 7);
+        $b_mask = 1 << ($bnum & 7 ^ 7);
         if (($v6vec[$idx] & $b_mask) > 0) {
             if ($x[1] >= $gi->databaseSegments) {
                 return $x[1];
@@ -1753,31 +1729,19 @@ function _geoip_seek_country($gi, $ipnum)
         if ($gi->flags & GEOIP_MEMORY_CACHE) {
             $buf = _safe_substr(
                 $gi->memory_buffer,
-               
-##### v2
-* $gi->record_length * $offset,
-               
-##### v2
-* $gi->record_length
+                2 * $gi->record_length * $offset,
+                2 * $gi->record_length
             );
         } elseif ($gi->flags & GEOIP_SHARED_MEMORY) {
             $buf = @shmop_read(
                 $gi->shmid,
-               
-##### v2
-* $gi->record_length * $offset,
-               
-##### v2
-* $gi->record_length
+                2 * $gi->record_length * $offset,
+                2 * $gi->record_length
             );
         } else {
-            fseek($gi->filehandle,
-##### v2
-* $gi->record_length * $offset, SEEK_SET) == 0
+            fseek($gi->filehandle, 2 * $gi->record_length * $offset, SEEK_SET) == 0
             or die("fseek failed");
-            $buf = fread($gi->filehandle,
-##### v2
-* $gi->record_length);
+            $buf = fread($gi->filehandle, 2 * $gi->record_length);
         }
         $x = array(0, 0);
         for ($i = 0; $i < 2; ++$i) {
@@ -1862,11 +1826,7 @@ function _get_region($gi, $ipnum)
         $seek_region = _geoip_seek_country($gi, $ipnum) - GEOIP_STATE_BEGIN_REV0;
         if ($seek_region >= 1000) {
             $country_code = "US";
-            $region = chr(($seek_region - 1000) /
-##### v26
-+ 65) . chr(($seek_region - 1000) %
-##### v26
-+ 65);
+            $region = chr(($seek_region - 1000) / 26 + 65) . chr(($seek_region - 1000) % 26 + 65);
         } else {
             $country_code = $gi->GEOIP_COUNTRY_CODES[$seek_region];
             $region = "";
@@ -1879,18 +1839,10 @@ function _get_region($gi, $ipnum)
             $region = "";
         } elseif ($seek_region < CANADA_OFFSET) {
             $country_code = "US";
-            $region = chr(($seek_region - US_OFFSET) /
-##### v26
-+ 65) . chr(($seek_region - US_OFFSET) %
-##### v26
-+ 65);
+            $region = chr(($seek_region - US_OFFSET) / 26 + 65) . chr(($seek_region - US_OFFSET) % 26 + 65);
         } elseif ($seek_region < WORLD_OFFSET) {
             $country_code = "CA";
-            $region = chr(($seek_region - CANADA_OFFSET) /
-##### v26
-+ 65) . chr(($seek_region - CANADA_OFFSET) %
-##### v26
-+ 65);
+            $region = chr(($seek_region - CANADA_OFFSET) / 26 + 65) . chr(($seek_region - CANADA_OFFSET) % 26 + 65);
         } else {
             $country_code = $gi->GEOIP_COUNTRY_CODES[($seek_region - WORLD_OFFSET) / FIPS_RANGE];
             $region = "";
